@@ -36,8 +36,11 @@ html,body{margin:0;background:transparent;user-select:none}
 #st{display:flex;justify-content:center;align-items:center;gap:10px;margin:-2px 0 10px}
 #left{font-family:Anton,Impact,sans-serif;font-size:24px;letter-spacing:2px;color:#fff;background:#000;border:3px solid #fff;outline:3px solid #000;padding:2px 16px;border-radius:8px}
 #left b{color:#0a96e8;font-weight:400}
-#fin{display:none;font-family:Anton,Impact,sans-serif;font-size:26px;letter-spacing:2px;color:#fff;background:#f0189c;border:3px solid #000;box-shadow:0 0 0 2px #fff;padding:2px 18px;border-radius:8px;animation:pl 1.2s ease-in-out infinite}
-@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+#fin{display:none;flex:1;text-align:center;font-family:Anton,Impact,sans-serif;font-size:62px;line-height:1.05;letter-spacing:5px;color:#fff;background:#0b0b0f;border:4px solid #000;box-shadow:0 0 0 3px #fff,0 7px 0 #000,0 10px 18px rgba(0,0,0,.85);padding:4px 22px 6px;border-radius:12px;-webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:4px 4px 0 #000}
+#fin .in span{color:#f0189c}#fin .in{color:#fff;display:inline-block;animation:pl 1.4s ease-in-out infinite}
+#fin.pop .in{animation:pop .45s cubic-bezier(.2,1.6,.4,1),pl 1.4s ease-in-out .45s infinite}
+@keyframes pop{0%{transform:scale(.55)}60%{transform:scale(1.18)}100%{transform:scale(1)}}
+@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
 #board{transition:opacity .6s,transform .6s}
 #fill{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:16px;opacity:0;pointer-events:none;transform:scale(.97);transition:opacity .7s .15s,transform .7s .15s;overflow:hidden}
 .full #board{opacity:0;transform:scale(.97)}.full #fill{opacity:1;transform:none;pointer-events:auto}.full #st{display:none}
@@ -50,7 +53,7 @@ html,body{margin:0;background:transparent;user-select:none}
 .mc .lg{width:70px;height:54px;border-radius:8px;border:3px solid #000;display:flex;align-items:center;justify-content:center;font-family:Anton,Impact,sans-serif;font-size:26px;color:#fff;-webkit-text-stroke:2px #000;paint-order:stroke fill}
 .mc .bn{font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:22px;color:#fff;white-space:nowrap}
 .mc .bn small{display:block;font-size:11px;letter-spacing:1px;color:#f0189c}
-#st{position:relative}#st #bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:70px}#bar input#nxi{width:150px}
+#bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:70px}#bar input#nxi{width:150px}
 #fnx{display:none;align-self:center;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:18px;color:#fff;background:#0b0b0f;border:2px solid #000;box-shadow:0 0 0 1.5px #fff;border-radius:6px;padding:3px 14px;-webkit-text-stroke:0}#fnx b{color:#f0189c;letter-spacing:2px;margin-right:6px}
 </style></head><body>
 <div id="wrap"><div id="hd" style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="cnt" style="justify-self:end"></div></div>
@@ -79,7 +82,7 @@ if(D[lg]){b.className='div';b.style.gridTemplateColumns='';D[lg].forEach(([n,ts,
 else{b.className='';b.style.gridTemplateColumns='repeat(10,80px)';T.forEach(([a,c])=>b.appendChild(tile(a,c)))}
 const n=T.filter(([a])=>S[a]).length,r=T.length-n;document.getElementById('cnt').textContent=n+' / '+T.length+' SOLD';
 document.getElementById('left').innerHTML='<b>'+r+'</b> '+(r===1?'TEAM':'TEAMS')+' LEFT';
-const f=document.getElementById('fin');f.style.display=r>0&&r<=4?'block':'none';f.textContent=r===1?'LAST TEAM':'FINAL '+r+' TEAMS';
+const f=document.getElementById('fin');f.style.display=r>0&&r<=10?'block':'none';document.getElementById('left').style.display=r>10?'':'none';if(f.dataset.r!==String(r)){f.dataset.r=r;f.innerHTML='<span class="in">'+(r===1?'<span>LAST</span> TEAM':'FINAL <span>'+r+'</span> TEAMS')+'</span>';f.classList.remove('pop');void f.offsetWidth;f.classList.add('pop')}
 const w=document.getElementById('wrap'),full=r===0;
 if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
 w.classList.toggle('full',full);showInfo()}
