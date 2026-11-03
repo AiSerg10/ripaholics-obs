@@ -50,11 +50,21 @@ html,body{margin:0;background:transparent;user-select:none}
 .mc .lg{width:70px;height:54px;border-radius:8px;border:3px solid #000;display:flex;align-items:center;justify-content:center;font-family:Anton,Impact,sans-serif;font-size:26px;color:#fff;-webkit-text-stroke:2px #000;paint-order:stroke fill}
 .mc .bn{font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:22px;color:#fff;white-space:nowrap}
 .mc .bn small{display:block;font-size:11px;letter-spacing:1px;color:#f0189c}
+#info{display:none;flex-direction:column;gap:2px;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 2px #fff;border-radius:8px;padding:3px 12px;font-family:Montserrat,Arial,sans-serif;font-weight:900;color:#fff;font-size:14px;line-height:1.15;max-width:240px}
+#info small{font-size:9px;letter-spacing:1.5px;color:#f0189c;display:block}
+#info .pv{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:20px;letter-spacing:1px}#info .pv b{color:#0a96e8;font-weight:400}
+#info .nx{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#st{position:relative}#st #info{position:absolute;right:4px;top:50%;transform:translateY(-50%)}
+#fnx{display:none;align-self:center;text-align:center;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 2px #fff;border-radius:10px;padding:6px 26px}
+#fnx small{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:13px;letter-spacing:3px;color:#f0189c}
+#fnx .n{font-family:Anton,Impact,sans-serif;font-size:34px;letter-spacing:2px;color:#fff}
+#fnx .p{font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:15px;color:#fff}#fnx .p b{color:#0a96e8}
+#bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:70px}#bar input#nxi{width:150px}
 </style></head><body>
 <div id="wrap"><div id="hd" style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="cnt" style="justify-self:end"></div></div>
-<div id="st"><div id="left"></div><div id="fin"></div></div>
-<div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div></div></div>
-<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><button id="rst" onclick="resetB(this)">Reset</button></div></div>
+<div id="st"><div id="left"></div><div id="fin"></div><div id="info"></div></div>
+<div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div>
+<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pri" placeholder="$ / team" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rst" onclick="resetB(this)">Reset</button></div></div>
 <div id="pop"><div><div id="pt"></div><input id="pi" placeholder="Buyer name"><br>
 <button style="background:#f0189c;color:#fff" onclick="mark(true)">SOLD</button> <button onclick="mark(false)">Undo</button> <button onclick="closeP()">Cancel</button></div></div>
 <script>
@@ -62,7 +72,7 @@ const L={
 mlb:[["ARI","#A71930"],["ATL","#CE1141"],["BAL","#DF4601"],["BOS","#BD3039"],["CHC","#0E3386"],["CWS","#27251F"],["CIN","#C6011F"],["CLE","#00385D"],["COL","#33006F"],["DET","#0C2340"],["HOU","#EB6E1F"],["KC","#004687"],["LAA","#BA0021"],["LAD","#005A9C"],["MIA","#00A3E0"],["MIL","#12284B"],["MIN","#002B5C"],["NYM","#FF5910"],["NYY","#0C2340"],["ATH","#003831"],["PHI","#E81828"],["PIT","#FDB827"],["SD","#2F241D"],["SF","#FD5A1E"],["SEA","#005C5C"],["STL","#C41E3A"],["TB","#092C5C"],["TEX","#003278"],["TOR","#134A8E"],["WSH","#AB0003"]],
 nfl:[["ARI","#97233F"],["ATL","#A71930"],["BAL","#241773"],["BUF","#00338D"],["CAR","#0085CA"],["CHI","#0B162A"],["CIN","#FB4F14"],["CLE","#311D00"],["DAL","#003594"],["DEN","#FB4F14"],["DET","#0076B6"],["GB","#203731"],["HOU","#03202F"],["IND","#002C5F"],["JAX","#006778"],["KC","#E31837"],["LV","#000000"],["LAC","#0080C6"],["LAR","#003594"],["MIA","#008E97"],["MIN","#4F2683"],["NE","#002244"],["NO","#D3BC8D"],["NYG","#0B2265"],["NYJ","#125740"],["PHI","#004C54"],["PIT","#FFB612"],["SF","#AA0000"],["SEA","#002244"],["TB","#D50A0A"],["TEN","#4B92DB"],["WSH","#5A1414"]],
 nba:[["ATL","#E03A3E"],["BOS","#007A33"],["BKN","#000000"],["CHA","#1D1160"],["CHI","#CE1141"],["CLE","#860038"],["DAL","#00538C"],["DEN","#0E2240"],["DET","#C8102E"],["GSW","#1D428A"],["HOU","#CE1141"],["IND","#002D62"],["LAC","#C8102E"],["LAL","#552583"],["MEM","#5D76A9"],["MIA","#98002E"],["MIL","#00471B"],["MIN","#0C2340"],["NOP","#0C2340"],["NYK","#F58426"],["OKC","#007AC1"],["ORL","#0077C0"],["PHI","#006BB6"],["PHX","#1D1160"],["POR","#E03A3E"],["SAC","#5A2D81"],["SAS","#000000"],["TOR","#CE1141"],["UTA","#002B5C"],["WAS","#002B5C"]]};
-const QP=new URLSearchParams(location.search);
+const QP=new URLSearchParams(location.search);const esc=t=>String(t).replace(/[&<>"]/g,c=>'&#'+c.charCodeAt(0)+';');
 let lg=(QP.get('league')||'').toLowerCase()||localStorage.rb_lg||'mlb',S={},cur=null;
 function key(){return 'rb_'+lg}
 function load(){S=JSON.parse(localStorage[key()]||'{}')}
@@ -80,8 +90,15 @@ document.getElementById('left').innerHTML='<b>'+r+'</b> '+(r===1?'TEAM':'TEAMS')
 const f=document.getElementById('fin');f.style.display=r>0&&r<=4?'block':'none';f.textContent=r===1?'LAST TEAM':'FINAL '+r+' TEAMS';
 const w=document.getElementById('wrap'),full=r===0;
 if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
-w.classList.toggle('full',full)}
-addEventListener('storage',e=>{if(e.key===key()){load();draw()}else if(e.key==='rb_bn')showBn()});
+w.classList.toggle('full',full);showInfo()}
+function pk(){return 'rb_price_'+lg}function nk(){return 'rb_next_'+lg}
+function showInfo(){const pr=(localStorage[pk()]||'').trim().replace(/^\$/,''),nx=(localStorage[nk()]||'').trim(),i=document.getElementById('info'),f=document.getElementById('fnx');
+const pl=pr?`<div class="pv"><b>$${esc(pr)}</b> / TEAM</div>`:'';
+i.innerHTML=(pr?'<small>SPOT PRICE</small>'+pl:'')+(nx?`<small>NEXT BREAK</small><div class="nx">${esc(nx)}</div>`:'');i.style.display=pr||nx?'flex':'none';document.getElementById('st').style.minHeight=pr&&nx?'78px':'';
+f.innerHTML=nx?`<small>NEXT UP</small><div class="n">${esc(nx)}</div>${pr?`<div class="p"><b>$${esc(pr)}</b> / TEAM</div>`:''}`:(pr?`<div class="p"><b>$${esc(pr)}</b> / TEAM</div>`:'');f.style.display=pr||nx?'block':'none';
+const a=document.getElementById('pri'),b=document.getElementById('nxi');if(document.activeElement!==a)a.value=localStorage[pk()]||'';if(document.activeElement!==b)b.value=localStorage[nk()]||''}
+function setInfo(){localStorage[pk()]=document.getElementById('pri').value;localStorage[nk()]=document.getElementById('nxi').value;showInfo()}
+addEventListener('storage',e=>{if(e.key===key()){load();draw()}else if(e.key==='rb_bn')showBn();else if(e.key===pk()||e.key===nk())showInfo()});
 function openP(a){const pp=document.getElementById('pop');if(pp.parentNode!==document.body)document.body.appendChild(pp);cur=a;document.getElementById('pt').textContent=a;const i=document.getElementById('pi');i.value=(S[a]&&S[a].n)||'';document.getElementById('pop').style.display='flex';i.focus()}
 function closeP(){document.getElementById('pop').style.display='none'}
 function mark(v){if(v)S[cur]={n:document.getElementById('pi').value.trim()};else delete S[cur];save();draw();closeP()}
@@ -94,5 +111,6 @@ let rstT=null;function resetB(b){if(b.dataset.arm){clearTimeout(rstT);delete b.d
 function fitB(){const w=document.getElementById('wrap');if(!w)return;document.body.style.zoom=1;const r=w.getBoundingClientRect();const z=Math.min(innerWidth/(r.right+10),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
 addEventListener('resize',fitB);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitB);setTimeout(fitB,300);
 const _draw=draw;draw=function(){_draw.apply(this,arguments);fitB()};
+if(QP.has('price'))localStorage[pk()]=QP.get('price');if(QP.has('next'))localStorage[nk()]=QP.get('next');
 showBn();load();draw();
 </script></body></html>
