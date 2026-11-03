@@ -1,0 +1,12 @@
+{
+  "name": "SAMPLE - 2025 Bowman Chrome (demo only)",
+  "league": "mlb",
+  "sample": true,
+  "entries": [
+    {"team":"WSH","player":"James Wood","card":"Meteoric Rise SuperFractor /1","format":"hobby","img":"img/sample-2025-bowman-chrome/wsh-james-wood.jpg"},
+    {"team":"COL","player":"Charlie Condon","card":"Max Volume SuperFractor /1","format":"hobby","img":"img/sample-2025-bowman-chrome/col-charlie-condon.jpg"},
+    {"team":"MIA","player":"Andrew Salas","card":"Chrome Prospect SuperFractor /1","format":"both","img":"img/sample-2025-bowman-chrome/mia-andrew-salas.jpg"},
+    {"team":"KC","player":"Jac Caglianone","card":"Chrome Prospect SuperFractor /1","format":"both","img":"img/sample-2025-bowman-chrome/kc-jac-caglianone.jpg"},
+    {"team":"SD","player":"Leo De Vries","card":"Chrome Prospect Refractor","format":"retail","img":"img/sample-2025-bowman-chrome/sd-leo-de-vries.jpg"}
+  ]
+}
