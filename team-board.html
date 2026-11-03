@@ -21,6 +21,13 @@ html,body{margin:0;background:transparent;user-select:none}
 .bg{position:absolute;inset:0;z-index:0}
 .ab{font-family:Anton,Impact,sans-serif;font-size:27px;letter-spacing:1px;color:#fff;-webkit-text-stroke:2px #000;paint-order:stroke fill;text-shadow:2px 2px 0 #000;z-index:1}
 .nm{font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:10px;color:#fff;z-index:3;max-width:76px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#000;border:1px solid #f0189c;padding:1px 4px;border-radius:4px;margin-top:2px}
+.lo{width:38px;height:38px;object-fit:contain;z-index:1;filter:drop-shadow(1.5px 0 0 #000) drop-shadow(-1.5px 0 0 #000) drop-shadow(0 1.5px 0 #000) drop-shadow(0 -1.5px 0 #000) drop-shadow(2px 2px 0 #000)}
+.t.hl .ab{font-size:14px;letter-spacing:.5px;-webkit-text-stroke:1.5px #000;margin-top:-2px}
+.sold .lo{width:30px;height:30px;opacity:.35;filter:grayscale(1) drop-shadow(1.5px 0 0 #000) drop-shadow(-1.5px 0 0 #000) drop-shadow(0 1.5px 0 #000) drop-shadow(0 -1.5px 0 #000) drop-shadow(2px 2px 0 #000)}
+.mc .lg img{width:46px;height:46px;object-fit:contain;filter:drop-shadow(1.5px 0 0 #000) drop-shadow(-1.5px 0 0 #000) drop-shadow(0 1.5px 0 #000) drop-shadow(0 -1.5px 0 #000) drop-shadow(2px 2px 0 #000)}
+#rv .tile img{width:150px;height:150px;object-fit:contain;filter:drop-shadow(4px 0 0 #000) drop-shadow(-4px 0 0 #000) drop-shadow(0 4px 0 #000) drop-shadow(0 -4px 0 #000) drop-shadow(8px 8px 0 #000)}
+#rv .tile.hl{width:300px;height:250px;margin:-125px 0 0 -150px}
+#rv .tile.hl img{width:210px;height:210px}
 .sold{box-shadow:0 0 0 1.5px #f0189c,0 3px 0 #000}
 .sold .ab{opacity:.3}
 .sold .bg{filter:grayscale(1) brightness(.3)}
@@ -70,6 +77,7 @@ html,body{margin:0;background:transparent;user-select:none}
 #rv .slab{position:absolute;left:-10%;right:-10%;top:36%;height:120px;margin-top:-60px;border-top:6px solid #000;border-bottom:6px solid #000;transform:skewY(-6deg) scaleX(0);opacity:.92}
 #rv canvas{position:absolute;inset:0;width:100%;height:100%}
 #rv .tile{position:absolute;left:50%;top:36%;width:230px;height:172px;margin:-86px 0 0 -115px;border-radius:20px;border:7px solid #000;box-shadow:0 0 0 4px #fff,0 14px 0 #000;display:flex;align-items:center;justify-content:center;overflow:hidden;opacity:0;will-change:transform,opacity,filter}
+#rv .tile.hl b{display:none}
 #rv .tile b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:96px;color:#fff;-webkit-text-stroke:5px #000;paint-order:stroke fill;text-shadow:6px 6px 0 #000;letter-spacing:2px}
 #rv .tile i{position:absolute;top:-20%;bottom:-20%;width:38%;left:-60%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.75) 50%,transparent);transform:skewX(-20deg)}
 #rv .stk{position:absolute;left:0;right:0;top:36%;height:3px;margin-top:-1px;background:linear-gradient(90deg,transparent,#fff 30%,#fff 70%,transparent);opacity:0;transform:scaleX(0)}
@@ -109,8 +117,9 @@ function save(){localStorage[key()]=JSON.stringify(S)}
 function setL(l){lg=l;localStorage.rb_lg=l;load();draw();showInfo()}
 const D={mlb:[["AL EAST",["BAL","BOS","NYY","TB","TOR"],"al"],["AL CENTRAL",["CWS","CLE","DET","KC","MIN"],"al"],["AL WEST",["ATH","HOU","LAA","SEA","TEX"],"al"],["NL EAST",["ATL","MIA","NYM","PHI","WSH"],"nl"],["NL CENTRAL",["CHC","CIN","MIL","PIT","STL"],"nl"],["NL WEST",["ARI","COL","LAD","SD","SF"],"nl"]],
 nfl:[["AFC EAST",["BUF","MIA","NE","NYJ"],"afc"],["AFC NORTH",["BAL","CIN","CLE","PIT"],"afc"],["AFC SOUTH",["HOU","IND","JAX","TEN"],"afc"],["AFC WEST",["DEN","KC","LV","LAC"],"afc"],["NFC EAST",["DAL","NYG","PHI","WSH"],"nfc"],["NFC NORTH",["CHI","DET","GB","MIN"],"nfc"],["NFC SOUTH",["ATL","CAR","NO","TB"],"nfc"],["NFC WEST",["ARI","LAR","SF","SEA"],"nfc"]]};
-function tile(a,c){const s=S[a],d=document.createElement('div');d.className='t'+(s?' sold':'');
-d.innerHTML=`<div class="bg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)"></div><span class="ab">${a}</span>${s&&s.n?`<span class="nm">${s.n}</span>`:''}`;d.onclick=()=>openP(a);d.oncontextmenu=e=>{e.preventDefault();if(S[a])delete S[a];else S[a]={n:''};save();draw()};return d}
+const LOGO=(l,a)=>`logos/${l}/${a}.png`;function lgErr(i){const p=i.parentNode;p.classList.remove('hl');i.remove()}
+function tile(a,c){const s=S[a],d=document.createElement('div');d.className='t hl'+(s?' sold':'');
+d.innerHTML=`<div class="bg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)"></div><img class="lo" src="${LOGO(lg,a)}" alt="" onerror="lgErr(this)"><span class="ab">${a}</span>${s&&s.n?`<span class="nm">${s.n}</span>`:''}`;d.onclick=()=>openP(a);d.oncontextmenu=e=>{e.preventDefault();if(S[a])delete S[a];else S[a]={n:''};save();draw()};return d}
 function draw(){const b=document.getElementById('board'),T=L[lg],C=Object.fromEntries(T);b.innerHTML='';
 if(D[lg]){b.className='div';b.style.gridTemplateColumns='';D[lg].forEach(([n,ts,g])=>{const v=document.createElement('div');v.className='dv '+g;v.innerHTML=`<div class="dh">${n}</div>`;ts.forEach(a=>v.appendChild(tile(a,C[a])));b.appendChild(v)})}
 else{b.className='';b.style.gridTemplateColumns='repeat(10,80px)';T.forEach(([a,c])=>b.appendChild(tile(a,c)))}
@@ -118,7 +127,7 @@ const n=T.filter(([a])=>S[a]).length,r=T.length-n;
 document.getElementById('left').innerHTML='<b>'+r+'</b> '+(r===1?'TEAM':'TEAMS')+' LEFT';
 const f=document.getElementById('fin');f.style.display=r>0&&r<=10?'block':'none';document.getElementById('left').style.display=r>10?'':'none';if(f.dataset.r!==String(r)){f.dataset.r=r;f.innerHTML='<span class="in">'+(r===1?'<span>LAST</span> TEAM':'FINAL <span>'+r+'</span> TEAMS')+'</span>';f.classList.remove('pop');void f.offsetWidth;f.classList.add('pop')}
 const w=document.getElementById('wrap'),full=r===0;
-if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
+if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)"><img src="${LOGO(lg,a)}" alt="" onerror="this.replaceWith('${a}')"></div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
 detect(T);w.classList.toggle('full',full&&!rvBusy);showInfo()}
 function nk(){return 'rb_next_'+lg}
 function showInfo(){const nx=(localStorage[nk()]||'').trim(),f=document.getElementById('fnx');f.innerHTML=nx?'<b>NEXT UP:</b>'+esc(nx):'';f.style.display=nx?'block':'none';const i=document.getElementById('nxi');if(document.activeElement!==i)i.value=localStorage[nk()]||'';
@@ -148,7 +157,7 @@ const CH='ABCDEFGHJKLMNPQRSTUVWXYZ0123456789_#$%&';
 function nextRv(){const it=rvQ.shift();if(!it){rvBusy=false;draw();return}rvBusy=true;rvPlay(it,rvQ.length>0,()=>{flashTile(it[0]);nextRv()})}
 function flashTile(a){document.querySelectorAll('#board .t').forEach(t=>{const ab=t.querySelector('.ab');if(ab&&ab.textContent===a){t.classList.remove('jf');void t.offsetWidth;t.classList.add('jf')}})}
 function rvPlay([a,c,n,l,pk],fast,done){const r=document.getElementById('rv'),D=fast?2200:3500,K=D/3500,nm=((NM[l]||{})[a]||a).toUpperCase(),buyer=n||'';
-r.innerHTML=`<div class="cam"><div class="bk"></div><div class="sm" style="transform-origin:0 50%"></div><div class="sm"></div><div class="sm"></div><div class="tint" style="background:linear-gradient(115deg,#0a96e8,#5b2a9e 50%,#f0189c),radial-gradient(circle at 50% 36%,${c},transparent 60%)"></div><div class="vg"></div><div class="gb">${a}</div><div class="slab" style="background:linear-gradient(90deg,#000,${c} 30%,${c} 70%,#000)"></div><canvas></canvas><div class="stk"></div><div class="stk stk2"></div><div class="tile" style="background:radial-gradient(circle at 30% 20%,${c},#000 90%)"><b>${a}</b><i></i></div><img class="cr" src="rb-logo-crown.png"><div class="meta"><div class="pk">PICK <span>#${pk}</span></div><div class="tn">${esc(nm)}</div></div><div class="buy"><div class="bn"><span class="tx"></span><div class="ul"></div></div></div></div><div class="fl"></div>`;
+r.innerHTML=`<div class="cam"><div class="bk"></div><div class="sm" style="transform-origin:0 50%"></div><div class="sm"></div><div class="sm"></div><div class="tint" style="background:linear-gradient(115deg,#0a96e8,#5b2a9e 50%,#f0189c),radial-gradient(circle at 50% 36%,${c},transparent 60%)"></div><div class="vg"></div><div class="gb">${a}</div><div class="slab" style="background:linear-gradient(90deg,#000,${c} 30%,${c} 70%,#000)"></div><canvas></canvas><div class="stk"></div><div class="stk stk2"></div><div class="tile hl" style="background:radial-gradient(circle at 50% 42%,#fff 0,#f1f1f5 48%,${c} 135%)"><img src="${LOGO(l,a)}" alt="" onerror="lgErr(this)"><b>${a}</b><i></i></div><img class="cr" src="rb-logo-crown.png"><div class="meta"><div class="pk">PICK <span>#${pk}</span></div><div class="tn">${esc(nm)}</div></div><div class="buy"><div class="bn"><span class="tx"></span><div class="ul"></div></div></div></div><div class="fl"></div>`;
 r.className='on';const q=s=>r.querySelector(s),cam=q('.cam'),bkd=q('.bk'),sm=r.querySelectorAll('.sm'),tint=q('.tint'),vg=q('.vg'),cv=q('canvas'),tile=q('.tile'),shine=q('.tile i'),stk=r.querySelectorAll('.stk'),meta=q('.meta'),tn=q('.tn'),buy=q('.buy'),tx=q('.tx'),ul=q('.ul'),cr=q('.cr'),fl=q('.fl'),gb=q('.gb'),slab=q('.slab');
 const W=r.clientWidth,H=r.clientHeight,dpr=Math.min(2,(window.devicePixelRatio||1)*(parseFloat(document.body.style.zoom)||1));cv.width=W*dpr;cv.height=H*dpr;const g=cv.getContext('2d');g.scale(dpr,dpr);
 const cx=W/2,cy=H*.36,P=[],SH=[];for(let i=0;i<300;i++){const ang=Math.random()*6.283,d=Math.max(W,H)*(.6+Math.random()*.5);P.push({sx:cx+Math.cos(ang)*d,sy:cy+Math.sin(ang)*d,tx:cx+(Math.random()-.5)*220,ty:cy+(Math.random()-.5)*160,s:1.5+Math.random()*3.5,w:Math.random()<.35,dl:Math.random()*220})}
