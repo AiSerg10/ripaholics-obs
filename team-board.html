@@ -26,7 +26,7 @@ html,body{margin:0;background:transparent;user-select:none}
 .sold .bg{filter:grayscale(1) brightness(.3)}
 .sold::after{content:"";position:absolute;left:-10px;right:-10px;top:44%;height:7px;background:#f0189c;box-shadow:0 0 0 2px #000;transform:rotate(-30deg);z-index:2;animation:slash .35s ease-out}
 @keyframes slash{from{transform:rotate(-30deg) scaleX(0)}to{transform:rotate(-30deg) scaleX(1)}}
-#bar{display:flex;gap:6px;margin-top:8px;opacity:.12;font-family:Arial}#bar:hover{opacity:1}
+#bar{display:flex;flex-wrap:wrap;width:0;min-width:100%;gap:6px;margin-top:8px;opacity:.12;font-family:Arial}#bar:hover{opacity:1}
 #bar button{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:4px 10px;border:2px solid #000;border-radius:6px;background:#fff;color:#000;cursor:pointer}
 #pop{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.7)}
 #pop>div{background:#0b0b0f;padding:14px 16px;border:3px solid #fff;border-radius:10px;color:#fff;font-family:Montserrat,Arial;font-weight:800}
@@ -55,11 +55,15 @@ html,body{margin:0;background:transparent;user-select:none}
 .mc .bn small{display:block;font-size:11px;letter-spacing:1px;color:#f0189c}
 #bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:70px}#bar input#nxi{width:150px}
 #fnx{display:none;align-self:center;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:18px;color:#fff;background:#0b0b0f;border:2px solid #000;box-shadow:0 0 0 1.5px #fff;border-radius:6px;padding:3px 14px;-webkit-text-stroke:0}#fnx b{color:#f0189c;letter-spacing:2px;margin-right:6px}
+#now{justify-self:end;display:none;text-align:right;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 2px #fff,0 3px 0 #000;border-radius:8px;padding:3px 10px 4px;max-width:100%;box-sizing:border-box;min-width:0;font-family:Montserrat,Arial,sans-serif;font-weight:900;color:#fff;line-height:1.1}
+#now small{display:block;font-size:9px;letter-spacing:2px;color:#f0189c}
+#now .pr{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#now .op{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 </style></head><body>
-<div id="wrap"><div id="hd" style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div></div></div>
+<div id="wrap"><div id="hd" style="display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="now"></div></div>
 <div id="st"><div id="left"></div><div id="fin"></div></div>
 <div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div>
-<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rst" onclick="resetB(this)">Reset</button></div></div>
+<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rst" onclick="resetB(this)">Reset</button></div></div>
 <div id="pop"><div><div id="pt"></div><input id="pi" placeholder="Buyer name"><br>
 <button style="background:#f0189c;color:#fff" onclick="mark(true)">SOLD</button> <button onclick="mark(false)">Undo</button> <button onclick="closeP()">Cancel</button></div></div>
 <script>
@@ -72,7 +76,7 @@ let lg=(QP.get('league')||'').toLowerCase()||localStorage.rb_lg||'mlb',S={},cur=
 function key(){return 'rb_'+lg}
 function load(){S=JSON.parse(localStorage[key()]||'{}')}
 function save(){localStorage[key()]=JSON.stringify(S)}
-function setL(l){lg=l;localStorage.rb_lg=l;load();draw()}
+function setL(l){lg=l;localStorage.rb_lg=l;load();draw();showInfo()}
 const D={mlb:[["AL EAST",["BAL","BOS","NYY","TB","TOR"],"al"],["AL CENTRAL",["CWS","CLE","DET","KC","MIN"],"al"],["AL WEST",["ATH","HOU","LAA","SEA","TEX"],"al"],["NL EAST",["ATL","MIA","NYM","PHI","WSH"],"nl"],["NL CENTRAL",["CHC","CIN","MIL","PIT","STL"],"nl"],["NL WEST",["ARI","COL","LAD","SD","SF"],"nl"]],
 nfl:[["AFC EAST",["BUF","MIA","NE","NYJ"],"afc"],["AFC NORTH",["BAL","CIN","CLE","PIT"],"afc"],["AFC SOUTH",["HOU","IND","JAX","TEN"],"afc"],["AFC WEST",["DEN","KC","LV","LAC"],"afc"],["NFC EAST",["DAL","NYG","PHI","WSH"],"nfc"],["NFC NORTH",["CHI","DET","GB","MIN"],"nfc"],["NFC SOUTH",["ATL","CAR","NO","TB"],"nfc"],["NFC WEST",["ARI","LAR","SF","SEA"],"nfc"]]};
 function tile(a,c){const s=S[a],d=document.createElement('div');d.className='t'+(s?' sold':'');
@@ -87,9 +91,11 @@ const w=document.getElementById('wrap'),full=r===0;
 if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
 w.classList.toggle('full',full);showInfo()}
 function nk(){return 'rb_next_'+lg}
-function showInfo(){const nx=(localStorage[nk()]||'').trim(),f=document.getElementById('fnx');f.innerHTML=nx?'<b>NEXT UP:</b>'+esc(nx):'';f.style.display=nx?'block':'none';const i=document.getElementById('nxi');if(document.activeElement!==i)i.value=localStorage[nk()]||''}
-function setInfo(){localStorage[nk()]=document.getElementById('nxi').value;showInfo()}
-addEventListener('storage',e=>{if(e.key===key()){load();draw()}else if(e.key==='rb_bn')showBn();else if(e.key===nk())showInfo()});
+function showInfo(){const nx=(localStorage[nk()]||'').trim(),f=document.getElementById('fnx');f.innerHTML=nx?'<b>NEXT UP:</b>'+esc(nx):'';f.style.display=nx?'block':'none';const i=document.getElementById('nxi');if(document.activeElement!==i)i.value=localStorage[nk()]||'';
+const pd=(localStorage['rb_prod_'+lg]||'').trim(),op=(localStorage['rb_open_'+lg]||'').trim(),w=document.getElementById('now');w.innerHTML=pd||op?'<small>NOW OPENING</small>'+(pd?'<div class="pr">'+esc(pd)+'</div>':'')+(op?'<div class="op">'+esc(op)+'</div>':''):'';w.style.display=pd||op?'block':'none';
+[['pdi','rb_prod_'],['opi','rb_open_']].forEach(([id,k])=>{const e=document.getElementById(id);if(document.activeElement!==e)e.value=localStorage[k+lg]||''})}
+function setInfo(){localStorage[nk()]=document.getElementById('nxi').value;localStorage['rb_prod_'+lg]=document.getElementById('pdi').value;localStorage['rb_open_'+lg]=document.getElementById('opi').value;showInfo()}
+addEventListener('storage',e=>{if(e.key===key()){load();draw()}else if(e.key==='rb_bn')showBn();else if(e.key===nk()||e.key==='rb_prod_'+lg||e.key==='rb_open_'+lg)showInfo()});
 function openP(a){const pp=document.getElementById('pop');if(pp.parentNode!==document.body)document.body.appendChild(pp);cur=a;document.getElementById('pt').textContent=a;const i=document.getElementById('pi');i.value=(S[a]&&S[a].n)||'';document.getElementById('pop').style.display='flex';i.focus()}
 function closeP(){document.getElementById('pop').style.display='none'}
 function mark(v){if(v)S[cur]={n:document.getElementById('pi').value.trim()};else delete S[cur];save();draw();closeP()}
@@ -102,6 +108,6 @@ let rstT=null;function resetB(b){if(b.dataset.arm){clearTimeout(rstT);delete b.d
 function fitB(){const w=document.getElementById('wrap');if(!w)return;document.body.style.zoom=1;const r=w.getBoundingClientRect();const z=Math.min(innerWidth/(r.right+10),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
 addEventListener('resize',fitB);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitB);setTimeout(fitB,300);
 const _draw=draw;draw=function(){_draw.apply(this,arguments);fitB()};
-Object.keys(localStorage).filter(k=>k.startsWith('rb_price_')).forEach(k=>localStorage.removeItem(k));if(QP.has('next'))localStorage[nk()]=QP.get('next');
+Object.keys(localStorage).filter(k=>k.startsWith('rb_price_')).forEach(k=>localStorage.removeItem(k));if(QP.has('product'))localStorage['rb_prod_'+lg]=QP.get('product');if(QP.has('opening'))localStorage['rb_open_'+lg]=QP.get('opening');if(QP.has('next'))localStorage[nk()]=QP.get('next');
 showBn();load();draw();
 </script></body></html>
