@@ -1,0 +1,535 @@
+{
+ "name": "2026 Topps Update Series",
+ "label": "2026 Topps Update",
+ "league": "mlb",
+ "entries": [
+  {
+   "team": "LAA",
+   "player": "Walbert Ureña",
+   "card": "Baseball Stars Auto RC (BSAU-WU)",
+   "format": "both"
+  },
+  {
+   "team": "LAA",
+   "player": "Mike Trout",
+   "card": "Flagship Auto Patch (TFAPU-MT)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAA",
+   "player": "George Klassen",
+   "card": "Rookie Holiday Variation - Value Box (US195)",
+   "format": "retail"
+  },
+  {
+   "team": "ARI",
+   "player": "Jose Fernandez",
+   "card": "Baseball Stars Auto RC (BSAU-JFZ)",
+   "format": "both"
+  },
+  {
+   "team": "ARI",
+   "player": "Corbin Carroll",
+   "card": "Flagship Auto Patch (TFAPU-CC)",
+   "format": "hobby"
+  },
+  {
+   "team": "ARI",
+   "player": "Jose Fernandez",
+   "card": "Rookie Holiday Variation - Value Box (US66)",
+   "format": "retail"
+  },
+  {
+   "team": "ATH",
+   "player": "Colby Thomas",
+   "card": "Rising Rookie Relic Auto RC (RRR-CT)",
+   "format": "both"
+  },
+  {
+   "team": "ATH",
+   "player": "Tyler Soderstrom",
+   "card": "Flagship Auto Patch (TFAP2-TSO)",
+   "format": "hobby"
+  },
+  {
+   "team": "ATH",
+   "player": "Luis Morales",
+   "card": "1991 Topps Auto RC (91B2-LM)",
+   "format": "both"
+  },
+  {
+   "team": "ATL",
+   "player": "Ronald Acuña Jr.",
+   "card": "Flagship Auto Patch (TFAPU-RAJ)",
+   "format": "hobby"
+  },
+  {
+   "team": "ATL",
+   "player": "Hayden Harris",
+   "card": "1991 Topps Auto RC (91B2-HA)",
+   "format": "both"
+  },
+  {
+   "team": "ATL",
+   "player": "JR Ritchie",
+   "card": "Rookie Holiday Variation - Value Box (US41)",
+   "format": "retail"
+  },
+  {
+   "team": "BAL",
+   "player": "Samuel Basallo",
+   "card": "1991 Topps Auto RC (91AU-SBA)",
+   "format": "both"
+  },
+  {
+   "team": "BAL",
+   "player": "Gunnar Henderson",
+   "card": "Flagship Auto Patch (TFAP2-GH)",
+   "format": "hobby"
+  },
+  {
+   "team": "BAL",
+   "player": "Samuel Basallo",
+   "card": "Rookie Debut Holiday Variation - Value Box (US292)",
+   "format": "retail"
+  },
+  {
+   "team": "BOS",
+   "player": "Roman Anthony",
+   "card": "1991 Topps Auto RC (91AU-RAN)",
+   "format": "both"
+  },
+  {
+   "team": "BOS",
+   "player": "Connelly Early",
+   "card": "Baseball Stars Auto RC (BSA2-CE)",
+   "format": "both"
+  },
+  {
+   "team": "BOS",
+   "player": "Roman Anthony",
+   "card": "Rookie Debut Holiday Variation - Value Box (US194)",
+   "format": "retail"
+  },
+  {
+   "team": "CHC",
+   "player": "Justin Steele",
+   "card": "Flagship Auto Patch (TFAP-JST)",
+   "format": "hobby"
+  },
+  {
+   "team": "CHC",
+   "player": "Aramis Ramirez",
+   "card": "Flagship Auto Patch (TFAP-ARA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CWS",
+   "player": "Munetaka Murakami",
+   "card": "1991 Topps Auto RC (91AU-MM)",
+   "format": "both"
+  },
+  {
+   "team": "CWS",
+   "player": "Colson Montgomery",
+   "card": "Flagship Auto Patch RC (TFAP2-CM)",
+   "format": "hobby"
+  },
+  {
+   "team": "CWS",
+   "player": "Munetaka Murakami",
+   "card": "Rookie Debut Holiday Variation - Value Box (US350)",
+   "format": "retail"
+  },
+  {
+   "team": "CIN",
+   "player": "Chase Burns",
+   "card": "1991 Topps Auto RC (91AU-CBU)",
+   "format": "both"
+  },
+  {
+   "team": "CIN",
+   "player": "Sal Stewart",
+   "card": "1991 Topps Auto RC (91AU-SS)",
+   "format": "both"
+  },
+  {
+   "team": "CIN",
+   "player": "Sal Stewart",
+   "card": "Rookie Debut Holiday Variation - Value Box (US97)",
+   "format": "retail"
+  },
+  {
+   "team": "CLE",
+   "player": "Travis Bazzana",
+   "card": "1991 Topps Auto RC (91A-TB)",
+   "format": "both"
+  },
+  {
+   "team": "CLE",
+   "player": "C.J. Kayfus",
+   "card": "Flagship Auto Patch RC (TFAPU-CK)",
+   "format": "hobby"
+  },
+  {
+   "team": "CLE",
+   "player": "Chase DeLauter",
+   "card": "Rookie Debut Holiday Variation - Value Box (US113)",
+   "format": "retail"
+  },
+  {
+   "team": "COL",
+   "player": "Warming Bernabel",
+   "card": "Flagship Auto Patch RC (TFAP2-WB)",
+   "format": "hobby"
+  },
+  {
+   "team": "COL",
+   "player": "TJ Rumfield",
+   "card": "Baseball Stars Auto RC (BSAU-TR)",
+   "format": "both"
+  },
+  {
+   "team": "COL",
+   "player": "TJ Rumfield",
+   "card": "Rookie Holiday Variation - Value Box (US157)",
+   "format": "retail"
+  },
+  {
+   "team": "DET",
+   "player": "Kevin McGonigle",
+   "card": "1991 Topps Auto RC (91AU-KM)",
+   "format": "both"
+  },
+  {
+   "team": "DET",
+   "player": "Hao-Yu Lee",
+   "card": "Baseball Stars Auto RC (BSAU-HYL)",
+   "format": "both"
+  },
+  {
+   "team": "DET",
+   "player": "Kevin McGonigle",
+   "card": "Rookie Debut Holiday Variation - Value Box (US140)",
+   "format": "retail"
+  },
+  {
+   "team": "HOU",
+   "player": "Jose Altuve",
+   "card": "Flagship Auto Patch (TFAP2-JA)",
+   "format": "hobby"
+  },
+  {
+   "team": "HOU",
+   "player": "Zach Cole",
+   "card": "1991 Topps Auto RC (91AU-ZC)",
+   "format": "both"
+  },
+  {
+   "team": "HOU",
+   "player": "Tatsuya Imai",
+   "card": "Rookie Debut Holiday Variation - Value Box (US19)",
+   "format": "retail"
+  },
+  {
+   "team": "KC",
+   "player": "Jac Caglianone",
+   "card": "Flagship Auto Patch RC (TFAPU-JC)",
+   "format": "hobby"
+  },
+  {
+   "team": "KC",
+   "player": "Carter Jensen",
+   "card": "1991 Topps Auto RC (91B2-CJ)",
+   "format": "both"
+  },
+  {
+   "team": "KC",
+   "player": "Jac Caglianone",
+   "card": "Rookie Debut Holiday Variation - Value Box (US21)",
+   "format": "retail"
+  },
+  {
+   "team": "LAD",
+   "player": "Alex Freeland",
+   "card": "1991 Topps Auto RC (91B2-AF)",
+   "format": "both"
+  },
+  {
+   "team": "LAD",
+   "player": "Will Smith",
+   "card": "Flagship Auto Patch (TFAP-WSM)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAD",
+   "player": "Ryan Ward",
+   "card": "Rookie Holiday Variation - Value Box (US62)",
+   "format": "retail"
+  },
+  {
+   "team": "MIA",
+   "player": "Owen Caissie",
+   "card": "1991 Topps Auto RC (91AU-OC)",
+   "format": "both"
+  },
+  {
+   "team": "MIA",
+   "player": "Deyvison De Los Santos",
+   "card": "Rising Rookie Relic Auto RC (RRR-DD)",
+   "format": "both"
+  },
+  {
+   "team": "MIA",
+   "player": "Joe Mack",
+   "card": "Rookie Holiday Variation - Value Box (US106)",
+   "format": "retail"
+  },
+  {
+   "team": "MIL",
+   "player": "Jacob Misiorowski",
+   "card": "Flagship Auto Patch RC (TFAPU-MIZ)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIL",
+   "player": "Jeferson Quero",
+   "card": "1991 Topps Auto RC (91A-JQ)",
+   "format": "both"
+  },
+  {
+   "team": "MIL",
+   "player": "Jacob Misiorowski",
+   "card": "Rookie Debut Holiday Variation - Value Box (US136)",
+   "format": "retail"
+  },
+  {
+   "team": "MIN",
+   "player": "Connor Prielipp",
+   "card": "Baseball Stars Auto RC (BSAU-CP)",
+   "format": "both"
+  },
+  {
+   "team": "MIN",
+   "player": "Byron Buxton",
+   "card": "Flagship Auto Patch (TFAP2-BB)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIN",
+   "player": "Connor Prielipp",
+   "card": "Rookie Holiday Variation - Value Box (US127)",
+   "format": "retail"
+  },
+  {
+   "team": "NYM",
+   "player": "Nolan McLean",
+   "card": "1991 Topps Auto RC (91AU-NM)",
+   "format": "both"
+  },
+  {
+   "team": "NYM",
+   "player": "Jonah Tong",
+   "card": "1991 Topps Auto RC (91AU-JT)",
+   "format": "both"
+  },
+  {
+   "team": "NYM",
+   "player": "Carson Benge",
+   "card": "Rookie Debut Holiday Variation - Value Box (US250)",
+   "format": "retail"
+  },
+  {
+   "team": "NYY",
+   "player": "Cam Schlittler",
+   "card": "1991 Topps Auto RC (91AU-CS)",
+   "format": "both"
+  },
+  {
+   "team": "NYY",
+   "player": "Elmer Rodríguez",
+   "card": "Baseball Stars Auto RC (BSAU-ERZ)",
+   "format": "both"
+  },
+  {
+   "team": "NYY",
+   "player": "Cam Schlittler",
+   "card": "Rookie Debut Holiday Variation - Value Box (US78)",
+   "format": "retail"
+  },
+  {
+   "team": "PHI",
+   "player": "Justin Crawford",
+   "card": "1991 Topps Auto RC (91AU-JCR)",
+   "format": "both"
+  },
+  {
+   "team": "PHI",
+   "player": "Andrew Painter",
+   "card": "Rising Rookie Relic Auto RC (RRR-AP)",
+   "format": "both"
+  },
+  {
+   "team": "PHI",
+   "player": "Andrew Painter",
+   "card": "Rookie Debut Holiday Variation - Value Box (US57)",
+   "format": "retail"
+  },
+  {
+   "team": "PIT",
+   "player": "Konnor Griffin",
+   "card": "Baseball Stars Auto RC (BSAU-KG)",
+   "format": "both"
+  },
+  {
+   "team": "PIT",
+   "player": "Bubba Chandler",
+   "card": "1991 Topps Auto RC (91AU-BC)",
+   "format": "both"
+  },
+  {
+   "team": "PIT",
+   "player": "Konnor Griffin",
+   "card": "Rookie Debut Holiday Variation - Value Box (US255)",
+   "format": "retail"
+  },
+  {
+   "team": "SD",
+   "player": "Sung-Mun Song",
+   "card": "1991 Topps Auto RC (91AU-SMS)",
+   "format": "both"
+  },
+  {
+   "team": "SD",
+   "player": "Fernando Tatis Jr.",
+   "card": "Flagship Auto Patch (TFAPU-FT)",
+   "format": "hobby"
+  },
+  {
+   "team": "SD",
+   "player": "Sung-Mun Song",
+   "card": "Rookie Holiday Variation - Value Box (US340)",
+   "format": "retail"
+  },
+  {
+   "team": "SF",
+   "player": "Bryce Eldridge",
+   "card": "Baseball Stars Auto RC (BSA2-BE)",
+   "format": "both"
+  },
+  {
+   "team": "SF",
+   "player": "Drew Gilbert",
+   "card": "Flagship Auto Patch RC (TFAP2-DG)",
+   "format": "hobby"
+  },
+  {
+   "team": "SF",
+   "player": "Bryce Eldridge",
+   "card": "Rookie Debut Holiday Variation - Value Box (US334)",
+   "format": "retail"
+  },
+  {
+   "team": "SEA",
+   "player": "Cole Young",
+   "card": "Baseball Stars Auto RC (BSA2-CY)",
+   "format": "both"
+  },
+  {
+   "team": "SEA",
+   "player": "Cal Raleigh",
+   "card": "Flagship Auto Patch (TFAP2-CR)",
+   "format": "hobby"
+  },
+  {
+   "team": "SEA",
+   "player": "Cole Young",
+   "card": "Rookie Debut Holiday Variation - Value Box (US206)",
+   "format": "retail"
+  },
+  {
+   "team": "STL",
+   "player": "JJ Wetherholt",
+   "card": "1991 Topps Auto RC (91AU-JJ)",
+   "format": "both"
+  },
+  {
+   "team": "STL",
+   "player": "Jimmy Crooks",
+   "card": "Flagship Auto Patch RC (TFAP2-JC)",
+   "format": "hobby"
+  },
+  {
+   "team": "STL",
+   "player": "JJ Wetherholt",
+   "card": "Rookie Debut Holiday Variation - Value Box (US245)",
+   "format": "retail"
+  },
+  {
+   "team": "TB",
+   "player": "Jacob Melton",
+   "card": "1991 Topps Auto RC (91AU-JME)",
+   "format": "both"
+  },
+  {
+   "team": "TB",
+   "player": "Carson Williams",
+   "card": "Rising Rookie Relic Auto RC (RRR-CW)",
+   "format": "both"
+  },
+  {
+   "team": "TB",
+   "player": "Jacob Melton",
+   "card": "Rookie Holiday Variation - Value Box (US156)",
+   "format": "retail"
+  },
+  {
+   "team": "TEX",
+   "player": "Wyatt Langford",
+   "card": "Flagship Auto Patch (TFAPU-WL)",
+   "format": "hobby"
+  },
+  {
+   "team": "TEX",
+   "player": "Luis Curvelo",
+   "card": "1991 Topps Auto RC (91B2-LC)",
+   "format": "both"
+  },
+  {
+   "team": "TOR",
+   "player": "Trey Yesavage",
+   "card": "Baseball Stars Auto RC (BSA2-TY)",
+   "format": "both"
+  },
+  {
+   "team": "TOR",
+   "player": "Kazuma Okamoto",
+   "card": "1991 Topps Auto RC (91AU-KO)",
+   "format": "both"
+  },
+  {
+   "team": "TOR",
+   "player": "Kazuma Okamoto",
+   "card": "Rookie Debut Holiday Variation - Value Box (US224)",
+   "format": "retail"
+  },
+  {
+   "team": "WSH",
+   "player": "Brady House",
+   "card": "Flagship Auto Patch RC (TFAPU-BH)",
+   "format": "hobby"
+  },
+  {
+   "team": "WSH",
+   "player": "Harry Ford",
+   "card": "1991 Topps Auto RC (91AU-HF)",
+   "format": "both"
+  },
+  {
+   "team": "WSH",
+   "player": "Dylan Crews",
+   "card": "Flagship Auto Patch (TFAP2-DC)",
+   "format": "hobby"
+  }
+ ]
+}

@@ -34,3 +34,4 @@
   They appear while that set is selected; normal 32-team NFL is unchanged otherwise.
 - URL override: `&extra=college` forces them on, `&extra=none` forces them off (saved per league).
 - An entry without `img` shows a styled text card (player + card name) instead of a picture.
+- `"label"` (optional) = short set name printed on text cards, e.g. "2026 Topps Update" (falls back to `name`).
