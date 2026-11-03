@@ -123,12 +123,39 @@ html,body{margin:0;background:transparent;user-select:none}
 #peek .cn em{display:block;font-style:normal;font-weight:700;font-size:11px;color:#ddd;margin-top:1px}
 #bar .pr{display:inline-flex;flex-wrap:nowrap;white-space:nowrap;gap:0}#peek:empty{display:none}
 #bar .cyb{padding:4px 6px;margin-right:-2px}
-
+#sheet{position:absolute;inset:6px;z-index:45;display:none;border-radius:10px;background:rgba(0,0,0,.55)}
+#sheet.on{display:block}
+#sheet .sp{position:absolute;inset:4px;overflow:hidden;background:#07070a url('rb-inksmoke-bg.jpg') center/cover;border:4px solid #000;box-shadow:0 0 0 2px #fff;border-radius:12px;font-family:Montserrat,Arial,sans-serif;color:#fff;animation:shIn .28s cubic-bezier(.2,.9,.3,1.1)}
+#sheet .sp::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.62);pointer-events:none}
+@keyframes shIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+#sheet .si{position:relative;transform-origin:0 0;padding:10px 14px 12px}
+#sheet .sh{display:flex;align-items:center;gap:12px;padding-bottom:8px;border-bottom:3px solid #000;box-shadow:0 2px 0 #f0189c;margin-bottom:10px}
+#sheet .sh img{width:52px;height:52px;box-sizing:border-box;padding:5px;background:radial-gradient(circle at 40% 35%,#fff 0,#fff 45%,#dcdce2 100%);border:3px solid #000;border-radius:50%;object-fit:contain;box-shadow:2px 2px 0 #000}
+#sheet .sh b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:34px;letter-spacing:2px;line-height:1;-webkit-text-stroke:2px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #000}
+#sheet .sh small{display:block;font-weight:900;font-size:11px;letter-spacing:3px;color:#fff;margin-top:3px}#sheet .sh small i{font-style:normal;color:#f0189c}
+#sheet .sx{position:absolute;top:8px;right:10px;z-index:3;width:32px;height:32px;border:3px solid #000;border-radius:8px;background:#f0189c;color:#fff;font:900 18px/1 Montserrat,Arial,sans-serif;cursor:pointer;box-shadow:2px 2px 0 #000}
+#sheet .cols{display:flex;gap:12px;align-items:flex-start}
+#sheet .col{flex:1 1 0;min-width:0}
+#sheet .gh{font-family:Anton,Impact,sans-serif;font-size:18px;letter-spacing:3px;color:#fff;background:#0a96e8;border:3px solid #000;border-radius:6px;padding:0 10px;display:inline-block;margin-bottom:6px;box-shadow:2px 2px 0 #000}
+#sheet .col.star .gh{background:#f0189c}#sheet .col.legend .gh{background:#fff;color:#000}#sheet .col.chase .gh{background:#f0189c}
+#sheet .pl{font-weight:900;font-size:13px;letter-spacing:.5px;margin:6px 0 4px;text-transform:uppercase}
+#sheet .cd{display:flex;gap:8px;align-items:center;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 1.5px rgba(255,255,255,.8);border-radius:8px;padding:5px;margin-bottom:6px}
+#sheet .cd .im{flex:0 0 46px;width:46px;height:64px;border:2px solid #000;border-radius:4px;object-fit:cover;background:#000}
+#sheet .cd .tx{flex:0 0 46px;width:46px;height:64px;box-sizing:border-box;border:2px solid #000;border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:radial-gradient(circle at 30% 20%,var(--c),#000 90%);font-family:Anton,Impact,sans-serif;font-size:10px;line-height:1.05;padding:2px;overflow:hidden;-webkit-text-stroke:.6px #000;paint-order:stroke fill}
+#sheet .cd .tx em{font-style:normal;font-family:Montserrat,Arial;font-weight:900;font-size:6px;letter-spacing:1px;color:#f0189c;background:#fff;border-radius:2px;padding:0 2px;margin-bottom:2px;-webkit-text-stroke:0}
+#sheet .cd .ct{min-width:0;font-weight:800;font-size:11px;line-height:1.25;color:#fff}
+#sheet .cd .ct span{display:block}#sheet .cd .ct span.ft{display:inline-block}
+#sheet .cd .ft{display:inline-block;margin-top:3px;border:2px solid #000;border-radius:4px;color:#fff;font-weight:900;font-size:8px;letter-spacing:1.5px;padding:0 5px}
+#sheet .ft.h{background:#0a96e8}#sheet .ft.r{background:#f0189c}#sheet .ft.b{background:linear-gradient(90deg,#0a96e8 50%,#f0189c 50%)}
+#sheet .em{font-weight:900;font-size:16px;text-align:center;padding:40px 10px}
+#sheet .hint{position:absolute;right:14px;bottom:8px;font-weight:800;font-size:9px;letter-spacing:2px;color:#bbb}
+#cvb.on{background:#0a96e8!important;color:#fff!important}
+#wrap.cview .t{cursor:zoom-in}
 </style></head><body>
 <div id="wrap"><div id="hd" style="display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="now"></div></div>
 <div id="st"><div id="left"></div><div id="fin"></div></div>
 <div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div><div id="rv"></div>
-<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="location.href='tcg-board.html'">TCG</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rvb" onclick="setRv(localStorage.rb_rv==='0')">Reveal</button><button id="spb" onclick="setSpot(localStorage.rb_spot==='0')">Spotlight</button><button id="chb" onclick="setCh(localStorage.rb_chase==='0')">Chase</button><span class="pr"><button class="cyb" onclick="cyCs(-1)" title="Previous chase set">&#9666;</button><button id="chs" onclick="cyCs(1)" title="Chase set">Chase: none &#9656;</button></span><span class="pr"><button class="cyb" onclick="cyFm(-1)" title="Previous format">&#9666;</button><button id="fms" onclick="cyFm(1)" title="Format">Format: Auto &#9656;</button></span><button id="rst" onclick="resetB(this)">Reset</button></div></div>
+<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="location.href='tcg-board.html'">TCG</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rvb" onclick="setRv(localStorage.rb_rv==='0')">Reveal</button><button id="spb" onclick="setSpot(localStorage.rb_spot==='0')">Spotlight</button><button id="chb" onclick="setCh(localStorage.rb_chase==='0')">Chase</button><span class="pr"><button class="cyb" onclick="cyCs(-1)" title="Previous chase set">&#9666;</button><button id="chs" onclick="cyCs(1)" title="Chase set">Chase: none &#9656;</button></span><span class="pr"><button class="cyb" onclick="cyFm(-1)" title="Previous format">&#9666;</button><button id="fms" onclick="cyFm(1)" title="Format">Format: Auto &#9656;</button></span><button id="cvb" onclick="setCv(!cvOn)" title="While ON, clicking a team opens its chase sheet (no selling). Long-press a tile also opens it.">Chase View: OFF</button><button id="rst" onclick="resetB(this)">Reset</button></div></div>
 <div id="pop"><div><div id="pt"></div><input id="pi" placeholder="Buyer name"><br>
 <button style="background:#f0189c;color:#fff" onclick="mark(true)">SOLD</button> <button onclick="mark(false)">Undo</button> <button onclick="closeP()">Cancel</button></div></div>
 <script>
@@ -146,7 +173,7 @@ const D={mlb:[["AL EAST",["BAL","BOS","NYY","TB","TOR"],"al"],["AL CENTRAL",["CW
 nfl:[["AFC EAST",["BUF","MIA","NE","NYJ"],"afc"],["AFC NORTH",["BAL","CIN","CLE","PIT"],"afc"],["AFC SOUTH",["HOU","IND","JAX","TEN"],"afc"],["AFC WEST",["DEN","KC","LV","LAC"],"afc"],["NFC EAST",["DAL","NYG","PHI","WSH"],"nfc"],["NFC NORTH",["CHI","DET","GB","MIN"],"nfc"],["NFC SOUTH",["ATL","CAR","NO","TB"],"nfc"],["NFC WEST",["ARI","LAR","SF","SEA"],"nfc"]]};
 const LOGO=(l,a)=>`logos/${l}/${a}.png`;function lgErr(i){const p=i.parentNode;p.classList.remove('hl');i.remove()}
 function tile(a,c){const s=S[a],d=document.createElement('div');d.className='t hl'+(s?' sold':'');
-d.innerHTML=`<div class="bg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)"></div><img class="lo" src="${LOGO(lg,a)}" alt="" onerror="lgErr(this)"><span class="ab">${a}</span>${s&&s.n?`<span class="nm">${s.n}</span>`:''}`;d.onclick=()=>openP(a);d.oncontextmenu=e=>{e.preventDefault();if(S[a])delete S[a];else S[a]={n:''};save();draw()};return d}
+d.innerHTML=`<div class="bg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)"></div><img class="lo" src="${LOGO(lg,a)}" alt="" onerror="lgErr(this)"><span class="ab">${a}</span>${s&&s.n?`<span class="nm">${s.n}</span>`:''}`;d.onclick=()=>{if(lpFired){lpFired=false;return}cvOn?openSheet(a):openP(a)};lpBind(d,a);d.oncontextmenu=e=>{e.preventDefault();if(S[a])delete S[a];else S[a]={n:''};save();draw()};return d}
 function draw(){const b=document.getElementById('board'),T=L[lg],C=Object.fromEntries(T);b.innerHTML='';
 if(D[lg]){b.className='div';b.style.gridTemplateColumns='';D[lg].forEach(([n,ts,g])=>{const v=document.createElement('div');v.className='dv '+g;v.innerHTML=`<div class="dh">${n}</div>`;ts.forEach(a=>v.appendChild(tile(a,C[a])));b.appendChild(v)})}
 else{b.className='';b.style.gridTemplateColumns='repeat(10,80px)';T.forEach(([a,c])=>b.appendChild(tile(a,c)))}
@@ -277,4 +304,31 @@ const _d2=draw;draw=function(){_d2.apply(this,arguments);applySpot();peekCheck()
 setTimeout(stepSpot,600);setInterval(stepSpot,SPOT_S*1000);setInterval(()=>showPeek(),PEEK_S*1000);
 {const _sl=window.setL;if(typeof _sl==='function')window.setL=function(){_sl.apply(this,arguments);spotA=null;fillChs();loadChase()}}
 showTg();loadIdx().then(loadChase);draw();
+// ===== Team Chase Sheet =====
+let cvOn=false,lpFired=false,shA=null;
+document.getElementById('wrap').insertAdjacentHTML('beforeend','<div id="sheet"></div>');
+function setCv(v){cvOn=!!v;const b=document.getElementById('cvb');b.textContent='Chase View: '+(cvOn?'ON':'OFF');b.classList.toggle('on',cvOn);document.getElementById('wrap').classList.toggle('cview',cvOn)}
+function lpBind(d,a){let t=null,x=0,y=0;const clr=()=>{clearTimeout(t);t=null};
+ d.addEventListener('pointerdown',e=>{if(e.button!==0)return;x=e.clientX;y=e.clientY;lpFired=false;clr();t=setTimeout(()=>{t=null;lpFired=true;openSheet(a)},550)});
+ d.addEventListener('pointermove',e=>{if(t&&Math.hypot(e.clientX-x,e.clientY-y)>8)clr()});
+ ['pointerup','pointerleave','pointercancel'].forEach(k=>d.addEventListener(k,clr))}
+function sheetCards(a){if(!CH_DATA)return null;const sh=CH_DATA.sheet&&CH_DATA.sheet[a];if(sh&&sh.length)return sh;return (CH_DATA.entries||[]).filter(e=>e.team===a)}
+function openSheet(a){if(rvBusy)return;shA=a;const el=document.getElementById('sheet'),c=(L[lg].find(x=>x[0]===a)||[0,'#333'])[1],nm=((NM[lg]||{})[a]||a).toUpperCase(),cs=sheetCards(a),setN=CH_DATA?(CH_DATA.label||CH_DATA.name||''):'';
+ const FT={hobby:['h','HOBBY'],retail:['r','RETAIL'],both:['b','HOBBY + RETAIL']};
+ const card=e=>{const f=FT[e.format];return `<div class="cd">${e.img?`<img class="im" src="chase/${esc(e.img)}" alt="">`:`<div class="tx" style="--c:${c}"><em>${esc(setN.replace(/^\d{4}\s*/,'').toUpperCase().slice(0,14))}</em>${esc(e.player||'')}</div>`}<div class="ct"><span>${esc(e.card||'')}</span>${f?`<span class="ft ${f[0]}">${f[1]}</span>`:''}</div></div>`};
+ let body;
+ if(!cs||!cs.length)body=`<div class="em">${CH_DATA?'No chase cards listed for this team in '+esc(setN)+'.':'Pick a chase set in the control bar (Chase: &#9656;) to see this sheet.'}</div>`;
+ else{const G=[['rookie','ROOKIES'],['star','STARS'],['legend','LEGENDS']],has=cs.some(e=>e.tier),grp=has?G.map(([k,t])=>[k,t,cs.filter(e=>e.tier===k)]).filter(g=>g[2].length):[['chase','CHASE CARDS',cs]];
+  body='<div class="cols">'+grp.map(([k,t,es])=>{let h='',lp=null;es.forEach(e=>{if(e.player!==lp){h+=`<div class="pl">${esc(e.player||'')}</div>`;lp=e.player}h+=card(e)});return `<div class="col ${k}"><div class="gh">${t}</div>${h}</div>`}).join('')+'</div>'}
+ el.innerHTML=`<div class="sp"><button class="sx" title="Close (Esc)" onclick="closeSheet()">&#10005;</button><div class="si"><div class="sh"><img src="${LOGO(lg,a)}" alt="" onerror="this.remove()"><div><b>${esc(nm)}</b><small>TEAM CHASE SHEET${setN?' &middot; <i>'+esc(setN.toUpperCase())+'</i>':''}</small></div></div>${body}</div><div class="hint">ESC / CLICK OUTSIDE TO CLOSE</div></div>`;
+ el.classList.add('on');fitSheet();el.querySelectorAll('img').forEach(i=>i.addEventListener('load',fitSheet))}
+function fitSheet(){const el=document.getElementById('sheet');if(!el.classList.contains('on'))return;const sp=el.querySelector('.sp'),si=el.querySelector('.si');if(!sp||!si)return;si.style.transform='';si.style.width='';const W=sp.clientWidth,H=sp.clientHeight-16;let k=1;for(let i=0;i<6;i++){const h=si.scrollHeight;if(h*k<=H)break;k=Math.max(.45,H/h);si.style.width=(W/k)+'px'}si.style.transform=k<1?`scale(${k})`:''}
+function closeSheet(){const el=document.getElementById('sheet');el.classList.remove('on');el.innerHTML='';shA=null}
+document.getElementById('sheet').addEventListener('click',e=>{if(!e.target.closest('.si')&&!e.target.closest('.sx'))closeSheet()});
+document.addEventListener('pointerdown',e=>{const el=document.getElementById('sheet');if(el.classList.contains('on')&&!el.contains(e.target)&&!e.target.closest('#bar'))closeSheet()},true);
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
+{const _nr=nextRv;nextRv=function(){closeSheet();return _nr.apply(this,arguments)}}
+addEventListener('resize',fitSheet);
+if(QP.get('cview')==='1')setCv(true);
+
 </script></body></html>

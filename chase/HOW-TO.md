@@ -35,3 +35,25 @@
 - URL override: `&extra=college` forces them on, `&extra=none` forces them off (saved per league).
 - An entry without `img` shows a styled text card (player + card name) instead of a picture.
 - `"label"` (optional) = short set name printed on text cards, e.g. "2026 Topps Update" (falls back to `name`).
+
+## Team Chase Sheet (optional `"sheet"` key)
+
+On the team board, **long-press a team tile** (or turn on **Chase View** in the control bar, then click a tile) to open that team's full chase sheet: ROOKIES / STARS / LEGENDS. Close with ✕, Esc, or a click outside. It closes by itself when a reveal fires. Normal click and right-click selling are unchanged while Chase View is OFF.
+
+Add a top-level `"sheet"` object to the set JSON, keyed by team abbreviation:
+
+```json
+"sheet": {
+  "LAA": [
+    {"id":"laa-1","tier":"rookie","player":"Walbert Ureña","card":"1952 Rookie Image Variation Auto (US16) · /10 · Black w/ Gold Ink 1/1","format":"both"},
+    {"id":"laa-5","tier":"star","player":"Mike Trout","card":"Flagship Auto Patch (TFAPU-MT) · /50 · Platinum 1/1","format":"hobby","img":"img/2026-topps-update/trout.jpg"}
+  ]
+}
+```
+
+- `tier`: `rookie` | `star` | `legend`
+- `format`: `hobby` | `retail` | `both` (shown as HOBBY / RETAIL / HOBBY + RETAIL)
+- `img`: optional, relative to `chase/`. Without it, a text card is drawn.
+- Cards from the same player go next to each other. Aim for 4–10 per team.
+- If a team has no `sheet` entry, the sheet falls back to that team's `entries` (grouped by `tier` when present).
+- `sheet` does not affect `entries` or the peek card.

@@ -599,5 +599,2059 @@
    "format": "hobby",
    "img": "img/2026-topps-update/87-dylan-crews.jpg"
   }
- ]
+ ],
+ "sheet": {
+  "ARI": [
+   {
+    "id": "ari-1",
+    "tier": "rookie",
+    "player": "José Fernandez",
+    "card": "1952 Rookie Image Variation Auto (US66) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ari-2",
+    "tier": "rookie",
+    "player": "José Fernandez",
+    "card": "1991 Topps Chrome Auto (U91C-11) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "ari-3",
+    "tier": "rookie",
+    "player": "José Fernandez",
+    "card": "Baseball Stars Auto (BSAU-JFZ) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/3-jose-fernandez.jpg"
+   },
+   {
+    "id": "ari-4",
+    "tier": "star",
+    "player": "Corbin Carroll",
+    "card": "Flagship Auto Patch (TFAPU-CC) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "ari-5",
+    "tier": "star",
+    "player": "Corbin Carroll",
+    "card": "1991 Topps Auto (91AU-CC) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ari-6",
+    "tier": "star",
+    "player": "Corbin Carroll",
+    "card": "Real One Golden Mirror Auto (314)",
+    "format": "both"
+   },
+   {
+    "id": "ari-7",
+    "tier": "star",
+    "player": "Nolan Arenado",
+    "card": "1991 Topps Auto (91AU-NA) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ari-8",
+    "tier": "star",
+    "player": "Nolan Arenado",
+    "card": "Real One Golden Mirror Auto (US150)",
+    "format": "both"
+   },
+   {
+    "id": "ari-9",
+    "tier": "star",
+    "player": "Nolan Arenado",
+    "card": "Heavy Lumber Auto Relic (HLARU-NA)",
+    "format": "both"
+   },
+   {
+    "id": "ari-10",
+    "tier": "star",
+    "player": "Eduardo Rodriguez",
+    "card": "All-Star Stitches Auto (AS-ER) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "ATH": [
+   {
+    "id": "ath-1",
+    "tier": "rookie",
+    "player": "Colby Thomas",
+    "card": "Rising Rookie Relic Auto (RRR-CT) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/6-colby-thomas.jpg"
+   },
+   {
+    "id": "ath-2",
+    "tier": "star",
+    "player": "Tyler Soderstrom",
+    "card": "Flagship Auto Patch (TFAP2-TSO) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/7-tyler-soderstrom.jpg"
+   },
+   {
+    "id": "ath-3",
+    "tier": "star",
+    "player": "Tyler Soderstrom",
+    "card": "1991 Topps Auto (91B2-TS) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ath-4",
+    "tier": "star",
+    "player": "Shea Langeliers",
+    "card": "1991 Topps Chrome Auto (U91C-15) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "ath-5",
+    "tier": "star",
+    "player": "Shea Langeliers",
+    "card": "1991 Topps Auto (91AU-SL) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ath-6",
+    "tier": "star",
+    "player": "Nick Kurtz",
+    "card": "1991 Topps Auto (91AU-NK) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "ath-7",
+    "tier": "star",
+    "player": "Nick Kurtz",
+    "card": "Real One Golden Mirror Auto (97)",
+    "format": "both"
+   },
+   {
+    "id": "ath-8",
+    "tier": "legend",
+    "player": "Jose Canseco",
+    "card": "Golden Mirror Legend Variation (US299)",
+    "format": "both"
+   },
+   {
+    "id": "ath-9",
+    "tier": "legend",
+    "player": "Jose Canseco",
+    "card": "1991 Topps Chrome Auto (U91C-54) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "ath-10",
+    "tier": "legend",
+    "player": "Rickey Henderson",
+    "card": "1991 Topps Chrome Auto (U91C-71) · SuperFractor 1/1",
+    "format": "hobby"
+   }
+  ],
+  "ATL": [
+   {
+    "id": "atl-1",
+    "tier": "rookie",
+    "player": "JR Ritchie",
+    "card": "1952 Rookie Image Variation (US136)",
+    "format": "both"
+   },
+   {
+    "id": "atl-2",
+    "tier": "star",
+    "player": "Ronald Acuña Jr.",
+    "card": "Flagship Auto Patch (TFAPU-RAJ) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/9-ronald-acuna-jr.jpg"
+   },
+   {
+    "id": "atl-3",
+    "tier": "star",
+    "player": "Ronald Acuña Jr.",
+    "card": "1991 Topps Chrome Auto (U91C-16) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "atl-4",
+    "tier": "star",
+    "player": "Ozzie Albies",
+    "card": "1991 Topps Chrome Auto (U91C-12) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "atl-5",
+    "tier": "star",
+    "player": "Ozzie Albies",
+    "card": "Real One Golden Mirror Auto (568)",
+    "format": "both"
+   },
+   {
+    "id": "atl-6",
+    "tier": "star",
+    "player": "Drake Baldwin",
+    "card": "Real One Golden Mirror Auto (692)",
+    "format": "both"
+   },
+   {
+    "id": "atl-7",
+    "tier": "legend",
+    "player": "Tom Glavine",
+    "card": "1991 Topps Chrome Auto (U91C-75) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "atl-8",
+    "tier": "legend",
+    "player": "Tom Glavine",
+    "card": "Heavy Lumber Auto Relic (HLARU-TG)",
+    "format": "both"
+   },
+   {
+    "id": "atl-9",
+    "tier": "legend",
+    "player": "Greg Maddux",
+    "card": "1991 Topps Chrome Auto (U91C-76) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "atl-10",
+    "tier": "legend",
+    "player": "Greg Maddux",
+    "card": "Heavy Lumber Auto Relic (HLARU-GM)",
+    "format": "both"
+   }
+  ],
+  "BAL": [
+   {
+    "id": "bal-1",
+    "tier": "rookie",
+    "player": "Dylan Beavers",
+    "card": "Baseball Stars Auto (BSA-DYS) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bal-2",
+    "tier": "rookie",
+    "player": "Dylan Beavers",
+    "card": "1991 Topps Auto (91B2-DB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bal-3",
+    "tier": "rookie",
+    "player": "Samuel Basallo",
+    "card": "1991 Topps Auto (91AU-SBA) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/12-samuel-basallo.jpg"
+   },
+   {
+    "id": "bal-4",
+    "tier": "rookie",
+    "player": "Samuel Basallo",
+    "card": "Rising Rookie Relic Auto (RRR-SB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bal-5",
+    "tier": "rookie",
+    "player": "Trey Gibson",
+    "card": "Real One Auto (US36) · FoilFractor 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bal-6",
+    "tier": "star",
+    "player": "Adley Rutschman",
+    "card": "Flagship Auto Patch (TFAP2-ARU) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "bal-7",
+    "tier": "star",
+    "player": "Adley Rutschman",
+    "card": "Real One Golden Mirror Auto (358)",
+    "format": "both"
+   },
+   {
+    "id": "bal-8",
+    "tier": "star",
+    "player": "Gunnar Henderson",
+    "card": "Flagship Auto Patch (TFAP2-GH) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/13-gunnar-henderson.jpg"
+   },
+   {
+    "id": "bal-9",
+    "tier": "star",
+    "player": "Gunnar Henderson",
+    "card": "Real One Golden Mirror Auto (46)",
+    "format": "both"
+   },
+   {
+    "id": "bal-10",
+    "tier": "star",
+    "player": "Pete Alonso",
+    "card": "1991 Topps Auto (91AU-PA) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "BOS": [
+   {
+    "id": "bos-1",
+    "tier": "rookie",
+    "player": "Jake Bennett",
+    "card": "1952 Rookie Image Variation Auto (US302) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bos-2",
+    "tier": "rookie",
+    "player": "Jake Bennett",
+    "card": "1991 Topps Chrome Auto (U91C-100) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "bos-3",
+    "tier": "rookie",
+    "player": "Connelly Early",
+    "card": "Baseball Stars Auto (BSA2-CE) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bos-4",
+    "tier": "rookie",
+    "player": "Tyler Uberstine",
+    "card": "Baseball Stars Auto (BSAU-TU) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bos-5",
+    "tier": "star",
+    "player": "Roman Anthony",
+    "card": "1991 Topps Chrome Auto (U91C-27) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "bos-6",
+    "tier": "star",
+    "player": "Roman Anthony",
+    "card": "1991 Topps Auto (91AU-RAN) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bos-7",
+    "tier": "star",
+    "player": "Ceddanne Rafaela",
+    "card": "Flagship Auto Patch (TFAP2-CRA) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "bos-8",
+    "tier": "star",
+    "player": "Payton Tolle",
+    "card": "1991 Topps Auto (91B2-PT) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "bos-9",
+    "tier": "legend",
+    "player": "Dustin Pedroia",
+    "card": "Golden Mirror Legend Variation (US87)",
+    "format": "both"
+   },
+   {
+    "id": "bos-10",
+    "tier": "legend",
+    "player": "Jason Varitek",
+    "card": "Golden Mirror Legend Variation (US110)",
+    "format": "both"
+   }
+  ],
+  "CHC": [
+   {
+    "id": "chc-1",
+    "tier": "star",
+    "player": "Alex Bregman",
+    "card": "1991 Topps Chrome Auto (U91C-19) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "chc-2",
+    "tier": "star",
+    "player": "Alex Bregman",
+    "card": "1991 Topps Auto (91AU-AB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "chc-3",
+    "tier": "star",
+    "player": "Alex Bregman",
+    "card": "Heavy Lumber Auto Relic (HLARU-AB)",
+    "format": "both"
+   },
+   {
+    "id": "chc-4",
+    "tier": "star",
+    "player": "Nico Hoerner",
+    "card": "1991 Topps Chrome Auto (U91C-55) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "chc-5",
+    "tier": "star",
+    "player": "Nico Hoerner",
+    "card": "Real One Golden Mirror Auto (5)",
+    "format": "both"
+   },
+   {
+    "id": "chc-6",
+    "tier": "star",
+    "player": "Nico Hoerner",
+    "card": "Heavy Lumber Auto Relic (HL2-NH)",
+    "format": "both"
+   },
+   {
+    "id": "chc-7",
+    "tier": "star",
+    "player": "Pete Crow-Armstrong",
+    "card": "Cover Athletes Auto (COVR-PCA) · /99",
+    "format": "both"
+   },
+   {
+    "id": "chc-8",
+    "tier": "star",
+    "player": "Pete Crow-Armstrong",
+    "card": "Real One Golden Mirror Auto (196)",
+    "format": "both"
+   },
+   {
+    "id": "chc-9",
+    "tier": "legend",
+    "player": "Ron Santo",
+    "card": "Golden Mirror Legend Variation (US25)",
+    "format": "both"
+   },
+   {
+    "id": "chc-10",
+    "tier": "legend",
+    "player": "Andre Dawson",
+    "card": "Golden Mirror Legend Variation (US222)",
+    "format": "both"
+   }
+  ],
+  "CIN": [
+   {
+    "id": "cin-1",
+    "tier": "rookie",
+    "player": "Jose Franco",
+    "card": "Baseball Stars Auto (BSAU-JF) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cin-2",
+    "tier": "rookie",
+    "player": "Jose Franco",
+    "card": "Real One Auto (US79) · FoilFractor 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cin-3",
+    "tier": "star",
+    "player": "Chase Burns",
+    "card": "1991 Topps Chrome Auto (U91C-26) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cin-4",
+    "tier": "star",
+    "player": "Chase Burns",
+    "card": "1991 Topps Auto (91AU-CBU) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cin-5",
+    "tier": "star",
+    "player": "Elly De La Cruz",
+    "card": "75 Years of Topps Die-Cut Auto (75YA-ED) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cin-6",
+    "tier": "star",
+    "player": "Elly De La Cruz",
+    "card": "Real One Golden Mirror Auto (150)",
+    "format": "both"
+   },
+   {
+    "id": "cin-7",
+    "tier": "star",
+    "player": "Sal Stewart",
+    "card": "1991 Topps Auto (91AU-SS) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/24-sal-stewart.jpg"
+   },
+   {
+    "id": "cin-8",
+    "tier": "legend",
+    "player": "Ken Griffey Jr.",
+    "card": "Golden Mirror Legend Variation (US179)",
+    "format": "both"
+   },
+   {
+    "id": "cin-9",
+    "tier": "legend",
+    "player": "Ken Griffey Jr.",
+    "card": "Heavy Lumber Auto Relic (HL2-KG)",
+    "format": "both"
+   },
+   {
+    "id": "cin-10",
+    "tier": "legend",
+    "player": "Joey Votto",
+    "card": "Golden Mirror Legend Variation (US97)",
+    "format": "both"
+   }
+  ],
+  "CLE": [
+   {
+    "id": "cle-1",
+    "tier": "rookie",
+    "player": "Travis Bazzana",
+    "card": "1952 Rookie Image Variation Auto (US75) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-2",
+    "tier": "rookie",
+    "player": "Travis Bazzana",
+    "card": "1991 Topps Chrome Auto (U91C-6) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cle-3",
+    "tier": "rookie",
+    "player": "Juan Brito",
+    "card": "1952 Rookie Image Variation Auto (US274) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-4",
+    "tier": "rookie",
+    "player": "Juan Brito",
+    "card": "1991 Topps Chrome Auto (U91C-93) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cle-5",
+    "tier": "rookie",
+    "player": "Chase DeLauter",
+    "card": "1991 Topps Chrome Auto (U91C-23) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cle-6",
+    "tier": "rookie",
+    "player": "Chase DeLauter",
+    "card": "Baseball Stars Auto (BSA-CDE) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-7",
+    "tier": "star",
+    "player": "Parker Messick",
+    "card": "1991 Topps Auto (91B2-PM) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-8",
+    "tier": "star",
+    "player": "Parker Messick",
+    "card": "All-Star Stitches Auto (AS-PM) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-9",
+    "tier": "star",
+    "player": "Cade Smith",
+    "card": "All-Star Stitches Auto (AS-CSM) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cle-10",
+    "tier": "legend",
+    "player": "Manny Ramirez",
+    "card": "Golden Mirror Legend Variation (US113)",
+    "format": "both"
+   }
+  ],
+  "COL": [
+   {
+    "id": "col-1",
+    "tier": "rookie",
+    "player": "TJ Rumfield",
+    "card": "1952 Rookie Image Variation Auto (US157) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "col-2",
+    "tier": "rookie",
+    "player": "TJ Rumfield",
+    "card": "1991 Topps Chrome Auto (U91C-4) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "col-3",
+    "tier": "rookie",
+    "player": "TJ Rumfield",
+    "card": "Baseball Stars Auto (BSAU-TR) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/30-tj-rumfield.jpg"
+   },
+   {
+    "id": "col-4",
+    "tier": "rookie",
+    "player": "Troy Johnston",
+    "card": "Real One Auto (US114) · FoilFractor 1/1",
+    "format": "both"
+   }
+  ],
+  "CWS": [
+   {
+    "id": "cws-1",
+    "tier": "rookie",
+    "player": "Noah Schultz",
+    "card": "1952 Rookie Image Variation Auto (US105) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cws-2",
+    "tier": "rookie",
+    "player": "Noah Schultz",
+    "card": "1991 Topps Chrome Auto (U91C-7) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cws-3",
+    "tier": "rookie",
+    "player": "Sam Antonacci",
+    "card": "1952 Rookie Image Variation Auto (US301) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cws-4",
+    "tier": "rookie",
+    "player": "Munetaka Murakami",
+    "card": "1991 Topps Chrome Auto (U91C-21) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "cws-5",
+    "tier": "star",
+    "player": "Colson Montgomery",
+    "card": "Flagship Auto Patch (TFAP2-CM) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/21-colson-montgomery.jpg"
+   },
+   {
+    "id": "cws-6",
+    "tier": "star",
+    "player": "Colson Montgomery",
+    "card": "1991 Topps Auto (91B2-CM) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cws-7",
+    "tier": "star",
+    "player": "Colson Montgomery",
+    "card": "Real One Golden Mirror Auto (157)",
+    "format": "both"
+   },
+   {
+    "id": "cws-8",
+    "tier": "star",
+    "player": "Luisangel Acuña",
+    "card": "1991 Topps Auto (91AU-LA) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "cws-9",
+    "tier": "legend",
+    "player": "Carlton Fisk",
+    "card": "Heavy Lumber Auto Relic (HL2-CF)",
+    "format": "both"
+   },
+   {
+    "id": "cws-10",
+    "tier": "legend",
+    "player": "Paul Konerko",
+    "card": "Heavy Lumber Auto Relic (HL2-PK)",
+    "format": "both"
+   }
+  ],
+  "DET": [
+   {
+    "id": "det-1",
+    "tier": "rookie",
+    "player": "Kevin McGonigle",
+    "card": "1952 Rookie Image Variation Auto (US7) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "det-2",
+    "tier": "rookie",
+    "player": "Kevin McGonigle",
+    "card": "1991 Topps Chrome Auto (U91C-3) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "det-3",
+    "tier": "rookie",
+    "player": "Hao-Yu Lee",
+    "card": "1952 Rookie Image Variation Auto (US111) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "det-4",
+    "tier": "rookie",
+    "player": "Hao-Yu Lee",
+    "card": "1991 Topps Chrome Auto (U91C-28) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "det-5",
+    "tier": "star",
+    "player": "Riley Greene",
+    "card": "1991 Topps Auto (91A-RG) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "det-6",
+    "tier": "star",
+    "player": "Riley Greene",
+    "card": "Real One Golden Mirror Auto (209)",
+    "format": "both"
+   },
+   {
+    "id": "det-7",
+    "tier": "star",
+    "player": "Dillon Dingler",
+    "card": "All-Star Stitches Auto (AS-DD) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "det-8",
+    "tier": "legend",
+    "player": "Alan Trammell",
+    "card": "Golden Mirror Legend Variation (US7)",
+    "format": "both"
+   },
+   {
+    "id": "det-9",
+    "tier": "legend",
+    "player": "Alan Trammell",
+    "card": "Heavy Lumber Auto Relic (HL2-AT)",
+    "format": "both"
+   },
+   {
+    "id": "det-10",
+    "tier": "legend",
+    "player": "Cecil Fielder",
+    "card": "Golden Mirror Legend Variation (US258)",
+    "format": "both"
+   }
+  ],
+  "HOU": [
+   {
+    "id": "hou-1",
+    "tier": "star",
+    "player": "Tatsuya Imai",
+    "card": "1991 Topps Chrome Auto (U91C-30) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "hou-2",
+    "tier": "star",
+    "player": "Jose Altuve",
+    "card": "Flagship Auto Patch (TFAP2-JA) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "hou-3",
+    "tier": "legend",
+    "player": "Nolan Ryan",
+    "card": "Golden Mirror Legend Variation (US137)",
+    "format": "both"
+   },
+   {
+    "id": "hou-4",
+    "tier": "legend",
+    "player": "Nolan Ryan",
+    "card": "1991 Topps Auto (91A-NRN) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "hou-5",
+    "tier": "legend",
+    "player": "Billy Wagner",
+    "card": "1991 Topps Auto (91B2-BW) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "KC": [
+   {
+    "id": "kc-1",
+    "tier": "rookie",
+    "player": "Carter Jensen",
+    "card": "1991 Topps Chrome Auto (U91C-48) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "kc-2",
+    "tier": "rookie",
+    "player": "Carter Jensen",
+    "card": "Baseball Stars Auto (BSA-CJ) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "kc-3",
+    "tier": "rookie",
+    "player": "Carter Jensen",
+    "card": "1991 Topps Auto (91B2-CJ) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/39-carter-jensen.jpg"
+   },
+   {
+    "id": "kc-4",
+    "tier": "rookie",
+    "player": "Jac Caglianone",
+    "card": "Flagship Auto Patch (TFAPU-JC) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "kc-5",
+    "tier": "rookie",
+    "player": "Jac Caglianone",
+    "card": "1991 Topps Auto (91AU-CAG) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "kc-6",
+    "tier": "star",
+    "player": "Bobby Witt Jr.",
+    "card": "Flagship Auto Patch (TFAPU-BW) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "kc-7",
+    "tier": "star",
+    "player": "Bobby Witt Jr.",
+    "card": "1991 Topps Chrome Auto (U91C-49) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "kc-8",
+    "tier": "star",
+    "player": "Vinnie Pasquantino",
+    "card": "1991 Topps Chrome Auto (U91C-81) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "kc-9",
+    "tier": "star",
+    "player": "Vinnie Pasquantino",
+    "card": "Real One Golden Mirror Auto (223)",
+    "format": "both"
+   },
+   {
+    "id": "kc-10",
+    "tier": "legend",
+    "player": "George Brett",
+    "card": "Heavy Lumber Auto Relic (HLARU-GB)",
+    "format": "both"
+   }
+  ],
+  "LAA": [
+   {
+    "id": "laa-1",
+    "tier": "rookie",
+    "player": "Walbert Ureña",
+    "card": "1952 Rookie Image Variation Auto (US16) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "laa-2",
+    "tier": "rookie",
+    "player": "Walbert Ureña",
+    "card": "1991 Topps Chrome Auto (U91C-99) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "laa-3",
+    "tier": "rookie",
+    "player": "George Klassen",
+    "card": "1952 Rookie Image Variation Auto (US195) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "laa-4",
+    "tier": "rookie",
+    "player": "George Klassen",
+    "card": "1991 Topps Chrome Auto (U91C-8) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "laa-5",
+    "tier": "star",
+    "player": "Mike Trout",
+    "card": "Flagship Auto Patch (TFAPU-MT) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/1-mike-trout.jpg"
+   },
+   {
+    "id": "laa-6",
+    "tier": "star",
+    "player": "Mike Trout",
+    "card": "1991 Topps Chrome Auto (U91C-9) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "laa-7",
+    "tier": "star",
+    "player": "José Soriano",
+    "card": "1991 Topps Chrome Auto (U91C-10) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "laa-8",
+    "tier": "star",
+    "player": "Christian Moore",
+    "card": "Real One Golden Mirror Auto (147)",
+    "format": "both"
+   },
+   {
+    "id": "laa-9",
+    "tier": "legend",
+    "player": "Nolan Ryan",
+    "card": "1991 Topps Auto (91A-NRY) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "laa-10",
+    "tier": "legend",
+    "player": "Reggie Jackson",
+    "card": "Golden Mirror Legend Variation (US181)",
+    "format": "both"
+   }
+  ],
+  "LAD": [
+   {
+    "id": "lad-1",
+    "tier": "rookie",
+    "player": "Ryan Ward",
+    "card": "1991 Topps Chrome Auto (U91C-31) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "lad-2",
+    "tier": "rookie",
+    "player": "Ryan Ward",
+    "card": "Baseball Stars Auto (BSAU-RW) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "lad-3",
+    "tier": "rookie",
+    "player": "Alex Freeland",
+    "card": "1991 Topps Auto (91B2-AF) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/41-alex-freeland.jpg"
+   },
+   {
+    "id": "lad-4",
+    "tier": "rookie",
+    "player": "Alex Freeland",
+    "card": "Rising Rookie Relic Auto (RRR-AF) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "lad-5",
+    "tier": "star",
+    "player": "Yoshinobu Yamamoto",
+    "card": "1991 Topps Chrome Auto (U91C-58) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "lad-6",
+    "tier": "star",
+    "player": "Yoshinobu Yamamoto",
+    "card": "1991 Topps Auto (91AU-YY) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "lad-7",
+    "tier": "star",
+    "player": "Freddie Freeman",
+    "card": "1991 Topps Chrome Auto (U91C-57) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "lad-8",
+    "tier": "star",
+    "player": "Mookie Betts",
+    "card": "75 Years of Topps Die-Cut Auto (75YA-MB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "lad-9",
+    "tier": "legend",
+    "player": "Sandy Koufax",
+    "card": "Golden Mirror Legend Variation (US244)",
+    "format": "both"
+   },
+   {
+    "id": "lad-10",
+    "tier": "legend",
+    "player": "Adrian Beltré",
+    "card": "Golden Mirror Legend Variation (US95)",
+    "format": "both"
+   }
+  ],
+  "MIA": [
+   {
+    "id": "mia-1",
+    "tier": "rookie",
+    "player": "Deyvison De Los Santos",
+    "card": "1952 Rookie Image Variation Auto (US265) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mia-2",
+    "tier": "rookie",
+    "player": "Deyvison De Los Santos",
+    "card": "1991 Topps Chrome Auto (U91C-34) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mia-3",
+    "tier": "rookie",
+    "player": "Deyvison De Los Santos",
+    "card": "Baseball Stars Auto (BSAU-DD) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mia-4",
+    "tier": "rookie",
+    "player": "Joe Mack",
+    "card": "1952 Rookie Image Variation Auto (US106) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mia-5",
+    "tier": "rookie",
+    "player": "Joe Mack",
+    "card": "1991 Topps Chrome Auto (U91C-40) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mia-6",
+    "tier": "rookie",
+    "player": "Owen Caissie",
+    "card": "1991 Topps Chrome Auto (U91C-33) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mia-7",
+    "tier": "rookie",
+    "player": "Owen Caissie",
+    "card": "1991 Topps Auto (91AU-OC) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/44-owen-caissie.jpg"
+   },
+   {
+    "id": "mia-8",
+    "tier": "star",
+    "player": "Max Meyer",
+    "card": "All-Star Stitches Auto (AS-MME) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mia-9",
+    "tier": "legend",
+    "player": "Ivan Rodriguez",
+    "card": "Heavy Lumber Auto Relic (HL2-IRO)",
+    "format": "both"
+   },
+   {
+    "id": "mia-10",
+    "tier": "legend",
+    "player": "Miguel Cabrera",
+    "card": "Heavy Lumber Auto Relic (HL2-MC)",
+    "format": "both"
+   }
+  ],
+  "MIL": [
+   {
+    "id": "mil-1",
+    "tier": "rookie",
+    "player": "Jeferson Quero",
+    "card": "1952 Rookie Image Variation Auto (US317) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mil-2",
+    "tier": "rookie",
+    "player": "Jeferson Quero",
+    "card": "1991 Topps Chrome Auto (U91C-35) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mil-3",
+    "tier": "rookie",
+    "player": "Jacob Misiorowski",
+    "card": "Flagship Auto Patch (TFAPU-MIZ) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mil-4",
+    "tier": "rookie",
+    "player": "Jacob Misiorowski",
+    "card": "Rising Rookie Relic Auto (RRR-MIZ) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mil-5",
+    "tier": "star",
+    "player": "William Contreras",
+    "card": "Flagship Auto Patch (TFAP2-WC) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mil-6",
+    "tier": "star",
+    "player": "William Contreras",
+    "card": "1991 Topps Auto (91A-WILL) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "mil-7",
+    "tier": "star",
+    "player": "Jackson Chourio",
+    "card": "Flagship Auto Patch (TFAPU-JCO) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mil-8",
+    "tier": "star",
+    "player": "Brice Turang",
+    "card": "1991 Topps Chrome Auto (U91C-82) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "mil-9",
+    "tier": "legend",
+    "player": "Prince Fielder",
+    "card": "Heavy Lumber Auto Relic (HL2-PF)",
+    "format": "both"
+   },
+   {
+    "id": "mil-10",
+    "tier": "legend",
+    "player": "Robin Yount",
+    "card": "Heavy Lumber Auto Relic (HLARU-RY)",
+    "format": "both"
+   }
+  ],
+  "MIN": [
+   {
+    "id": "min-1",
+    "tier": "rookie",
+    "player": "Connor Prielipp",
+    "card": "1952 Rookie Image Variation Auto (US21) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "min-2",
+    "tier": "rookie",
+    "player": "Connor Prielipp",
+    "card": "1991 Topps Chrome Auto (U91C-32) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "min-3",
+    "tier": "rookie",
+    "player": "Connor Prielipp",
+    "card": "Baseball Stars Auto (BSAU-CP) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/50-connor-prielipp.jpg"
+   },
+   {
+    "id": "min-4",
+    "tier": "rookie",
+    "player": "Kendry Rojas",
+    "card": "1991 Topps Chrome Auto (U91C-95) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "min-5",
+    "tier": "rookie",
+    "player": "Kendry Rojas",
+    "card": "Baseball Stars Auto (BSAU-KR) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "min-6",
+    "tier": "star",
+    "player": "Byron Buxton",
+    "card": "Flagship Auto Patch (TFAP2-BB) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/51-byron-buxton.jpg"
+   },
+   {
+    "id": "min-7",
+    "tier": "star",
+    "player": "Byron Buxton",
+    "card": "Real One Golden Mirror Auto (255)",
+    "format": "both"
+   },
+   {
+    "id": "min-8",
+    "tier": "star",
+    "player": "Byron Buxton",
+    "card": "All-Star Stitches Auto (AS-BB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "min-9",
+    "tier": "legend",
+    "player": "Joe Mauer",
+    "card": "Golden Mirror Legend Variation (US160)",
+    "format": "both"
+   },
+   {
+    "id": "min-10",
+    "tier": "legend",
+    "player": "Justin Morneau",
+    "card": "Heavy Lumber Auto Relic (HL2-JMO)",
+    "format": "both"
+   }
+  ],
+  "NYM": [
+   {
+    "id": "nym-1",
+    "tier": "rookie",
+    "player": "Carson Benge",
+    "card": "1952 Rookie Image Variation Auto (US3) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nym-2",
+    "tier": "rookie",
+    "player": "Carson Benge",
+    "card": "1991 Topps Chrome Auto (U91C-5) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nym-3",
+    "tier": "rookie",
+    "player": "Nolan McLean",
+    "card": "Baseball Stars Auto (BSA-NMC) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nym-4",
+    "tier": "rookie",
+    "player": "Jonah Tong",
+    "card": "1991 Topps Auto (91AU-JT) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nym-5",
+    "tier": "star",
+    "player": "Francisco Lindor",
+    "card": "Flagship Auto Patch (TFAP-FLI) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nym-6",
+    "tier": "star",
+    "player": "Francisco Lindor",
+    "card": "75 Years of Topps Die-Cut Auto (75YA-FL) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nym-7",
+    "tier": "star",
+    "player": "Juan Soto",
+    "card": "Flagship Auto Patch (TFAP2-JS) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nym-8",
+    "tier": "star",
+    "player": "Freddy Peralta",
+    "card": "1991 Topps Chrome Auto (U91C-83) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nym-9",
+    "tier": "legend",
+    "player": "David Wright",
+    "card": "Golden Mirror Legend Variation (US3)",
+    "format": "both"
+   },
+   {
+    "id": "nym-10",
+    "tier": "legend",
+    "player": "Nolan Ryan",
+    "card": "Golden Mirror Legend Variation (US10)",
+    "format": "both"
+   }
+  ],
+  "NYY": [
+   {
+    "id": "nyy-1",
+    "tier": "rookie",
+    "player": "Elmer Rodríguez",
+    "card": "1952 Rookie Image Variation Auto (US215) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nyy-2",
+    "tier": "rookie",
+    "player": "Elmer Rodríguez",
+    "card": "1991 Topps Chrome Auto (U91C-42) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nyy-3",
+    "tier": "rookie",
+    "player": "Cam Schlittler",
+    "card": "1991 Topps Auto (91AU-CS) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nyy-4",
+    "tier": "rookie",
+    "player": "Yanquiel Fernández",
+    "card": "Real One Auto (US53) · FoilFractor 1/1",
+    "format": "both"
+   },
+   {
+    "id": "nyy-5",
+    "tier": "star",
+    "player": "Aaron Judge",
+    "card": "1991 Topps Chrome Auto (U91C-50) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nyy-6",
+    "tier": "star",
+    "player": "Aaron Judge",
+    "card": "Cover Athletes Auto (COVR-AJ) · /99",
+    "format": "both"
+   },
+   {
+    "id": "nyy-7",
+    "tier": "star",
+    "player": "Max Fried",
+    "card": "1991 Topps Chrome Auto (U91C-65) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nyy-8",
+    "tier": "star",
+    "player": "Cody Bellinger",
+    "card": "1991 Topps Chrome Auto (U91C-87) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "nyy-9",
+    "tier": "legend",
+    "player": "Ichiro",
+    "card": "Golden Mirror Legend Variation (US253)",
+    "format": "both"
+   },
+   {
+    "id": "nyy-10",
+    "tier": "legend",
+    "player": "Thurman Munson",
+    "card": "Golden Mirror Legend Variation (US5)",
+    "format": "both"
+   }
+  ],
+  "PHI": [
+   {
+    "id": "phi-1",
+    "tier": "rookie",
+    "player": "Justin Crawford",
+    "card": "1952 Rookie Image Variation Auto (US2) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "phi-2",
+    "tier": "rookie",
+    "player": "Justin Crawford",
+    "card": "1991 Topps Chrome Auto (U91C-36) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "phi-3",
+    "tier": "rookie",
+    "player": "Andrew Painter",
+    "card": "1952 Rookie Image Variation Auto (US63) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "phi-4",
+    "tier": "rookie",
+    "player": "Felix Reyes",
+    "card": "1991 Topps Chrome Auto (U91C-94) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "phi-5",
+    "tier": "star",
+    "player": "Kyle Schwarber",
+    "card": "1991 Topps Auto (91A-KS) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "phi-6",
+    "tier": "star",
+    "player": "Kyle Schwarber",
+    "card": "Real One Golden Mirror Auto (650)",
+    "format": "both"
+   },
+   {
+    "id": "phi-7",
+    "tier": "star",
+    "player": "Adolis García",
+    "card": "1991 Topps Auto (91AU-AG) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "phi-8",
+    "tier": "star",
+    "player": "Bryce Harper",
+    "card": "Cover Athletes Auto (COVR-BH) · /99",
+    "format": "both"
+   },
+   {
+    "id": "phi-9",
+    "tier": "legend",
+    "player": "Jimmy Rollins",
+    "card": "Golden Mirror Legend Variation (US2)",
+    "format": "both"
+   },
+   {
+    "id": "phi-10",
+    "tier": "legend",
+    "player": "Jim Thome",
+    "card": "Golden Mirror Legend Variation (US12)",
+    "format": "both"
+   }
+  ],
+  "PIT": [
+   {
+    "id": "pit-1",
+    "tier": "rookie",
+    "player": "Konnor Griffin",
+    "card": "1952 Rookie Image Variation Auto (US1) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "pit-2",
+    "tier": "rookie",
+    "player": "Konnor Griffin",
+    "card": "1991 Topps Chrome Auto (U91C-1) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "pit-3",
+    "tier": "rookie",
+    "player": "Bubba Chandler",
+    "card": "1991 Topps Chrome Auto (U91C-63) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "pit-4",
+    "tier": "rookie",
+    "player": "Bubba Chandler",
+    "card": "1991 Topps Auto (91AU-BC) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/63-bubba-chandler.jpg"
+   },
+   {
+    "id": "pit-5",
+    "tier": "rookie",
+    "player": "Jhostynxon Garcia",
+    "card": "1991 Topps Auto (91AU-JG) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "pit-6",
+    "tier": "star",
+    "player": "Paul Skenes",
+    "card": "1991 Topps Chrome Auto (U91C-62) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "pit-7",
+    "tier": "star",
+    "player": "Paul Skenes",
+    "card": "Real One Golden Mirror Auto (100)",
+    "format": "both"
+   },
+   {
+    "id": "pit-8",
+    "tier": "star",
+    "player": "Paul Skenes",
+    "card": "All-Star Stitches Auto (AS-PS) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "pit-9",
+    "tier": "star",
+    "player": "Braxton Ashcraft",
+    "card": "All-Star Stitches Auto (AS-BA) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "pit-10",
+    "tier": "legend",
+    "player": "Barry Bonds",
+    "card": "1991 Topps Chrome Auto (U91C-24) · SuperFractor 1/1",
+    "format": "hobby"
+   }
+  ],
+  "SD": [
+   {
+    "id": "sd-1",
+    "tier": "rookie",
+    "player": "Sung-Mun Song",
+    "card": "1952 Rookie Image Variation Auto (US340) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sd-2",
+    "tier": "rookie",
+    "player": "Sung-Mun Song",
+    "card": "1991 Topps Chrome Auto (U91C-45) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sd-3",
+    "tier": "rookie",
+    "player": "Sung-Mun Song",
+    "card": "1952 Rookie Image Variation (US340)",
+    "format": "both"
+   },
+   {
+    "id": "sd-4",
+    "tier": "star",
+    "player": "Fernando Tatis Jr.",
+    "card": "Flagship Auto Patch (TFAPU-FT) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/66-fernando-tatis-jr.jpg"
+   },
+   {
+    "id": "sd-5",
+    "tier": "star",
+    "player": "Fernando Tatis Jr.",
+    "card": "Real One Golden Mirror Auto (333)",
+    "format": "both"
+   },
+   {
+    "id": "sd-6",
+    "tier": "star",
+    "player": "Fernando Tatis Jr.",
+    "card": "Heavy Lumber Auto Relic (HLARU-FT)",
+    "format": "both"
+   },
+   {
+    "id": "sd-7",
+    "tier": "star",
+    "player": "Manny Machado",
+    "card": "Flagship Auto Patch (TFAP2-MM) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sd-8",
+    "tier": "star",
+    "player": "Manny Machado",
+    "card": "Real One Golden Mirror Auto (614)",
+    "format": "both"
+   },
+   {
+    "id": "sd-9",
+    "tier": "star",
+    "player": "Mason Miller",
+    "card": "1991 Topps Chrome Auto (U91C-66) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sd-10",
+    "tier": "star",
+    "player": "Mason Miller",
+    "card": "All-Star Stitches Auto (AS-MMI) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "SEA": [
+   {
+    "id": "sea-1",
+    "tier": "rookie",
+    "player": "Cole Young",
+    "card": "Baseball Stars Auto (BSA2-CY) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/71-cole-young.jpg"
+   },
+   {
+    "id": "sea-2",
+    "tier": "rookie",
+    "player": "Cole Young",
+    "card": "Rising Rookie Relic Auto (RRR-CY) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sea-3",
+    "tier": "star",
+    "player": "Randy Arozarena",
+    "card": "Flagship Auto Patch (TFAP2-RA) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sea-4",
+    "tier": "star",
+    "player": "Randy Arozarena",
+    "card": "1991 Topps Chrome Auto (U91C-90) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sea-5",
+    "tier": "star",
+    "player": "Randy Arozarena",
+    "card": "Real One Golden Mirror Auto (431)",
+    "format": "both"
+   },
+   {
+    "id": "sea-6",
+    "tier": "star",
+    "player": "Bryan Woo",
+    "card": "Flagship Auto Patch (TFAP2-BW) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sea-7",
+    "tier": "star",
+    "player": "Bryan Woo",
+    "card": "1991 Topps Chrome Auto (U91C-89) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sea-8",
+    "tier": "star",
+    "player": "Cal Raleigh",
+    "card": "Flagship Auto Patch (TFAP2-CR) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/72-cal-raleigh.jpg"
+   },
+   {
+    "id": "sea-9",
+    "tier": "star",
+    "player": "Cal Raleigh",
+    "card": "Real One Golden Mirror Auto (140)",
+    "format": "both"
+   },
+   {
+    "id": "sea-10",
+    "tier": "legend",
+    "player": "Alex Rodriguez",
+    "card": "Heavy Lumber Auto Relic (HL2-AR)",
+    "format": "both"
+   }
+  ],
+  "SF": [
+   {
+    "id": "sf-1",
+    "tier": "rookie",
+    "player": "Drew Gilbert",
+    "card": "Flagship Auto Patch (TFAP2-DG) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sf-2",
+    "tier": "rookie",
+    "player": "Drew Gilbert",
+    "card": "1991 Topps Auto (91B2-DG) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sf-3",
+    "tier": "rookie",
+    "player": "Daniel Susac",
+    "card": "1952 Rookie Image Variation Auto (US88) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sf-4",
+    "tier": "rookie",
+    "player": "Daniel Susac",
+    "card": "1952 Rookie Image Variation (US88)",
+    "format": "both"
+   },
+   {
+    "id": "sf-5",
+    "tier": "rookie",
+    "player": "Bryce Eldridge",
+    "card": "1991 Topps Chrome Auto (U91C-67) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "sf-6",
+    "tier": "rookie",
+    "player": "Bryce Eldridge",
+    "card": "Baseball Stars Auto (BSA2-BE) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/68-bryce-eldridge.jpg"
+   },
+   {
+    "id": "sf-7",
+    "tier": "star",
+    "player": "Luis Arraez",
+    "card": "All-Star Stitches Auto (AS-LA) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sf-8",
+    "tier": "star",
+    "player": "Logan Webb",
+    "card": "All-Star Stitches Auto (AS-LW) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "sf-9",
+    "tier": "legend",
+    "player": "Willie McCovey",
+    "card": "Golden Mirror Legend Variation (US164)",
+    "format": "both"
+   },
+   {
+    "id": "sf-10",
+    "tier": "legend",
+    "player": "Jeff Kent",
+    "card": "1991 Topps Auto (91AU-JK) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "STL": [
+   {
+    "id": "stl-1",
+    "tier": "rookie",
+    "player": "JJ Wetherholt",
+    "card": "1952 Rookie Image Variation Auto (US50) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "stl-2",
+    "tier": "rookie",
+    "player": "JJ Wetherholt",
+    "card": "1991 Topps Chrome Auto (U91C-2) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "stl-3",
+    "tier": "rookie",
+    "player": "JJ Wetherholt",
+    "card": "Baseball Stars Auto (BSAU-JW) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "stl-4",
+    "tier": "star",
+    "player": "Jordan Walker",
+    "card": "1991 Topps Chrome Auto (U91C-47) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "stl-5",
+    "tier": "star",
+    "player": "Jordan Walker",
+    "card": "All-Star Stitches Auto (AS-JW) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "stl-6",
+    "tier": "legend",
+    "player": "Yadier Molina",
+    "card": "Golden Mirror Legend Variation (US348)",
+    "format": "both"
+   },
+   {
+    "id": "stl-7",
+    "tier": "legend",
+    "player": "Yadier Molina",
+    "card": "1991 Topps Chrome Auto (U91C-91) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "stl-8",
+    "tier": "legend",
+    "player": "Dizzy Dean",
+    "card": "Golden Mirror Legend Variation (US31)",
+    "format": "both"
+   }
+  ],
+  "TB": [
+   {
+    "id": "tb-1",
+    "tier": "rookie",
+    "player": "Jacob Melton",
+    "card": "1991 Topps Chrome Auto (U91C-38) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "tb-2",
+    "tier": "rookie",
+    "player": "Jacob Melton",
+    "card": "1991 Topps Auto (91AU-JME) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/77-jacob-melton.jpg"
+   },
+   {
+    "id": "tb-3",
+    "tier": "rookie",
+    "player": "Jacob Melton",
+    "card": "Real One Auto (US156) · FoilFractor 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tb-4",
+    "tier": "rookie",
+    "player": "Carson Williams",
+    "card": "1991 Topps Auto (91B2-CWI) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tb-5",
+    "tier": "rookie",
+    "player": "Carson Williams",
+    "card": "Rising Rookie Relic Auto (RRR-CW) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/78-carson-williams.jpg"
+   },
+   {
+    "id": "tb-6",
+    "tier": "star",
+    "player": "Jonathan Aranda",
+    "card": "1991 Topps Chrome Auto (U91C-74) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "tb-7",
+    "tier": "star",
+    "player": "Junior Caminero",
+    "card": "All-Star Stitches Auto (AS-JC) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tb-8",
+    "tier": "star",
+    "player": "Junior Caminero",
+    "card": "Heavy Lumber Auto Relic (HLARU-JCA)",
+    "format": "both"
+   }
+  ],
+  "TEX": [
+   {
+    "id": "tex-1",
+    "tier": "star",
+    "player": "Wyatt Langford",
+    "card": "Flagship Auto Patch (TFAPU-WL) · /50 · Platinum 1/1",
+    "format": "hobby",
+    "img": "img/2026-topps-update/80-wyatt-langford.jpg"
+   },
+   {
+    "id": "tex-2",
+    "tier": "star",
+    "player": "Wyatt Langford",
+    "card": "Real One Golden Mirror Auto (383)",
+    "format": "both"
+   },
+   {
+    "id": "tex-3",
+    "tier": "star",
+    "player": "Andrew McCutchen",
+    "card": "1991 Topps Chrome Auto (U91C-44) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "tex-4",
+    "tier": "legend",
+    "player": "Adrian Beltré",
+    "card": "1991 Topps Auto (91A-AB) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tex-5",
+    "tier": "legend",
+    "player": "Adrian Beltré",
+    "card": "Heavy Lumber Auto Relic (HL2-AB)",
+    "format": "both"
+   },
+   {
+    "id": "tex-6",
+    "tier": "legend",
+    "player": "Ivan Rodriguez",
+    "card": "Heavy Lumber Auto Relic (HL2-IR)",
+    "format": "both"
+   }
+  ],
+  "TOR": [
+   {
+    "id": "tor-1",
+    "tier": "rookie",
+    "player": "Brandon Valenzuela",
+    "card": "1952 Rookie Image Variation Auto (US46) · /10 · Black w/ Gold Ink 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tor-2",
+    "tier": "rookie",
+    "player": "Brandon Valenzuela",
+    "card": "Baseball Stars Auto (BSAU-BV) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tor-3",
+    "tier": "rookie",
+    "player": "Trey Yesavage",
+    "card": "1991 Topps Chrome Auto (U91C-46) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "tor-4",
+    "tier": "rookie",
+    "player": "Trey Yesavage",
+    "card": "Baseball Stars Auto (BSA2-TY) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/82-trey-yesavage.jpg"
+   },
+   {
+    "id": "tor-5",
+    "tier": "rookie",
+    "player": "Kazuma Okamoto",
+    "card": "1991 Topps Chrome Auto (U91C-39) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "tor-6",
+    "tier": "rookie",
+    "player": "Kazuma Okamoto",
+    "card": "Baseball Stars Auto (BSAU-KO) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tor-7",
+    "tier": "star",
+    "player": "George Springer",
+    "card": "Real One Golden Mirror Auto (455)",
+    "format": "both"
+   },
+   {
+    "id": "tor-8",
+    "tier": "star",
+    "player": "Dylan Cease",
+    "card": "1991 Topps Auto (91AU-DC) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tor-9",
+    "tier": "star",
+    "player": "Dylan Cease",
+    "card": "All-Star Stitches Auto (AS-DC) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "tor-10",
+    "tier": "star",
+    "player": "Ernie Clement",
+    "card": "All-Star Stitches Auto (AS-EC) · Platinum 1/1",
+    "format": "both"
+   }
+  ],
+  "WSH": [
+   {
+    "id": "wsh-1",
+    "tier": "rookie",
+    "player": "Brady House",
+    "card": "Flagship Auto Patch (TFAPU-BH) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "wsh-2",
+    "tier": "rookie",
+    "player": "Brady House",
+    "card": "1991 Topps Auto (91AU-BH) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "wsh-3",
+    "tier": "rookie",
+    "player": "Harry Ford",
+    "card": "1991 Topps Auto (91AU-HF) · Platinum 1/1",
+    "format": "both",
+    "img": "img/2026-topps-update/86-harry-ford.jpg"
+   },
+   {
+    "id": "wsh-4",
+    "tier": "rookie",
+    "player": "Harry Ford",
+    "card": "Rising Rookie Relic Auto (RRR-HF) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "wsh-5",
+    "tier": "star",
+    "player": "James Wood",
+    "card": "Flagship Auto Patch (TFAPU-JW) · /50 · Platinum 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "wsh-6",
+    "tier": "star",
+    "player": "James Wood",
+    "card": "1991 Topps Auto (91A-JWO) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "wsh-7",
+    "tier": "star",
+    "player": "CJ Abrams",
+    "card": "1991 Topps Chrome Auto (U91C-72) · SuperFractor 1/1",
+    "format": "hobby"
+   },
+   {
+    "id": "wsh-8",
+    "tier": "star",
+    "player": "CJ Abrams",
+    "card": "Real One Golden Mirror Auto (152)",
+    "format": "both"
+   },
+   {
+    "id": "wsh-9",
+    "tier": "legend",
+    "player": "Larry Walker",
+    "card": "1991 Topps Auto (91A-LW) · Platinum 1/1",
+    "format": "both"
+   },
+   {
+    "id": "wsh-10",
+    "tier": "legend",
+    "player": "Randy Johnson",
+    "card": "Golden Mirror Legend Variation (US48)",
+    "format": "both"
+   }
+  ]
+ }
 }
