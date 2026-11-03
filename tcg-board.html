@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>RIPAHOLICS TCG Queue</title><style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700;800;900&display=swap');
+html,body{margin:0;background:transparent;user-select:none}
+#wrap{display:inline-block;position:relative;overflow:hidden;width:760px;padding:12px 14px;border-radius:14px;background:#000 url('rb-inksmoke-bg.jpg') center/cover no-repeat;border:4px solid #000;box-shadow:0 0 0 2px #fff,0 6px 16px rgba(0,0,0,.8)}
+#wrap::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.45);pointer-events:none}
+#wrap>*{position:relative;z-index:1}
+#hd{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center;margin-bottom:10px;padding:0 4px}
+#ttl{display:flex;align-items:center;gap:12px;font-family:Anton,Impact,sans-serif;font-size:40px;color:#fff;letter-spacing:3px;-webkit-text-stroke:2px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #000}
+#ttl img{height:58px;filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
+#cnt{justify-self:start;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:18px;border:3px solid #000;padding:4px 14px;border-radius:20px;color:#fff;background:#f0189c}
+#now{justify-self:end;display:none;text-align:right;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 2px #fff,0 3px 0 #000;border-radius:8px;padding:3px 10px 4px;max-width:100%;box-sizing:border-box;min-width:0;font-family:Montserrat,Arial,sans-serif;font-weight:900;color:#fff;line-height:1.1}
+#now small{display:block;font-size:9px;letter-spacing:2px;color:#f0189c}
+#now .pr{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#now .op{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#qb{text-align:center;font-family:Anton,Impact,sans-serif;font-size:54px;line-height:1.05;letter-spacing:5px;color:#fff;border:4px solid #000;box-shadow:0 0 0 3px #fff,0 7px 0 #000;padding:2px 20px 6px;border-radius:12px;-webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:4px 4px 0 #000;margin:0 4px 14px;background:linear-gradient(115deg,#0a96e8,#5b2a9e 50%,#f0189c)}
+#qb .in{display:inline-block;animation:pl 1.6s ease-in-out infinite}
+#qb.off{background:#0b0b0f;font-size:34px;letter-spacing:4px;box-shadow:0 0 0 3px #fff,0 5px 0 #000}#qb.off .in{animation:none;color:#bbb}#qb.off span{color:#f0189c}
+#qb.pop .in{animation:pop .45s cubic-bezier(.2,1.6,.4,1),pl 1.6s ease-in-out .45s infinite}
+@keyframes pop{0%{transform:scale(.55)}60%{transform:scale(1.15)}100%{transform:scale(1)}}
+@keyframes pl{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+#q{display:flex;flex-direction:column;gap:7px;padding:0 4px}
+.r{display:flex;align-items:center;gap:12px;background:#0b0b0f;border:3px solid #000;box-shadow:0 0 0 1.5px rgba(255,255,255,.85),0 3px 0 #000;border-radius:10px;padding:5px 12px 5px 6px;font-family:Montserrat,Arial,sans-serif;color:#fff;cursor:pointer}
+.r .n{flex:0 0 40px;height:40px;display:flex;align-items:center;justify-content:center;font-family:Anton,Impact,sans-serif;font-size:24px;border:3px solid #000;border-radius:8px;background:#fff;color:#000}
+.r .b{flex:1;min-width:0;font-weight:900;font-size:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r .b .at{color:#0a96e8}
+.r .it{flex:0 1 auto;max-width:45%;font-weight:800;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#ddd}
+.r .tg{font-weight:900;font-size:10px;letter-spacing:2px;border:2px solid #000;border-radius:4px;padding:1px 6px;background:#fff;color:#000;white-space:nowrap}
+.r.sel{box-shadow:0 0 0 2.5px #0a96e8,0 3px 0 #000}
+.r.cur{padding:9px 14px 9px 8px;background:linear-gradient(115deg,rgba(10,150,232,.35),rgba(91,42,158,.35) 50%,rgba(240,24,156,.45)),#0b0b0f;box-shadow:0 0 0 3px #fff,0 5px 0 #000}
+.r.cur .n{flex-basis:54px;height:54px;font-size:32px;background:#f0189c;color:#fff;-webkit-text-stroke:1.5px #000;paint-order:stroke fill}
+.r.cur .b{font-size:32px;font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:1px;-webkit-text-stroke:1.5px #000;paint-order:stroke fill;text-shadow:2px 2px 0 #000}
+.r.cur .it{font-size:18px;color:#fff}
+.r.cur .tg{background:#f0189c;color:#fff;font-size:12px}
+.r.cur.go{animation:go .7s cubic-bezier(.2,1.4,.4,1)}
+.r.cur.go::after{content:"";position:absolute;top:0;bottom:0;width:30%;left:-40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);animation:sh .8s ease-out .1s both}
+.r.cur{position:relative;overflow:hidden}
+@keyframes go{0%{transform:translateX(-24px) scale(.96);opacity:.3}100%{transform:none;opacity:1}}
+@keyframes sh{to{left:120%}}
+.r.lt{opacity:.8}
+#more{text-align:center;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:15px;color:#fff;background:#000;border:2px solid #fff;outline:2px solid #000;border-radius:20px;padding:2px 14px;align-self:center}
+#more b{color:#f0189c}
+#emp{text-align:center;font-family:Anton,Impact,sans-serif;font-size:26px;letter-spacing:2px;color:#fff;-webkit-text-stroke:2px #000;paint-order:stroke fill;padding:18px 0}
+#bar{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;opacity:.12;font-family:Arial}#bar:hover,#bar:focus-within{opacity:1}
+#bar button{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:4px 10px;border:2px solid #000;border-radius:6px;background:#fff;color:#000;cursor:pointer}
+#bar button.on{background:#f0189c;color:#fff}
+#bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:90px}#bar #bi{width:110px}#bar #ii{width:150px}
+</style></head><body>
+<div id="wrap"><div id="hd"><div id="cnt"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">TCG</span><div id="now"></div></div>
+<div id="qb"></div><div id="q"></div>
+<div id="bar"><button onclick="go('mlb')">MLB</button><button onclick="go('nfl')">NFL</button><button onclick="go('nba')">NBA</button><button class="on">TCG</button>
+<input id="bi" placeholder="@buyer"><input id="ii" placeholder="Item (Enter to add)"><button onclick="add()">Add</button>
+<button id="nx" onclick="next()" style="background:#0a96e8;color:#fff">Next &#9656;</button><button onclick="back()">&#9666; Back</button><button onclick="mv(-1)">&#9650; Up</button><button onclick="mv(1)">&#9660; Down</button><button onclick="rm()">Remove</button><button onclick="undo()">Undo</button><button id="qo" onclick="setQ(!S.open)">Queue</button><button id="rst" onclick="clr(this)">Clear</button>
+<input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"></div></div>
+<script>
+const K='rb_tcg',QP=new URLSearchParams(location.search),MAX=parseInt(QP.get('show')||'8',10)||8,esc=t=>String(t).replace(/[&<>"]/g,c=>'&#'+c.charCodeAt(0)+';');
+let S,sel=null,H=[],anim=false;
+function load(){try{S=JSON.parse(localStorage[K]||'{}')}catch(e){S={}}S.q=S.q||[];S.c=S.c|0;S.open=!!S.open}
+function save(){localStorage[K]=JSON.stringify(S)}
+function snap(){H.push(localStorage[K]||'{}');if(H.length>50)H.shift()}
+function go(l){localStorage.rb_lg=l;location.href='team-board.html?league='+l}
+function nm(b){b=b.trim();return b.startsWith('@')?'<span class="at">@</span>'+esc(b.slice(1)):esc(b)}
+function draw(){const q=S.q,c=Math.min(S.c,q.length),left=q.slice(c),qe=document.getElementById('q');
+document.getElementById('cnt').textContent=left.length+' IN LINE';
+const b=document.getElementById('qb');const st=S.open?'o':'c';if(b.dataset.s!==st){b.dataset.s=st;b.className=S.open?'':'off';b.innerHTML=S.open?'<span class="in">QUEUE IS OPEN</span>':'<span class="in">QUEUE <span>CLOSED</span></span>';if(S.open){b.classList.remove('pop');void b.offsetWidth;b.classList.add('pop')}}
+document.getElementById('qo').textContent='Queue: '+(S.open?'OPEN':'CLOSED');document.getElementById('qo').classList.toggle('on',S.open);
+if(!left.length){qe.innerHTML='<div id="emp">'+(S.open?'DROP YOUR ORDER IN CHAT':'NO ONE IN LINE')+'</div>';fit();return}
+qe.innerHTML=left.slice(0,MAX).map((e,i)=>{const p=c+i;return `<div class="r${i===0?' cur':''}${i>3?' lt':''}${sel===p?' sel':''}" data-p="${p}"><div class="n">${p+1}</div><div class="b">${nm(e.b)}</div><div class="it">${esc(e.i||'')}</div>${i===0?'<span class="tg">NOW RIPPING</span>':i<=3?'<span class="tg">UP NEXT</span>':''}</div>`}).join('')+(left.length>MAX?`<div id="more"><b>+${left.length-MAX}</b> MORE IN LINE</div>`:'');
+qe.querySelectorAll('.r').forEach(r=>r.onclick=()=>{const p=+r.dataset.p;sel=sel===p?null:p;draw()});
+if(anim){anim=false;const r=qe.querySelector('.r.cur');r&&r.classList.add('go')}fit()}
+function add(){const bi=document.getElementById('bi'),ii=document.getElementById('ii');let b=bi.value.trim();if(!b)return bi.focus();if(!b.startsWith('@'))b='@'+b;snap();S.q.push({b,i:ii.value.trim()});save();bi.value='';ii.value='';bi.focus();draw()}
+['bi','ii'].forEach(id=>document.getElementById(id).addEventListener('keydown',e=>{if(e.key==='Enter')add()}));
+function next(){if(S.c>=S.q.length)return;snap();S.c++;sel=null;save();anim=true;draw()}
+function back(){if(S.c<=0)return;snap();S.c--;save();anim=true;draw()}
+function tgt(){return sel!=null&&sel>=S.c&&sel<S.q.length?sel:S.q.length-1}
+function rm(){const p=tgt();if(p<S.c||p<0)return;snap();S.q.splice(p,1);sel=null;save();draw()}
+function mv(d){if(sel==null||sel<S.c)return;const n=sel+d;if(n<S.c||n>=S.q.length)return;snap();[S.q[sel],S.q[n]]=[S.q[n],S.q[sel]];sel=n;save();draw()}
+function undo(){const p=H.pop();if(p==null)return;localStorage[K]=p;load();sel=null;draw()}
+function setQ(v){S.open=v;save();draw()}
+let rt;function clr(b){if(b.dataset.arm){clearTimeout(rt);delete b.dataset.arm;b.textContent='Clear';b.style.background='';snap();S.q=[];S.c=0;sel=null;save();draw();return}b.dataset.arm=1;b.textContent='Tap again to clear';b.style.background='#f0189c';rt=setTimeout(()=>{delete b.dataset.arm;b.textContent='Clear';b.style.background=''},3000)}
+function showInfo(){const pd=(localStorage.rb_prod_tcg||'').trim(),op=(localStorage.rb_open_tcg||'').trim(),w=document.getElementById('now');w.innerHTML=pd||op?'<small>NOW OPENING</small>'+(pd?'<div class="pr">'+esc(pd)+'</div>':'')+(op?'<div class="op">'+esc(op)+'</div>':''):'';w.style.display=pd||op?'block':'none';[['pdi','rb_prod_tcg'],['opi','rb_open_tcg']].forEach(([id,k])=>{const e=document.getElementById(id);if(document.activeElement!==e)e.value=localStorage[k]||''})}
+function setInfo(){localStorage.rb_prod_tcg=document.getElementById('pdi').value;localStorage.rb_open_tcg=document.getElementById('opi').value;showInfo()}
+addEventListener('storage',e=>{if(e.key===K){const oc=S.c;load();if(S.c>oc)anim=true;draw()}else if(e.key==='rb_prod_tcg'||e.key==='rb_open_tcg')showInfo()});
+function fit(){const w=document.getElementById('wrap');document.body.style.zoom=1;const r=w.getBoundingClientRect();const z=Math.min(innerWidth/(r.right+10),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
+addEventListener('resize',fit);if(document.fonts)document.fonts.ready.then(fit);
+if(QP.has('product'))localStorage.rb_prod_tcg=QP.get('product');if(QP.has('opening'))localStorage.rb_open_tcg=QP.get('opening');
+localStorage.rb_lg='tcg';load();showInfo();draw();
+</script></body></html>
