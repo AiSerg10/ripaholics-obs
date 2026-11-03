@@ -28,3 +28,9 @@
 - Format comes from the **Opening** text: hobby/jumbo/breaker/case -> HOBBY cards; retail/blaster/mega/hanger/value -> RETAIL cards; anything else -> all.
   `both` cards always match. Override with the **Format** dropdown (Auto / Hobby / Retail / All).
 - Hidden when the board is FILLED, chase is OFF, or no set is selected.
+
+## Extra tiles (college spots)
+- A set can add extra tiles with `"extra":"college"` (NFL only): adds a COLLEGE group with SEC, BIG10, BIG12, ACC, OTHER.
+  They appear while that set is selected; normal 32-team NFL is unchanged otherwise.
+- URL override: `&extra=college` forces them on, `&extra=none` forces them off (saved per league).
+- An entry without `img` shows a styled text card (player + card name) instead of a picture.

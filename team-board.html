@@ -108,6 +108,12 @@ html,body{margin:0;background:transparent;user-select:none}
 #peek .ph img{width:34px;height:34px;box-sizing:border-box;padding:3px;background:#fff;border:2.5px solid #000;border-radius:50%;object-fit:contain}
 #peek .ph b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:19px;color:#fff;letter-spacing:1.2px;-webkit-text-stroke:1.5px #000;paint-order:stroke fill;line-height:1}
 #peek .ph b i{font-style:normal;color:#f0189c}
+#peek .tc{box-sizing:border-box;display:flex!important;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:12px;background:radial-gradient(circle at 30% 20%,var(--c),#000 90%);color:#fff;gap:8px}
+#peek .tc small{font-weight:900;font-size:10px;letter-spacing:2px;color:#f0189c;background:#fff;border:2px solid #000;border-radius:4px;padding:1px 6px}
+#peek .tc b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:30px;line-height:1.05;letter-spacing:1px;-webkit-text-stroke:1.5px #000;paint-order:stroke fill;text-transform:uppercase}
+#peek .tc span{font-weight:800;font-size:11px;color:#eee}
+#peek .tc i{font-style:normal;font-weight:900;font-size:10px;letter-spacing:2px;color:#ffd400}
+.dv.col .dh{background:#ffd400;color:#000}
 #peek .ci{display:block;width:100%;aspect-ratio:731/1024;object-fit:cover;border:3px solid #000;border-radius:8px}
 #peek .cn{margin-top:8px;font-weight:900;font-size:13px;line-height:1.2;color:#fff}
 #peek .cn small{display:block;font-size:10px;letter-spacing:2px;color:#f0189c;margin-bottom:2px}
@@ -164,7 +170,7 @@ function editBn(){const v=document.getElementById('bnv');if(!v||document.activeE
 function bnStep(d){const n=parseInt(localStorage.rb_bn||'1',10)||1;localStorage.rb_bn=String(Math.max(1,n+d));showBn()}
 let rstT=null;function resetB(b){if(b.dataset.arm){clearTimeout(rstT);delete b.dataset.arm;b.textContent='Reset';b.style.background='';S={};save();draw();return}b.dataset.arm=1;b.textContent='Tap again to clear';b.style.background='#f0189c';rstT=setTimeout(()=>{delete b.dataset.arm;b.textContent='Reset';b.style.background=''},3000)}
 
-function fitB(){const w=document.getElementById('wrap');if(!w)return;document.body.style.zoom=1;const r=w.getBoundingClientRect();const z=Math.min(innerWidth/(r.right+10),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
+function fitB(){const w=document.getElementById('wrap');if(!w)return;document.body.style.zoom=1;const r=w.getBoundingClientRect();const xr=(typeof CH_X!=='undefined'&&L[lg].length>LB[lg].length)?232:0;const z=Math.min(innerWidth/(r.right+10+xr),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
 addEventListener('resize',fitB);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitB);setTimeout(fitB,300);
 
 const NM={mlb:{ARI:'Diamondbacks',ATL:'Braves',BAL:'Orioles',BOS:'Red Sox',CHC:'Cubs',CWS:'White Sox',CIN:'Reds',CLE:'Guardians',COL:'Rockies',DET:'Tigers',HOU:'Astros',KC:'Royals',LAA:'Angels',LAD:'Dodgers',MIA:'Marlins',MIL:'Brewers',MIN:'Twins',NYM:'Mets',NYY:'Yankees',ATH:'Athletics',PHI:'Phillies',PIT:'Pirates',SD:'Padres',SF:'Giants',SEA:'Mariners',STL:'Cardinals',TB:'Rays',TEX:'Rangers',TOR:'Blue Jays',WSH:'Nationals'},
@@ -221,6 +227,14 @@ function setRv(v){localStorage.rb_rv=v?'1':'0';showRv()}
 addEventListener('storage',e=>{if(e.key==='rb_rv')showRv()});
 const _draw=draw;draw=function(){_draw.apply(this,arguments);fitB()};
 Object.keys(localStorage).filter(k=>k.startsWith('rb_price_')).forEach(k=>localStorage.removeItem(k));if(QP.has('product'))localStorage['rb_prod_'+lg]=QP.get('product');if(QP.has('opening'))localStorage['rb_open_'+lg]=QP.get('opening');if(QP.has('next'))localStorage[nk()]=QP.get('next');
+// ===== Extra tiles (e.g. college spots for Bowman football) =====
+const XT={nfl:{college:[["SEC","#0b2265"],["BIG10","#0088ce"],["BIG12","#c8102e"],["ACC","#013ca6"],["OTHER","#5a3b1e"]]}};
+const XN={SEC:'SEC',BIG10:'Big Ten',BIG12:'Big 12',ACC:'ACC',OTHER:'Other College'};
+const LB={},DB={};for(const k in L)LB[k]=L[k].slice();for(const k in D)DB[k]=D[k].slice();
+let CH_X='';
+if(QP.has('extra')){const v=QP.get('extra');localStorage['rb_extra_'+lg]=(v==='0'||v==='none'||v==='off')?'none':v}
+function applyX(){const st=localStorage['rb_extra_'+lg]||'',x=st==='none'?'':(st||CH_X),t=(XT[lg]||{})[x];for(const k in LB){L[k]=LB[k].slice();if(DB[k])D[k]=DB[k].slice()}if(t){L[lg]=L[lg].concat(t);if(D[lg])D[lg]=D[lg].concat([["COLLEGE",t.map(e=>e[0]),"col"]]);Object.assign(NM[lg],XN)}}
+const _draw2=draw;draw=function(){applyX();_draw2.apply(this,arguments)};
 showBn();showRv();load();draw();
 
 // ===== Spotlight + Chase peek =====
@@ -242,9 +256,9 @@ function showPeek(force){const p=document.getElementById('peek'),o=chEntries();i
  const ks=(CH_DATA.entries||[]);const k=peekA?ks.indexOf(peekA):-1;const n=force&&peekA&&o.includes(peekA)?peekA:(o.find(e=>ks.indexOf(e)>k)||o[0]);
  if(n===peekA&&p.classList.contains('on')&&!force)return;
  const was=p.classList.contains('on');p.classList.remove('on');peekA=n;setTimeout(()=>{if(peekA!==n)return;const nm=((NM[lg]||{})[n.team]||n.team).toUpperCase(),ft={hobby:['h','HOBBY'],retail:['r','RETAIL'],both:['b','HOBBY + RETAIL']}[n.format]||null;
- p.innerHTML=`<div class="pc">${CH_DATA.sample?'<span class="ex">EXAMPLE</span>':''}<div class="ph"><img src="${LOGO(lg,n.team)}" onerror="this.remove()"><b>${esc(nm)} <i>SPOT</i></b></div><img class="ci" src="chase/${esc(n.img)}"><div class="cn"><small>CHASE CARD</small>${esc(n.player||'')}<em>${esc(n.card||'')}</em>${ft?`<span class="ft ${ft[0]}">${ft[1]}</span>`:''}</div></div>`;if(!isFull()&&chEntries().includes(n))p.classList.add('on')},was?550:0)}
+ p.innerHTML=`<div class="pc">${CH_DATA.sample?'<span class="ex">EXAMPLE</span>':''}<div class="ph"><img src="${LOGO(lg,n.team)}" onerror="this.remove()"><b>${esc(nm)} <i>SPOT</i></b></div>${n.img?`<img class="ci" src="chase/${esc(n.img)}">`:`<div class="ci tc" style="--c:${(L[lg].find(x=>x[0]===n.team)||[0,"#333"])[1]}"><small>2026 BOWMAN</small><b>${esc(n.player||"")}</b><span>${esc(n.card||"")}</span><i>${esc(nm)}</i></div>`}<div class="cn"><small>CHASE CARD</small>${esc(n.player||'')}<em>${esc(n.card||'')}</em>${ft?`<span class="ft ${ft[0]}">${ft[1]}</span>`:''}</div></div>`;if(!isFull()&&chEntries().includes(n))p.classList.add('on')},was?550:0)}
 function peekCheck(){const o=chEntries();if(!o.length||isFull()){hidePeek();return}if(!peekA||!o.includes(peekA))showPeek()}
-async function loadChase(){const sl=localStorage['rb_cset_'+lg]||'';document.getElementById('chs').value=sl;if(sl===CH_SLUG&&CH_DATA)return peekCheck();CH_SLUG=sl;CH_DATA=null;hidePeek();if(!sl)return;try{const r=await fetch('chase/'+encodeURIComponent(sl)+'.json?t='+Date.now());if(!r.ok)throw 0;const d=await r.json();if(CH_SLUG===sl){CH_DATA=d;showPeek()}}catch(e){CH_DATA=null}}
+async function loadChase(){const sl=localStorage['rb_cset_'+lg]||'';document.getElementById('chs').value=sl;if(sl===CH_SLUG&&CH_DATA)return peekCheck();CH_SLUG=sl;CH_DATA=null;hidePeek();if(!sl){if(CH_X){CH_X='';draw()}return}try{const r=await fetch('chase/'+encodeURIComponent(sl)+'.json?t='+Date.now());if(!r.ok)throw 0;const d=await r.json();if(CH_SLUG===sl){CH_DATA=d;if((d.extra||'')!==CH_X){CH_X=d.extra||'';draw()}showPeek()}}catch(e){CH_DATA=null}}
 async function loadIdx(){try{CH_IDX=await (await fetch('chase/index.json?t='+Date.now())).json()}catch(e){CH_IDX=[]}fillChs()}
 function fillChs(){const e=document.getElementById('chs'),cur=localStorage['rb_cset_'+lg]||'';e.innerHTML='<option value="">Chase set: none</option>'+CH_IDX.filter(x=>!x.league||x.league===lg).map(x=>`<option value="${esc(x.slug)}">${esc(x.name)}</option>`).join('');if(cur&&![...e.options].some(o=>o.value===cur))e.insertAdjacentHTML('beforeend',`<option value="${esc(cur)}">${esc(cur)}</option>`);e.value=cur;document.getElementById('fms').value=localStorage['rb_fmt_'+lg]||'auto'}
 function showTg(){const a=document.getElementById('spb'),b=document.getElementById('chb');a.textContent='Spotlight: '+(spotOn()?'ON':'OFF');a.classList.toggle('on',spotOn());b.textContent='Chase: '+(chOn()?'ON':'OFF');b.classList.toggle('on',chOn())}

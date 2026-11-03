@@ -1,3 +1,12 @@
 [
-  {"slug":"sample-2025-bowman-chrome","name":"SAMPLE - 2025 Bowman Chrome (demo only)","league":"mlb"}
+ {
+  "slug": "sample-2025-bowman-chrome",
+  "name": "SAMPLE - 2025 Bowman Chrome (demo only)",
+  "league": "mlb"
+ },
+ {
+  "slug": "2026-bowman-football",
+  "name": "2026 Bowman Football (Hobby)",
+  "league": "nfl"
+ }
 ]

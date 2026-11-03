@@ -1,0 +1,489 @@
+{
+ "name": "2026 Bowman Football (Hobby)",
+ "league": "nfl",
+ "extra": "college",
+ "entries": [
+  {
+   "team": "ARI",
+   "player": "Jeremiyah Love",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "ARI",
+   "player": "Carson Beck",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "ATL",
+   "player": "Zachariah Branch",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "ATL",
+   "player": "Harold Perkins Jr.",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "BAL",
+   "player": "Olaivavega Ioane",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "BAL",
+   "player": "Ja'Kobi Lane",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "BAL",
+   "player": "Zion Young",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "BUF",
+   "player": "T.J. Parker",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "BUF",
+   "player": "Skyler Bell",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CAR",
+   "player": "Monroe Freeling",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CAR",
+   "player": "Chris Brazzell II",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CHI",
+   "player": "Dillon Thieneman",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CHI",
+   "player": "Zavion Thomas",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CIN",
+   "player": "Cashius Howell",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CIN",
+   "player": "Colbie Young",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CLE",
+   "player": "Spencer Fano",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CLE",
+   "player": "KC Concepcion",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "CLE",
+   "player": "Denzel Boston",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DAL",
+   "player": "Caleb Downs",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DAL",
+   "player": "Malachi Lawrence",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DEN",
+   "player": "Jonah Coleman",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DEN",
+   "player": "Justin Joly",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DET",
+   "player": "Blake Miller",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "DET",
+   "player": "Keith Abney II",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "GB",
+   "player": "Dani Dennis-Sutton",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "HOU",
+   "player": "Kayden McDonald",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "HOU",
+   "player": "Marlin Klein",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "IND",
+   "player": "CJ Allen",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "IND",
+   "player": "Deion Burks",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "JAX",
+   "player": "Josh Cameron",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "JAX",
+   "player": "Nate Boerkircher",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "KC",
+   "player": "Mansoor Delane",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "KC",
+   "player": "Peter Woods",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "KC",
+   "player": "Garrett Nussmeier",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LV",
+   "player": "Fernando Mendoza",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LV",
+   "player": "Jermod McCoy",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LV",
+   "player": "Mike Washington Jr.",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAC",
+   "player": "Akheem Mesidor",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAC",
+   "player": "Brenen Thompson",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAR",
+   "player": "Ty Simpson",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAR",
+   "player": "Max Klare",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "LAR",
+   "player": "CJ Daniels",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIA",
+   "player": "Jacob Rodriguez",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIA",
+   "player": "Chris Johnson",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIA",
+   "player": "Chris Bell",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIN",
+   "player": "Caleb Banks",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "MIN",
+   "player": "Jake Golday",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NE",
+   "player": "Caleb Lomu",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NE",
+   "player": "Behren Morton",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NO",
+   "player": "Jordyn Tyson",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NO",
+   "player": "Bryce Lance",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NYG",
+   "player": "Arvell Reese",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NYG",
+   "player": "Francis Mauigoa",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NYG",
+   "player": "Colton Hood",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NYJ",
+   "player": "David Bailey",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "NYJ",
+   "player": "Kenyon Sadiq",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby",
+   "img": "img/2026-bowman-football/kenyon-sadiq.jpg"
+  },
+  {
+   "team": "NYJ",
+   "player": "Cade Klubnik",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "PHI",
+   "player": "Makai Lemon",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "PHI",
+   "player": "Eli Stowers",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "PIT",
+   "player": "Drew Allar",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "PIT",
+   "player": "Germie Bernard",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "SF",
+   "player": "De'Zhaun Stribling",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "SF",
+   "player": "Romello Height",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "SEA",
+   "player": "Jadarian Price",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "TB",
+   "player": "Rueben Bain Jr.",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "TB",
+   "player": "Ted Hurst",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "TEN",
+   "player": "Carnell Tate",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "TEN",
+   "player": "Keldric Faulk",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "TEN",
+   "player": "Nick Singleton",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "WSH",
+   "player": "Sonny Styles",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "WSH",
+   "player": "Antonio Williams",
+   "card": "Chrome Rookie Auto (BCRA)",
+   "format": "hobby"
+  },
+  {
+   "team": "SEC",
+   "player": "Arch Manning",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "SEC",
+   "player": "Cam Coleman",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "BIG10",
+   "player": "Jayden Maiava",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "BIG10",
+   "player": "KJ Duff",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "BIG12",
+   "player": "Drew Mestemaker",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "BIG12",
+   "player": "Bear Bachmeier",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "ACC",
+   "player": "Darian Mensah",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "ACC",
+   "player": "Jaron-Keawe Sagapolutele",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby"
+  },
+  {
+   "team": "OTHER",
+   "player": "CJ Carr",
+   "card": "1st Bowman Chrome Prospect Auto",
+   "format": "hobby",
+   "img": "img/2026-bowman-football/cj-carr.jpg"
+  }
+ ]
+}
