@@ -56,7 +56,7 @@ html,body{margin:0;background:transparent;user-select:none}
 #bar input{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px 6px;border:2px solid #000;border-radius:6px;width:70px}#bar input#nxi{width:150px}
 #fnx{display:none;align-self:center;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:18px;color:#fff;background:#0b0b0f;border:2px solid #000;box-shadow:0 0 0 1.5px #fff;border-radius:6px;padding:3px 14px;-webkit-text-stroke:0}#fnx b{color:#f0189c;letter-spacing:2px;margin-right:6px}
 </style></head><body>
-<div id="wrap"><div id="hd" style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="cnt" style="justify-self:end"></div></div>
+<div id="wrap"><div id="hd" style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div></div></div>
 <div id="st"><div id="left"></div><div id="fin"></div></div>
 <div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div>
 <div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rst" onclick="resetB(this)">Reset</button></div></div>
@@ -80,7 +80,7 @@ d.innerHTML=`<div class="bg" style="background:radial-gradient(circle at 30% 20%
 function draw(){const b=document.getElementById('board'),T=L[lg],C=Object.fromEntries(T);b.innerHTML='';
 if(D[lg]){b.className='div';b.style.gridTemplateColumns='';D[lg].forEach(([n,ts,g])=>{const v=document.createElement('div');v.className='dv '+g;v.innerHTML=`<div class="dh">${n}</div>`;ts.forEach(a=>v.appendChild(tile(a,C[a])));b.appendChild(v)})}
 else{b.className='';b.style.gridTemplateColumns='repeat(10,80px)';T.forEach(([a,c])=>b.appendChild(tile(a,c)))}
-const n=T.filter(([a])=>S[a]).length,r=T.length-n;document.getElementById('cnt').textContent=n+' / '+T.length+' SOLD';
+const n=T.filter(([a])=>S[a]).length,r=T.length-n;
 document.getElementById('left').innerHTML='<b>'+r+'</b> '+(r===1?'TEAM':'TEAMS')+' LEFT';
 const f=document.getElementById('fin');f.style.display=r>0&&r<=10?'block':'none';document.getElementById('left').style.display=r>10?'':'none';if(f.dataset.r!==String(r)){f.dataset.r=r;f.innerHTML='<span class="in">'+(r===1?'<span>LAST</span> TEAM':'FINAL <span>'+r+'</span> TEAMS')+'</span>';f.classList.remove('pop');void f.offsetWidth;f.classList.add('pop')}
 const w=document.getElementById('wrap'),full=r===0;
