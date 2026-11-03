@@ -59,11 +59,36 @@ html,body{margin:0;background:transparent;user-select:none}
 #now small{display:block;font-size:9px;letter-spacing:2px;color:#f0189c}
 #now .pr{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:17px;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 #now .op{font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#rv{position:absolute;inset:0;z-index:50;display:none;pointer-events:none;overflow:hidden}
+#rv.on{display:block}
+#rv .wp{position:absolute;inset:0;background:#000 url('rb-inksmoke-bg.jpg') center/cover;clip-path:polygon(0 0,0 0,-20% 100%,-20% 100%);animation:wpi .4s cubic-bezier(.7,0,.3,1) forwards}
+#rv .wp::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
+#rv .wp::before{content:"";position:absolute;top:0;bottom:0;left:-10%;width:30%;background:#f0189c;transform:skewX(-18deg);border-right:6px solid #000;z-index:1;animation:bar .5s .05s ease-out forwards;opacity:0}
+@keyframes bar{0%{opacity:1;left:-40%}100%{opacity:1;left:120%}}
+@keyframes wpi{to{clip-path:polygon(0 0,120% 0,100% 100%,-20% 100%)}}
+#rv.out .wp{animation:wpo .4s cubic-bezier(.7,0,.3,1) forwards;clip-path:polygon(0 0,120% 0,100% 100%,-20% 100%)}
+@keyframes wpo{to{clip-path:polygon(120% 0,120% 0,100% 100%,100% 100%)}}
+#rv .ct{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;z-index:2}
+#rv.out .ct{animation:fo .3s forwards}@keyframes fo{to{opacity:0;transform:translateX(60px)}}
+#rv .cr{height:44px;opacity:0;animation:fi .3s .35s forwards;filter:drop-shadow(2px 0 0 #000) drop-shadow(-2px 0 0 #000) drop-shadow(0 2px 0 #000) drop-shadow(0 -2px 0 #000)}
+#rv .k{font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:20px;letter-spacing:6px;color:#fff;background:#000;border:3px solid #fff;padding:3px 16px;opacity:0;animation:fi .3s .4s forwards}
+@keyframes fi{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:none}}
+#rv .tl{width:200px;height:150px;border-radius:18px;border:6px solid #000;box-shadow:0 0 0 4px #fff,0 10px 0 #000;display:flex;align-items:center;justify-content:center;font-family:Anton,Impact,sans-serif;font-size:80px;color:#fff;-webkit-text-stroke:4px #000;paint-order:stroke fill;text-shadow:5px 5px 0 #000;transform:scale(0);animation:slam .5s .45s cubic-bezier(.2,1.5,.4,1) forwards,shk .35s .9s}
+@keyframes slam{0%{transform:scale(3);opacity:0}60%{opacity:1}100%{transform:scale(1);opacity:1}}
+@keyframes shk{0%,100%{translate:0}20%{translate:-9px 4px}40%{translate:8px -4px}60%{translate:-6px 2px}80%{translate:4px 0}}
+#rv .tn{font-family:Anton,Impact,sans-serif;font-size:46px;letter-spacing:3px;color:#fff;-webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:4px 4px 0 #000;opacity:0;animation:fi .3s .85s forwards;text-transform:uppercase}
+#rv .by{transform:skewX(-14deg) translateX(-140%);background:#f0189c;border:5px solid #000;box-shadow:0 0 0 3px #fff,6px 8px 0 #000;padding:4px 34px;animation:sl .45s 1.1s cubic-bezier(.2,1.3,.4,1) forwards}
+#rv .by span{display:block;transform:skewX(14deg);font-family:Anton,Impact,sans-serif;font-size:52px;letter-spacing:2px;color:#fff;-webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #000;white-space:nowrap}
+#rv .by small{display:block;transform:skewX(14deg);font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:12px;letter-spacing:4px;color:#000;text-align:center}
+@keyframes sl{to{transform:skewX(-14deg) translateX(0)}}
+#rv.fast *,#rv.fast .wp::before{animation-duration:.3s!important}
+#rv.fast .cr,#rv.fast .k{animation-delay:.2s}#rv.fast .tl{animation-delay:.25s,.6s}#rv.fast .tn{animation-delay:.5s}#rv.fast .by{animation-delay:.65s}
+#rvb.on{background:#f0189c;color:#fff}
 </style></head><body>
 <div id="wrap"><div id="hd" style="display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center"><div id="bn" title="Click to edit break #" onclick="editBn()"></div><span id="ttl"><img src="rb-logo-crown.png" alt="RIPAHOLICS">PYT</span><div id="now"></div></div>
 <div id="st"><div id="left"></div><div id="fin"></div></div>
-<div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div>
-<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rst" onclick="resetB(this)">Reset</button></div></div>
+<div id="stage" style="position:relative"><div id="board"></div><div id="fill"><div id="fh">BREAK <i>FILLED</i></div><div id="mq"><div id="trk"></div></div><div id="fnx"></div></div></div><div id="rv"></div>
+<div id="bar"><button onclick="setL('mlb')">MLB</button><button onclick="setL('nfl')">NFL</button><button onclick="setL('nba')">NBA</button><button onclick="bnStep(-1)">Break &minus;</button><button onclick="bnStep(1)">Break +</button><input id="pdi" placeholder="Product" oninput="setInfo()"><input id="opi" placeholder="Opening" oninput="setInfo()"><input id="nxi" placeholder="Next break" oninput="setInfo()"><button id="rvb" onclick="setRv(localStorage.rb_rv==='0')">Reveal</button><button id="rst" onclick="resetB(this)">Reset</button></div></div>
 <div id="pop"><div><div id="pt"></div><input id="pi" placeholder="Buyer name"><br>
 <button style="background:#f0189c;color:#fff" onclick="mark(true)">SOLD</button> <button onclick="mark(false)">Undo</button> <button onclick="closeP()">Cancel</button></div></div>
 <script>
@@ -89,7 +114,7 @@ document.getElementById('left').innerHTML='<b>'+r+'</b> '+(r===1?'TEAM':'TEAMS')
 const f=document.getElementById('fin');f.style.display=r>0&&r<=10?'block':'none';document.getElementById('left').style.display=r>10?'':'none';if(f.dataset.r!==String(r)){f.dataset.r=r;f.innerHTML='<span class="in">'+(r===1?'<span>LAST</span> TEAM':'FINAL <span>'+r+'</span> TEAMS')+'</span>';f.classList.remove('pop');void f.offsetWidth;f.classList.add('pop')}
 const w=document.getElementById('wrap'),full=r===0;
 if(full){const cards=T.map(([a,c])=>`<div class="mc"><div class="lg" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="bn"><small>${a}</small>${(S[a].n||'—').replace(/</g,'&lt;')}</div></div>`).join('');const t=document.getElementById('trk');t.innerHTML=cards+cards;t.style.setProperty('--d',(T.length*2.2)+'s')}
-w.classList.toggle('full',full);showInfo()}
+detect(T);w.classList.toggle('full',full&&!rvBusy);showInfo()}
 function nk(){return 'rb_next_'+lg}
 function showInfo(){const nx=(localStorage[nk()]||'').trim(),f=document.getElementById('fnx');f.innerHTML=nx?'<b>NEXT UP:</b>'+esc(nx):'';f.style.display=nx?'block':'none';const i=document.getElementById('nxi');if(document.activeElement!==i)i.value=localStorage[nk()]||'';
 const pd=(localStorage['rb_prod_'+lg]||'').trim(),op=(localStorage['rb_open_'+lg]||'').trim(),w=document.getElementById('now');w.innerHTML=pd||op?'<small>NOW OPENING</small>'+(pd?'<div class="pr">'+esc(pd)+'</div>':'')+(op?'<div class="op">'+esc(op)+'</div>':''):'';w.style.display=pd||op?'block':'none';
@@ -107,7 +132,19 @@ let rstT=null;function resetB(b){if(b.dataset.arm){clearTimeout(rstT);delete b.d
 
 function fitB(){const w=document.getElementById('wrap');if(!w)return;document.body.style.zoom=1;const r=w.getBoundingClientRect();const z=Math.min(innerWidth/(r.right+10),innerHeight/(r.bottom+10));if(z>0)document.body.style.zoom=z}
 addEventListener('resize',fitB);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fitB);setTimeout(fitB,300);
+
+const NM={mlb:{ARI:'Diamondbacks',ATL:'Braves',BAL:'Orioles',BOS:'Red Sox',CHC:'Cubs',CWS:'White Sox',CIN:'Reds',CLE:'Guardians',COL:'Rockies',DET:'Tigers',HOU:'Astros',KC:'Royals',LAA:'Angels',LAD:'Dodgers',MIA:'Marlins',MIL:'Brewers',MIN:'Twins',NYM:'Mets',NYY:'Yankees',ATH:'Athletics',PHI:'Phillies',PIT:'Pirates',SD:'Padres',SF:'Giants',SEA:'Mariners',STL:'Cardinals',TB:'Rays',TEX:'Rangers',TOR:'Blue Jays',WSH:'Nationals'},
+nfl:{ARI:'Cardinals',ATL:'Falcons',BAL:'Ravens',BUF:'Bills',CAR:'Panthers',CHI:'Bears',CIN:'Bengals',CLE:'Browns',DAL:'Cowboys',DEN:'Broncos',DET:'Lions',GB:'Packers',HOU:'Texans',IND:'Colts',JAX:'Jaguars',KC:'Chiefs',LV:'Raiders',LAC:'Chargers',LAR:'Rams',MIA:'Dolphins',MIN:'Vikings',NE:'Patriots',NO:'Saints',NYG:'Giants',NYJ:'Jets',PHI:'Eagles',PIT:'Steelers',SF:'49ers',SEA:'Seahawks',TB:'Buccaneers',TEN:'Titans',WSH:'Commanders'},
+nba:{ATL:'Hawks',BOS:'Celtics',BKN:'Nets',CHA:'Hornets',CHI:'Bulls',CLE:'Cavaliers',DAL:'Mavericks',DEN:'Nuggets',DET:'Pistons',GSW:'Warriors',HOU:'Rockets',IND:'Pacers',LAC:'Clippers',LAL:'Lakers',MEM:'Grizzlies',MIA:'Heat',MIL:'Bucks',MIN:'Timberwolves',NOP:'Pelicans',NYK:'Knicks',OKC:'Thunder',ORL:'Magic',PHI:'76ers',PHX:'Suns',POR:'Trail Blazers',SAC:'Kings',SAS:'Spurs',TOR:'Raptors',UTA:'Jazz',WAS:'Wizards'}};
+let rvPrev=null,rvLg=null,rvQ=[],rvBusy=false;
+function detect(T){const now=new Set(Object.keys(S));if(rvPrev&&rvLg===lg&&localStorage.rb_rv!=='0'){const C=Object.fromEntries(T);now.forEach(a=>{if(!rvPrev.has(a)&&C[a])rvQ.push([a,C[a],(S[a]&&S[a].n)||'',lg])});}rvPrev=now;rvLg=lg;if(rvQ.length&&!rvBusy)nextRv()}
+function nextRv(){const it=rvQ.shift();if(!it){rvBusy=false;draw();return}rvBusy=true;const [a,c,n,l]=it,fast=rvQ.length>0,dur=fast?2000:3000,r=document.getElementById('rv');
+r.className='';void r.offsetWidth;r.innerHTML=`<div class="wp"></div><div class="ct"><img class="cr" src="rb-logo-crown.png"><div class="k">THE PICK IS IN</div><div class="tl" style="background:radial-gradient(circle at 30% 20%,${c},#000 88%)">${a}</div><div class="tn">${esc((NM[l]||{})[a]||a)}</div>${n?`<div class="by"><small>BUYER</small><span>${esc(n)}</span></div>`:''}</div>`;
+r.className='on'+(fast?' fast':'');setTimeout(()=>{if(rvQ.length)r.classList.add('fast');r.classList.add('out')},dur-400);setTimeout(()=>{r.className='';r.innerHTML='';nextRv()},dur)}
+function showRv(){const b=document.getElementById('rvb'),on=localStorage.rb_rv!=='0';b.textContent='Reveal: '+(on?'ON':'OFF');b.classList.toggle('on',on)}
+function setRv(v){localStorage.rb_rv=v?'1':'0';showRv()}
+addEventListener('storage',e=>{if(e.key==='rb_rv')showRv()});
 const _draw=draw;draw=function(){_draw.apply(this,arguments);fitB()};
 Object.keys(localStorage).filter(k=>k.startsWith('rb_price_')).forEach(k=>localStorage.removeItem(k));if(QP.has('product'))localStorage['rb_prod_'+lg]=QP.get('product');if(QP.has('opening'))localStorage['rb_open_'+lg]=QP.get('opening');if(QP.has('next'))localStorage[nk()]=QP.get('next');
-showBn();load();draw();
+showBn();showRv();load();draw();
 </script></body></html>
