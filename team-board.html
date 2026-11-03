@@ -190,11 +190,11 @@ const W=r.clientWidth,H=r.clientHeight,dpr=Math.min(2,(window.devicePixelRatio||
 const cx=W/2,cy=H*.36,P=[],SH=[];for(let i=0;i<300;i++){const ang=Math.random()*6.283,d=Math.max(W,H)*(.6+Math.random()*.5);P.push({sx:cx+Math.cos(ang)*d,sy:cy+Math.sin(ang)*d,tx:cx+(Math.random()-.5)*220,ty:cy+(Math.random()-.5)*160,s:1.5+Math.random()*3.5,w:Math.random()<.35,dl:Math.random()*220})}
 for(let i=0;i<46;i++){const ang=Math.random()*6.283,v=3+Math.random()*9;SH.push({a:ang,v,r:Math.random()*6,rv:(Math.random()-.5)*.4,s:6+Math.random()*16,w:Math.random()<.5})}
 const sc=buyer.split('');const t0=performance.now();let last=-1;
-function f(now){const t=(now-t0)/K;if(t>=3500){r.className='';r.innerHTML='';done();return}
+function f(now){const el=now-t0,HP=2700*K,HL=2000,ta=(el<HP?el:el<HP+HL?HP+(el-HP)*.35:el-HL*.65)/K,t=el<HP?el/K:el<HP+HL?2700:(el-HL)/K;if(t>=3500){r.className='';r.innerHTML='';done();return}
 const ex=eio(E(t,3000,3450)),cxo=eio(E(t,2800,3080));
 // backdrop
 bkd.style.opacity=(.88*eo(E(t,0,450)))*(1-ex);
-const sIn=eo(E(t,0,700));const sx=[[-70,0],[70,0],[0,60]];sm.forEach((e,i)=>{const [dx,dy]=sx[i];const k=1-sIn;e.style.opacity=(.85*sIn)*(1-ex);e.style.transform=`translate(${dx*k+(i-1)*4*t/1000}%,${dy*k}%) scale(${1.25-.2*sIn+.15*ex+i*.03}) rotate(${(i-1)*6+t/400*(i%2?1:-1)}deg)`});
+const sIn=eo(E(t,0,700));const sx=[[-70,0],[70,0],[0,60]];sm.forEach((e,i)=>{const [dx,dy]=sx[i];const k=1-sIn;e.style.opacity=(.85*sIn)*(1-ex);e.style.transform=`translate(${dx*k+(i-1)*4*ta/1000}%,${dy*k}%) scale(${1.25-.2*sIn+.15*ex+i*.03}) rotate(${(i-1)*6+ta/400*(i%2?1:-1)}deg)`});
 tint.style.opacity=.75*sIn*(1-ex);vg.style.opacity=sIn*(1-ex);
 // camera push + shake
 const sh=t>900&&t<1180?(1-E(t,900,1180))*14:0;cam.style.transform=`translate(${(Math.random()-.5)*sh}px,${(Math.random()-.5)*sh}px) scale(${1+.06*eo(E(t,0,2850))+.08*ex})`;
@@ -210,7 +210,7 @@ fl.style.opacity=t>=900&&t<945?.95:t>=945&&t<990?.35:0;
 // tile
 if(t>=880){const k=E(t,880,1180);const s=1.6-.6*bk(k);const bl=Math.max(0,6*(1-E(t,880,980)));tile.style.opacity=1-cxo;tile.style.transform=`scale(${s*(1+.25*cxo)}) translateY(${-20*cxo}px)`;tile.style.filter=bl>.2?`blur(${bl}px)`:'none'}
 shine.style.left=(-60+180*eio(E(t,1150,1650)))+'%';
-gb.style.opacity=eo(E(t,950,1400))*(1-cxo);gb.style.transform=`translate(-50%,-50%) translateX(${60-t/30}px) scale(${1.15-.1*eo(E(t,950,1600))})`;
+gb.style.opacity=eo(E(t,950,1400))*(1-cxo);gb.style.transform=`translate(-50%,-50%) translateX(${60-ta/30}px) scale(${1.15-.1*eo(E(t,950,1600))})`;
 const slk=eo(E(t,920,1150));slab.style.transform=`skewY(-6deg) scaleX(${slk})`;slab.style.opacity=.92*(1-cxo);
 // streaks
 const sk=E(t,930,1450);stk.forEach((e,i)=>{e.style.opacity=sk>0&&sk<1?(1-sk)*(i?1:.95):0;e.style.transform=`scaleX(${eo(sk)*(i?1.2:1)})`});
