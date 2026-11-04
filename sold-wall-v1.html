@@ -1,0 +1,80 @@
+<!doctype html><html><head><meta charset="utf-8"><title>RIPAHOLICS Sold Wall</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@700;800;900&display=swap');
+html,body{margin:0;background:transparent;overflow:hidden;font-family:Montserrat,Arial,sans-serif;color:#fff}
+#S{position:absolute;left:0;top:0;transform-origin:0 0}
+.z{position:absolute;display:flex;flex-direction:column;gap:14px}
+.V #S{width:1080px;height:1920px}.H #S{width:1920px;height:1080px}
+.g{position:relative;width:100%;box-sizing:border-box;padding:10px 14px 12px 22px;animation:gin .55s cubic-bezier(.3,1.5,.5,1) both}
+.g .bx{position:absolute;inset:0;transform:skewX(-8deg);background:#111;border:5px solid #000;border-radius:6px;box-shadow:7px 7px 0 #000;overflow:hidden}
+.g .bx::before{content:"";position:absolute;left:0;top:0;bottom:0;width:12px;background:#f0189c;border-right:4px solid #000}
+.g:nth-child(even) .bx::before{background:#0a96e8}
+.g .bx::after{content:"";position:absolute;inset:0;background:#fff;opacity:0}
+.g.fl .bx::after{animation:fl .5s ease-out}
+.nm{position:relative;font-family:Anton,Impact;font-size:30px;line-height:1.1;letter-spacing:.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-webkit-text-stroke:1px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #000}
+.nm b{color:#f0189c;font-weight:400}.nm i{font-style:normal;font-size:20px;color:#0a96e8;margin-left:8px}
+.lg{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.lo{width:64px;height:64px;border-radius:50%;background:#26262c;border:4px solid #000;box-shadow:3px 3px 0 #000;display:grid;place-items:center;box-sizing:border-box;overflow:hidden}
+.lo.wp{background:#fff}.lo img{width:76%;height:76%;object-fit:contain}
+.lo span{font-family:Anton;font-size:20px}
+.lo.new{animation:lin .6s cubic-bezier(.3,1.6,.5,1) both}
+@keyframes gin{0%{transform:translateX(var(--fx)) scale(.9);opacity:0}100%{transform:none;opacity:1}}
+@keyframes lin{0%{transform:scale(0) rotate(-30deg);filter:brightness(4)}60%{transform:scale(1.25);filter:brightness(2)}100%{transform:none;filter:none}}
+@keyframes fl{0%{opacity:.9}100%{opacity:0}}
+.T .z{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:flex-start}
+.T .g{width:auto;max-width:340px}
+#bar{position:fixed;left:0;right:0;bottom:0;background:#000d;padding:8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center;font:700 13px Montserrat;z-index:9}
+#bar input{font:700 14px Montserrat;padding:6px;border:2px solid #fff;background:#111;color:#fff;border-radius:4px}
+#bar button{font:800 13px Montserrat;padding:7px 10px;border:2px solid #000;border-radius:4px;background:#fff;cursor:pointer}
+#bar .p{background:#f0189c;color:#fff}.hide #bar{display:none}
+</style></head><body><div id="S"><div class="z" id="zL"></div><div class="z" id="zL2"></div><div class="z" id="zR"></div><div class="z" id="zR2"></div><div class="z" id="zT"></div></div>
+<div id="bar"><input id="ti" placeholder="TEAM (e.g. NYY)" size="10"><input id="bi" placeholder="@buyer" size="14"><button class="p" onclick="sell()">+ Sell</button><button onclick="unsell()">Unsell</button><button id="cb" onclick="clr()">Clear</button>
+<button onclick="cyPos()">Pos: <span id="pv"></span></button><button onclick="cyLay()">Layout: <span id="lv"></span></button><span id="lgv"></span><button onclick="hideBar()">Hide (H)</button></div>
+<script>
+const QP=new URLSearchParams(location.search);
+const LG=(QP.get('league')||localStorage.rb_lg||'mlb').toLowerCase();
+const LS=JSON.parse('{"mlb":30,"nfl":32,"nba":30}');
+let lay=(QP.get('layout')||localStorage.rb_wall_lay||'vertical').toLowerCase().startsWith('h')?'H':'V';
+let pos=(QP.get('pos')||localStorage.rb_wall_pos||'sides').toLowerCase();if(!['sides','top','bottom'].includes(pos))pos='sides';
+if(QP.get('controls')==='0'||localStorage.rb_wall_bar==='0')document.body.classList.add('hide');
+const key=()=>'rb_'+LG;const $=i=>document.getElementById(i);
+const esc=t=>String(t).replace(/[&<>"]/g,c=>'&#'+c.charCodeAt(0)+';');
+const norm=n=>String(n||'').trim().replace(/^@+/,'').toLowerCase();
+let seen=null,last='',dark={};
+function load(){try{return JSON.parse(localStorage[key()]||'{}')}catch(e){return{}}}
+function groups(S){const m=new Map();for(const a of Object.keys(S)){const raw=String((S[a]||{}).n||'').trim().replace(/^@+/,''),k=norm(raw)||'~sold';if(!m.has(k))m.set(k,{k,name:raw,t:[]});m.get(k).t.push(a)}return[...m.values()]}
+function plate(img,a){if(a in dark){apply(img,a);return}try{const c=document.createElement('canvas');c.width=c.height=32;const x=c.getContext('2d');x.drawImage(img,0,0,32,32);const d=x.getImageData(0,0,32,32).data;let s=0,n=0;for(let i=0;i<d.length;i+=4)if(d[i+3]>128){s+=.2126*d[i]+.7152*d[i+1]+.0722*d[i+2];n++}dark[a]=n?s/n<95:false}catch(e){dark[a]=true}apply(img,a)}
+function apply(img,a){if(dark[a])img.parentNode&&img.parentNode.classList.add('wp')}
+function logo(a,isNew){return `<div class="lo${isNew?' new':''}" data-a="${a}"><img src="logos/${LG}/${a}.png" onload="plate(this,'${a}')" onerror="this.parentNode.innerHTML='<span>${a}</span>'"></div>`}
+function layout(){const b=document.body;b.classList.remove('V','H','T');b.classList.add(lay);if(pos!=='sides')b.classList.add('T');
+const W=lay==='V'?1080:1920,Hh=lay==='V'?1920:1080;const st=(e,o)=>{e.removeAttribute('style');Object.assign(e.style,o)};
+['zL','zL2','zR','zR2','zT'].forEach(i=>$(i).style.display='none');
+if(pos==='sides'){if(lay==='V'){st($('zL'),{left:'24px',top:'605px',width:'310px'});st($('zR'),{right:'24px',top:'605px',width:'310px'});st($('zL2'),{left:'24px',top:'1290px',width:'310px'});st($('zR2'),{right:'24px',top:'1290px',width:'310px'})}
+else{st($('zL'),{left:'40px',top:'60px',width:'360px'});st($('zR'),{right:'40px',top:'60px',width:'360px'})}}
+else{st($('zT'),{left:'30px',right:'30px',[pos]:pos==='top'?'18px':'40px'})}
+fit()}
+function fit(){const W=lay==='V'?1080:1920,Hh=lay==='V'?1920:1080,s=Math.min(innerWidth/W,innerHeight/Hh);$('S').style.transform=`scale(${s})`}
+function draw(force){const raw=localStorage[key()]||'{}';if(raw===last&&!force)return;last=raw;const S=load(),G=groups(S),first=seen===null,prev=seen||new Set();
+['zL','zL2','zR','zR2','zT'].forEach(i=>$(i).innerHTML='');
+const lim=lay==='V'?{zL:360,zR:360,zL2:560,zR2:560}:{zL:960,zR:960};
+const topLim=pos==='top'?(lay==='V'?150:200):(lay==='V'?300:260);
+G.forEach((g,i)=>{const d=document.createElement('div');d.className='g';const ng=!first&&g.t.every(a=>!prev.has(a)),grow=!first&&!ng&&g.t.some(a=>!prev.has(a));
+d.innerHTML=`<div class="bx"></div><div class="nm" style="font-size:${g.name.length>20?20:g.name.length>14?24:30}px">${g.name?'<b>@</b>'+esc(g.name):'SOLD'}${g.t.length>1?'<i>x'+g.t.length+'</i>':''}</div><div class="lg">${g.t.map(a=>logo(a,!first&&!prev.has(a))).join('')}</div>`;
+if(ng||grow)d.classList.add('fl');if(!ng)d.style.animation='none';
+if(pos!=='sides'){$('zT').appendChild(d);$('zT').style.display='flex';return}
+const side=i%2?'R':'L';d.style.setProperty('--fx',side==='L'?'-120%':'120%');
+const zs=lay==='V'?['z'+side,'z'+side+'2']:['z'+side];let placed=false;
+for(const z of zs){const e=$(z);e.style.display='flex';e.appendChild(d);if(e.offsetHeight<=lim[z]||e.children.length===1&&z===zs[zs.length-1]){placed=true;break}e.removeChild(d)}
+if(!placed){d.remove()}});
+if(pos!=='sides'){const z=$('zT');let r=0;while(z.offsetHeight>topLim&&z.children.length>1){z.lastChild.remove();r++}if(r){const m=document.createElement('div');m.className='g';m.style.animation='none';m.innerHTML='<div class="bx"></div><div class="nm">+'+r+' MORE</div>';z.appendChild(m);while(z.offsetHeight>topLim&&z.children.length>2){z.children[z.children.length-2].remove();r++;m.querySelector('.nm').textContent='+'+r+' MORE'}}}
+seen=new Set(Object.keys(S));['zL2','zR2','zL','zR'].forEach(i=>{if(!$(i).children.length)$(i).style.display='none'});
+$('pv').textContent=pos;$('lv').textContent=lay==='V'?'vertical':'horizontal';$('lgv').textContent='league: '+LG}
+function sell(){const a=$('ti').value.trim().toUpperCase();if(!a)return;const S=load();S[a]={n:$('bi').value.trim()};localStorage[key()]=JSON.stringify(S);$('ti').value='';draw()}
+function unsell(){const a=$('ti').value.trim().toUpperCase();const S=load();delete S[a];localStorage[key()]=JSON.stringify(S);draw()}
+let ct=0;function clr(){if(Date.now()-ct<2500){localStorage[key()]='{}';$('cb').textContent='Clear';draw()}else{ct=Date.now();$('cb').textContent='Tap again';setTimeout(()=>$('cb').textContent='Clear',2500)}}
+function cyPos(){const o=['sides','top','bottom'];pos=o[(o.indexOf(pos)+1)%3];localStorage.rb_wall_pos=pos;layout();draw(1)}
+function cyLay(){lay=lay==='V'?'H':'V';localStorage.rb_wall_lay=lay==='V'?'vertical':'horizontal';layout();draw(1)}
+function hideBar(v){const h=v===undefined?!document.body.classList.contains('hide'):v;document.body.classList.toggle('hide',h);localStorage.rb_wall_bar=h?'0':'1'}
+addEventListener('keydown',e=>{if(e.key.toLowerCase()==='h'&&!/INPUT/.test(document.activeElement.tagName))hideBar()});
+addEventListener('storage',e=>{if(e.key===key())draw()});setInterval(draw,700);addEventListener('resize',fit);
+layout();draw(1);
+</script></body></html>
