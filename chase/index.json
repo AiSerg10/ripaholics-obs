@@ -18,5 +18,10 @@
   "slug": "2025-26-topps-basketball",
   "name": "2025-26 Topps Basketball (Flagship)",
   "league": "nba"
+ },
+ {
+  "slug": "2026-27-topps-flagship-basketball",
+  "name": "2026-27 Topps Flagship Basketball (Value)",
+  "league": "nba"
  }
 ]
