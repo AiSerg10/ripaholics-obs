@@ -1,0 +1,2204 @@
+{
+ "name": "2025-26 Topps Basketball (Flagship)",
+ "label": "2025-26 Topps Basketball",
+ "league": "nba",
+ "entries": [
+  {
+   "team": "DAL",
+   "player": "Cooper Flagg",
+   "card": "Base RC (#201)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "DAL",
+   "player": "Cooper Flagg",
+   "card": "Clutch City Prospects (CC-1)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "DAL",
+   "player": "Cooper Flagg",
+   "card": "Class of '25 (C25-1)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "DAL",
+   "player": "Cooper Flagg",
+   "card": "Generation Now (GN-1)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "DAL",
+   "player": "Cooper Flagg",
+   "card": "Golden Mirror Image Variation (#201)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "SAS",
+   "player": "Dylan Harper",
+   "card": "Base RC (#202)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "SAS",
+   "player": "Dylan Harper",
+   "card": "Clutch City Prospects (CC-2)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "SAS",
+   "player": "Victor Wembanyama",
+   "card": "Base (#195)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "SAS",
+   "player": "Victor Wembanyama",
+   "card": "All Kings (AK-1)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "SAS",
+   "player": "Victor Wembanyama",
+   "card": "Hardwood Stars (HS-1)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "PHI",
+   "player": "VJ Edgecombe",
+   "card": "Base RC (#203)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "PHI",
+   "player": "VJ Edgecombe",
+   "card": "Clutch City Prospects (CC-3)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "CHA",
+   "player": "Kon Knueppel",
+   "card": "Base RC (#204)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "CHA",
+   "player": "Kon Knueppel",
+   "card": "Clutch City Prospects (CC-4)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "CHA",
+   "player": "LaMelo Ball",
+   "card": "Base (#67)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "UTA",
+   "player": "Ace Bailey",
+   "card": "Base RC (#205)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "UTA",
+   "player": "Ace Bailey",
+   "card": "Clutch City Prospects (CC-5)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "LAL",
+   "player": "LeBron James",
+   "card": "Base (#150)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "LAL",
+   "player": "LeBron James",
+   "card": "All Kings (AK-3)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "LAL",
+   "player": "Magic Johnson",
+   "card": "Base Legend (#255)",
+   "format": "retail",
+   "tier": "legend"
+  },
+  {
+   "team": "OKC",
+   "player": "Shai Gilgeous-Alexander",
+   "card": "Base (#115)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "OKC",
+   "player": "Shai Gilgeous-Alexander",
+   "card": "All Kings (AK-9)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "GSW",
+   "player": "Stephen Curry",
+   "card": "Base (#135)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "GSW",
+   "player": "Stephen Curry",
+   "card": "All Kings (AK-2)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "MIN",
+   "player": "Anthony Edwards",
+   "card": "Base (#108)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "MIN",
+   "player": "Anthony Edwards",
+   "card": "All Kings (AK-5)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "DEN",
+   "player": "Nikola Jokić",
+   "card": "Base (#101)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "DEN",
+   "player": "Nikola Jokić",
+   "card": "All Kings (AK-6)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "WAS",
+   "player": "Tre Johnson III",
+   "card": "Base RC (#206)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "NOP",
+   "player": "Jeremiah Fears",
+   "card": "Base RC (#207)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "BKN",
+   "player": "Egor Dëmin",
+   "card": "Base RC (#208)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "MEM",
+   "player": "Cedric Coward",
+   "card": "Base RC (#211)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "MEM",
+   "player": "Ja Morant",
+   "card": "Base (#182)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "PHX",
+   "player": "Khaman Maluach",
+   "card": "Base RC (#210)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "PHX",
+   "player": "Devin Booker",
+   "card": "Base (#156)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "TOR",
+   "player": "Collin Murray-Boyles",
+   "card": "Base RC (#209)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "CHI",
+   "player": "Noa Essengue",
+   "card": "Base RC (#212)",
+   "format": "retail",
+   "tier": "rookie"
+  },
+  {
+   "team": "MIL",
+   "player": "Giannis Antetokounmpo",
+   "card": "Base (#54)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "BOS",
+   "player": "Jayson Tatum",
+   "card": "Base (#1)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "NYK",
+   "player": "Jalen Brunson",
+   "card": "Base (#14)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "DET",
+   "player": "Cade Cunningham",
+   "card": "Base (#40)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "ORL",
+   "player": "Paolo Banchero",
+   "card": "Base (#87)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "CLE",
+   "player": "Donovan Mitchell",
+   "card": "Base (#80)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "HOU",
+   "player": "Amen Thompson",
+   "card": "Base (#176)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "HOU",
+   "player": "Kevin Durant",
+   "card": "Base (#157)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "ATL",
+   "player": "Trae Young",
+   "card": "Base (#61)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "MIA",
+   "player": "Bam Adebayo",
+   "card": "Base (#75)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "IND",
+   "player": "Tyrese Haliburton",
+   "card": "Base (#47)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "LAC",
+   "player": "Kawhi Leonard",
+   "card": "Base (#142)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "POR",
+   "player": "Scoot Henderson",
+   "card": "Base (#122)",
+   "format": "retail",
+   "tier": "star"
+  },
+  {
+   "team": "SAC",
+   "player": "Domantas Sabonis",
+   "card": "Base (#167)",
+   "format": "retail",
+   "tier": "star"
+  }
+ ],
+ "sheet": {
+  "ATL": [
+   {
+    "id": "atl-1",
+    "tier": "star",
+    "player": "Trae Young",
+    "card": "Base (#61) · Season Tip Off exclusive parallel",
+    "format": "retail"
+   },
+   {
+    "id": "atl-2",
+    "tier": "star",
+    "player": "Trae Young",
+    "card": "8 Bit Ballers (8B-6)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-3",
+    "tier": "rookie",
+    "player": "Asa Newell",
+    "card": "Base RC (#223)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-4",
+    "tier": "rookie",
+    "player": "Asa Newell",
+    "card": "Generation Now (GN-23)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-5",
+    "tier": "rookie",
+    "player": "Asa Newell",
+    "card": "New Applicants Autograph (NA-AN)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-6",
+    "tier": "star",
+    "player": "Zaccharie Risacher",
+    "card": "Base (#62)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-7",
+    "tier": "legend",
+    "player": "Spud Webb",
+    "card": "Base Legend (#266)",
+    "format": "retail"
+   },
+   {
+    "id": "atl-8",
+    "tier": "star",
+    "player": "Trae Young",
+    "card": "Flagship Real One Relic (FRO-TY)",
+    "format": "retail"
+   }
+  ],
+  "BOS": [
+   {
+    "id": "bos-1",
+    "tier": "star",
+    "player": "Jayson Tatum",
+    "card": "Base (#1) · Season Tip Off exclusive parallel",
+    "format": "retail"
+   },
+   {
+    "id": "bos-2",
+    "tier": "star",
+    "player": "Jayson Tatum",
+    "card": "All Kings (AK-7)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-3",
+    "tier": "star",
+    "player": "Jayson Tatum",
+    "card": "Power Players (PP-5)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-4",
+    "tier": "star",
+    "player": "Jaylen Brown",
+    "card": "Base (#2)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-5",
+    "tier": "rookie",
+    "player": "Hugo González",
+    "card": "Base RC (#228)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-6",
+    "tier": "rookie",
+    "player": "Hugo González",
+    "card": "Generation Now (GN-28)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-7",
+    "tier": "legend",
+    "player": "Larry Bird",
+    "card": "Base Legend (#257)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-8",
+    "tier": "legend",
+    "player": "Bill Russell",
+    "card": "Base Legend (#251)",
+    "format": "retail"
+   },
+   {
+    "id": "bos-9",
+    "tier": "star",
+    "player": "Jayson Tatum",
+    "card": "Sole Ambition (SA-6)",
+    "format": "retail"
+   }
+  ],
+  "BKN": [
+   {
+    "id": "bkn-1",
+    "tier": "rookie",
+    "player": "Egor Dëmin",
+    "card": "Base RC (#208)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-2",
+    "tier": "rookie",
+    "player": "Egor Dëmin",
+    "card": "Clutch City Prospects (CC-8)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-3",
+    "tier": "rookie",
+    "player": "Egor Dëmin",
+    "card": "Class of '25 (C25-8)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-4",
+    "tier": "rookie",
+    "player": "Egor Dëmin",
+    "card": "All Kings (AK-23)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-5",
+    "tier": "rookie",
+    "player": "Nolan Traore",
+    "card": "Base RC (#219)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-6",
+    "tier": "rookie",
+    "player": "Drake Powell",
+    "card": "Base RC (#222)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-7",
+    "tier": "rookie",
+    "player": "Ben Saraf",
+    "card": "Base RC (#226)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-8",
+    "tier": "rookie",
+    "player": "Danny Wolf",
+    "card": "Base RC (#227)",
+    "format": "retail"
+   },
+   {
+    "id": "bkn-9",
+    "tier": "star",
+    "player": "Cam Thomas",
+    "card": "Base (#11)",
+    "format": "retail"
+   }
+  ],
+  "CHA": [
+   {
+    "id": "cha-1",
+    "tier": "rookie",
+    "player": "Kon Knueppel",
+    "card": "Base RC (#204)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-2",
+    "tier": "rookie",
+    "player": "Kon Knueppel",
+    "card": "Clutch City Prospects (CC-4)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-3",
+    "tier": "rookie",
+    "player": "Kon Knueppel",
+    "card": "Class of '25 (C25-4)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-4",
+    "tier": "rookie",
+    "player": "Kon Knueppel",
+    "card": "All Kings (AK-19)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-5",
+    "tier": "star",
+    "player": "LaMelo Ball",
+    "card": "Base (#67)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-6",
+    "tier": "star",
+    "player": "LaMelo Ball",
+    "card": "Hardwood Stars (HS-4)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-7",
+    "tier": "star",
+    "player": "Brandon Miller",
+    "card": "Base (#68)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-8",
+    "tier": "rookie",
+    "player": "Liam McNeeley",
+    "card": "Base RC (#229)",
+    "format": "retail"
+   },
+   {
+    "id": "cha-9",
+    "tier": "rookie",
+    "player": "Kon Knueppel",
+    "card": "Flagship Real One Rookie Autograph (TFRR-KK)",
+    "format": "retail"
+   }
+  ],
+  "CHI": [
+   {
+    "id": "chi-1",
+    "tier": "rookie",
+    "player": "Noa Essengue",
+    "card": "Base RC (#212)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-2",
+    "tier": "rookie",
+    "player": "Noa Essengue",
+    "card": "Class of '25 (C25-12)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-3",
+    "tier": "rookie",
+    "player": "Noa Essengue",
+    "card": "Generation Now (GN-12)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-4",
+    "tier": "rookie",
+    "player": "Noa Essengue",
+    "card": "Hardwood Stars (HS-18)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-5",
+    "tier": "star",
+    "player": "Josh Giddey",
+    "card": "Base (#35)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-6",
+    "tier": "star",
+    "player": "Coby White",
+    "card": "Base (#34)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-7",
+    "tier": "star",
+    "player": "Matas Buzelis",
+    "card": "Base (#37)",
+    "format": "retail"
+   },
+   {
+    "id": "chi-8",
+    "tier": "rookie",
+    "player": "Noa Essengue",
+    "card": "New Applicants Autograph (NA-NE)",
+    "format": "retail"
+   }
+  ],
+  "CLE": [
+   {
+    "id": "cle-1",
+    "tier": "star",
+    "player": "Donovan Mitchell",
+    "card": "Base (#80)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-2",
+    "tier": "star",
+    "player": "Donovan Mitchell",
+    "card": "All Kings (AK-10)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-3",
+    "tier": "star",
+    "player": "Donovan Mitchell",
+    "card": "Hardwood Stars (HS-8)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-4",
+    "tier": "star",
+    "player": "Evan Mobley",
+    "card": "Base (#82)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-5",
+    "tier": "star",
+    "player": "Darius Garland",
+    "card": "Base (#81)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-6",
+    "tier": "rookie",
+    "player": "Tyrese Proctor",
+    "card": "Base RC (#250)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-7",
+    "tier": "star",
+    "player": "Donovan Mitchell",
+    "card": "Flagship Real One Autograph (TFRA-DM)",
+    "format": "retail"
+   },
+   {
+    "id": "cle-8",
+    "tier": "star",
+    "player": "Donovan Mitchell",
+    "card": "8 Bit Ballers (8B-11)",
+    "format": "retail"
+   }
+  ],
+  "DAL": [
+   {
+    "id": "dal-1",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Base RC (#201)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-2",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Clutch City Prospects (CC-1)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-3",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Class of '25 (C25-1)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-4",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "All Kings (AK-16)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-5",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Golden Mirror Image Variation (#201)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-6",
+    "tier": "star",
+    "player": "Kyrie Irving",
+    "card": "Base (#168)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-7",
+    "tier": "star",
+    "player": "Anthony Davis",
+    "card": "Base (#169)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-8",
+    "tier": "legend",
+    "player": "Dirk Nowitzki",
+    "card": "Base Legend (#252)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-9",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Flagship Real One Rookie Autograph (TFRR-CF)",
+    "format": "retail"
+   },
+   {
+    "id": "dal-10",
+    "tier": "rookie",
+    "player": "Cooper Flagg",
+    "card": "Comic Court (CC-16) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "DEN": [
+   {
+    "id": "den-1",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "Base (#101)",
+    "format": "retail"
+   },
+   {
+    "id": "den-2",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "All Kings (AK-6)",
+    "format": "retail"
+   },
+   {
+    "id": "den-3",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "Power Players (PP-12)",
+    "format": "retail"
+   },
+   {
+    "id": "den-4",
+    "tier": "star",
+    "player": "Jamal Murray",
+    "card": "Base (#103)",
+    "format": "retail"
+   },
+   {
+    "id": "den-5",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "Golden Mirror Image Variation (#101)",
+    "format": "retail"
+   },
+   {
+    "id": "den-6",
+    "tier": "legend",
+    "player": "Carmelo Anthony",
+    "card": "Base Legend (#256)",
+    "format": "retail"
+   },
+   {
+    "id": "den-7",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "Home Court (HCA-4) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "den-8",
+    "tier": "star",
+    "player": "Nikola Jokić",
+    "card": "Comic Court (CC-4) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "DET": [
+   {
+    "id": "det-1",
+    "tier": "star",
+    "player": "Cade Cunningham",
+    "card": "Base (#40)",
+    "format": "retail"
+   },
+   {
+    "id": "det-2",
+    "tier": "star",
+    "player": "Cade Cunningham",
+    "card": "All Kings (AK-8)",
+    "format": "retail"
+   },
+   {
+    "id": "det-3",
+    "tier": "star",
+    "player": "Cade Cunningham",
+    "card": "8 Bit Ballers (8B-1)",
+    "format": "retail"
+   },
+   {
+    "id": "det-4",
+    "tier": "star",
+    "player": "Ausar Thompson",
+    "card": "Base (#44)",
+    "format": "retail"
+   },
+   {
+    "id": "det-5",
+    "tier": "rookie",
+    "player": "Chaz Lanier",
+    "card": "Base RC (#238)",
+    "format": "retail"
+   },
+   {
+    "id": "det-6",
+    "tier": "legend",
+    "player": "Isiah Thomas",
+    "card": "Base Legend (#269)",
+    "format": "retail"
+   },
+   {
+    "id": "det-7",
+    "tier": "star",
+    "player": "Cade Cunningham",
+    "card": "Comic Court (CC-5) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "det-8",
+    "tier": "rookie",
+    "player": "Chaz Lanier",
+    "card": "New Applicants Autograph (NA-CL)",
+    "format": "retail"
+   }
+  ],
+  "GSW": [
+   {
+    "id": "gsw-1",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "Base (#135)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-2",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "All Kings (AK-2)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-3",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "Hardwood Stars (HS-5)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-4",
+    "tier": "star",
+    "player": "Jimmy Butler III",
+    "card": "Base (#136)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-5",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "Sole Ambition (SA-3)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-6",
+    "tier": "legend",
+    "player": "Rick Barry",
+    "card": "Base Legend (#258)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-7",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "Flagship Real One Autograph (TFRA-SC)",
+    "format": "retail"
+   },
+   {
+    "id": "gsw-8",
+    "tier": "star",
+    "player": "Stephen Curry",
+    "card": "Home Court (HCA-2) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "HOU": [
+   {
+    "id": "hou-1",
+    "tier": "star",
+    "player": "Amen Thompson",
+    "card": "Base (#176)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-2",
+    "tier": "star",
+    "player": "Amen Thompson",
+    "card": "Hardwood Stars (HS-7)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-3",
+    "tier": "star",
+    "player": "Kevin Durant",
+    "card": "Base (#157)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-4",
+    "tier": "star",
+    "player": "Jalen Green",
+    "card": "Base (#175)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-5",
+    "tier": "star",
+    "player": "Alperen Sengun",
+    "card": "Base (#180)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-6",
+    "tier": "legend",
+    "player": "Tracy McGrady",
+    "card": "Base Legend (#263)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-7",
+    "tier": "star",
+    "player": "Jalen Green",
+    "card": "Flagship Real One Autograph (TFRA-JG)",
+    "format": "retail"
+   },
+   {
+    "id": "hou-8",
+    "tier": "star",
+    "player": "Kevin Durant",
+    "card": "Golden Mirror Image Variation (#157)",
+    "format": "retail"
+   }
+  ],
+  "IND": [
+   {
+    "id": "ind-1",
+    "tier": "star",
+    "player": "Tyrese Haliburton",
+    "card": "Base (#47)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-2",
+    "tier": "star",
+    "player": "Tyrese Haliburton",
+    "card": "All Kings (AK-14)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-3",
+    "tier": "star",
+    "player": "Pascal Siakam",
+    "card": "Base (#53)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-4",
+    "tier": "star",
+    "player": "Pascal Siakam",
+    "card": "Power Players (PP-3)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-5",
+    "tier": "rookie",
+    "player": "Kam Jones",
+    "card": "Base RC (#239)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-6",
+    "tier": "star",
+    "player": "Bennedict Mathurin",
+    "card": "Base (#48)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-7",
+    "tier": "star",
+    "player": "Tyrese Haliburton",
+    "card": "Flagship Real One Autograph (TFRA-THA)",
+    "format": "retail"
+   },
+   {
+    "id": "ind-8",
+    "tier": "rookie",
+    "player": "Kam Jones",
+    "card": "New Applicants Autograph (NA-KO)",
+    "format": "retail"
+   }
+  ],
+  "LAC": [
+   {
+    "id": "lac-1",
+    "tier": "star",
+    "player": "Kawhi Leonard",
+    "card": "Base (#142)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-2",
+    "tier": "star",
+    "player": "Kawhi Leonard",
+    "card": "Power Players (PP-8)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-3",
+    "tier": "star",
+    "player": "James Harden",
+    "card": "Base (#143)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-4",
+    "tier": "star",
+    "player": "James Harden",
+    "card": "8 Bit Ballers (8B-16)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-5",
+    "tier": "rookie",
+    "player": "Yanic Konan-Niederhäuser",
+    "card": "Base RC (#230)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-6",
+    "tier": "star",
+    "player": "Kawhi Leonard",
+    "card": "Sole Ambition (SA-7)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-7",
+    "tier": "star",
+    "player": "James Harden",
+    "card": "Flagship Real One Autograph (TFRA-JH)",
+    "format": "retail"
+   },
+   {
+    "id": "lac-8",
+    "tier": "rookie",
+    "player": "Yanic Konan-Niederhäuser",
+    "card": "Generation Now (GN-30)",
+    "format": "retail"
+   }
+  ],
+  "LAL": [
+   {
+    "id": "lal-1",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "Base (#150)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-2",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "All Kings (AK-3)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-3",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "Hardwood Stars (HS-2)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-4",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "Sole Ambition (SA-1)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-5",
+    "tier": "star",
+    "player": "Austin Reaves",
+    "card": "Base (#151)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-6",
+    "tier": "legend",
+    "player": "Magic Johnson",
+    "card": "Base Legend (#255)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-7",
+    "tier": "star",
+    "player": "Bronny James Jr.",
+    "card": "Base (#152)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-8",
+    "tier": "rookie",
+    "player": "Adou Thiero",
+    "card": "Base RC (#236)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-9",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "Flagship Real One Autograph (TFRA-LJ)",
+    "format": "retail"
+   },
+   {
+    "id": "lal-10",
+    "tier": "star",
+    "player": "LeBron James",
+    "card": "Home Court (HCA-1) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "MEM": [
+   {
+    "id": "mem-1",
+    "tier": "rookie",
+    "player": "Cedric Coward",
+    "card": "Base RC (#211)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-2",
+    "tier": "rookie",
+    "player": "Cedric Coward",
+    "card": "Class of '25 (C25-11)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-3",
+    "tier": "rookie",
+    "player": "Cedric Coward",
+    "card": "Generation Now (GN-11)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-4",
+    "tier": "star",
+    "player": "Ja Morant",
+    "card": "Base (#182)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-5",
+    "tier": "star",
+    "player": "Ja Morant",
+    "card": "8 Bit Ballers (8B-12)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-6",
+    "tier": "star",
+    "player": "Jaren Jackson Jr.",
+    "card": "Base (#184)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-7",
+    "tier": "rookie",
+    "player": "Cedric Coward",
+    "card": "New Applicants Autograph (NA-CC)",
+    "format": "retail"
+   },
+   {
+    "id": "mem-8",
+    "tier": "rookie",
+    "player": "Cedric Coward",
+    "card": "Comic Court (CC-20) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "MIA": [
+   {
+    "id": "mia-1",
+    "tier": "star",
+    "player": "Bam Adebayo",
+    "card": "Base (#75)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-2",
+    "tier": "star",
+    "player": "Tyler Herro",
+    "card": "Base (#73)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-3",
+    "tier": "star",
+    "player": "Tyler Herro",
+    "card": "8 Bit Ballers (8B-2)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-4",
+    "tier": "rookie",
+    "player": "Kasparas Jakučionis",
+    "card": "Base RC (#220)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-5",
+    "tier": "rookie",
+    "player": "Kasparas Jakučionis",
+    "card": "Class of '25 (C25-20)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-6",
+    "tier": "rookie",
+    "player": "Kasparas Jakučionis",
+    "card": "All Kings (AK-24)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-7",
+    "tier": "legend",
+    "player": "Dwyane Wade",
+    "card": "Base Legend (#261)",
+    "format": "retail"
+   },
+   {
+    "id": "mia-8",
+    "tier": "rookie",
+    "player": "Kasparas Jakučionis",
+    "card": "New Applicants Autograph (NA-KJ)",
+    "format": "retail"
+   }
+  ],
+  "MIL": [
+   {
+    "id": "mil-1",
+    "tier": "star",
+    "player": "Giannis Antetokounmpo",
+    "card": "Base (#54)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-2",
+    "tier": "star",
+    "player": "Giannis Antetokounmpo",
+    "card": "All Kings (AK-4)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-3",
+    "tier": "star",
+    "player": "Giannis Antetokounmpo",
+    "card": "Power Players (PP-1)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-4",
+    "tier": "star",
+    "player": "Damian Lillard",
+    "card": "Base (#55)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-5",
+    "tier": "star",
+    "player": "Damian Lillard",
+    "card": "8 Bit Ballers (8B-8)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-6",
+    "tier": "legend",
+    "player": "Kareem Abdul-Jabbar",
+    "card": "Base Legend (#259)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-7",
+    "tier": "star",
+    "player": "Giannis Antetokounmpo",
+    "card": "Sole Ambition (SA-5)",
+    "format": "retail"
+   },
+   {
+    "id": "mil-8",
+    "tier": "star",
+    "player": "Giannis Antetokounmpo",
+    "card": "Comic Court (CC-3) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "MIN": [
+   {
+    "id": "min-1",
+    "tier": "star",
+    "player": "Anthony Edwards",
+    "card": "Base (#108)",
+    "format": "retail"
+   },
+   {
+    "id": "min-2",
+    "tier": "star",
+    "player": "Anthony Edwards",
+    "card": "All Kings (AK-5)",
+    "format": "retail"
+   },
+   {
+    "id": "min-3",
+    "tier": "star",
+    "player": "Anthony Edwards",
+    "card": "Hardwood Stars (HS-3)",
+    "format": "retail"
+   },
+   {
+    "id": "min-4",
+    "tier": "star",
+    "player": "Anthony Edwards",
+    "card": "Sole Ambition (SA-4)",
+    "format": "retail"
+   },
+   {
+    "id": "min-5",
+    "tier": "rookie",
+    "player": "Joan Beringer",
+    "card": "Base RC (#217)",
+    "format": "retail"
+   },
+   {
+    "id": "min-6",
+    "tier": "legend",
+    "player": "Kevin Garnett",
+    "card": "Base Legend (#254)",
+    "format": "retail"
+   },
+   {
+    "id": "min-7",
+    "tier": "star",
+    "player": "Anthony Edwards",
+    "card": "Home Court (HCA-3) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "min-8",
+    "tier": "rookie",
+    "player": "Joan Beringer",
+    "card": "Class of '25 (C25-17)",
+    "format": "retail"
+   }
+  ],
+  "NOP": [
+   {
+    "id": "nop-1",
+    "tier": "rookie",
+    "player": "Jeremiah Fears",
+    "card": "Base RC (#207)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-2",
+    "tier": "rookie",
+    "player": "Jeremiah Fears",
+    "card": "Clutch City Prospects (CC-7)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-3",
+    "tier": "rookie",
+    "player": "Jeremiah Fears",
+    "card": "Class of '25 (C25-7)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-4",
+    "tier": "rookie",
+    "player": "Jeremiah Fears",
+    "card": "All Kings (AK-22)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-5",
+    "tier": "rookie",
+    "player": "Derik Queen",
+    "card": "Base RC (#213)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-6",
+    "tier": "rookie",
+    "player": "Derik Queen",
+    "card": "Class of '25 (C25-13)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-7",
+    "tier": "star",
+    "player": "Trey Murphy III",
+    "card": "Base (#190)",
+    "format": "retail"
+   },
+   {
+    "id": "nop-8",
+    "tier": "rookie",
+    "player": "Jeremiah Fears",
+    "card": "Comic Court (CC-19) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "NYK": [
+   {
+    "id": "nyk-1",
+    "tier": "star",
+    "player": "Jalen Brunson",
+    "card": "Base (#14)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-2",
+    "tier": "star",
+    "player": "Jalen Brunson",
+    "card": "All Kings (AK-13)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-3",
+    "tier": "star",
+    "player": "Karl-Anthony Towns",
+    "card": "Base (#19)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-4",
+    "tier": "star",
+    "player": "Karl-Anthony Towns",
+    "card": "Power Players (PP-4)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-5",
+    "tier": "star",
+    "player": "Mikal Bridges",
+    "card": "Base (#18)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-6",
+    "tier": "legend",
+    "player": "Bernard King",
+    "card": "Base Legend (#268)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-7",
+    "tier": "star",
+    "player": "Jalen Brunson",
+    "card": "Flagship Real One Autograph (TFRA-JB)",
+    "format": "retail"
+   },
+   {
+    "id": "nyk-8",
+    "tier": "star",
+    "player": "Jalen Brunson",
+    "card": "Comic Court (CC-12) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "OKC": [
+   {
+    "id": "okc-1",
+    "tier": "star",
+    "player": "Shai Gilgeous-Alexander",
+    "card": "Base (#115)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-2",
+    "tier": "star",
+    "player": "Shai Gilgeous-Alexander",
+    "card": "All Kings (AK-9)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-3",
+    "tier": "star",
+    "player": "Shai Gilgeous-Alexander",
+    "card": "Hardwood Stars (HS-6)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-4",
+    "tier": "star",
+    "player": "Chet Holmgren",
+    "card": "Base (#118)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-5",
+    "tier": "star",
+    "player": "Jalen Williams",
+    "card": "Base (#116)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-6",
+    "tier": "rookie",
+    "player": "Thomas Sorber",
+    "card": "Base RC (#215)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-7",
+    "tier": "star",
+    "player": "Shai Gilgeous-Alexander",
+    "card": "Home Court (HCA-5) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "okc-8",
+    "tier": "rookie",
+    "player": "Thomas Sorber",
+    "card": "Class of '25 (C25-15)",
+    "format": "retail"
+   },
+   {
+    "id": "okc-9",
+    "tier": "star",
+    "player": "Shai Gilgeous-Alexander",
+    "card": "Sole Ambition (SA-9)",
+    "format": "retail"
+   }
+  ],
+  "ORL": [
+   {
+    "id": "orl-1",
+    "tier": "star",
+    "player": "Paolo Banchero",
+    "card": "Base (#87)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-2",
+    "tier": "star",
+    "player": "Paolo Banchero",
+    "card": "All Kings (AK-11)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-3",
+    "tier": "star",
+    "player": "Paolo Banchero",
+    "card": "Power Players (PP-2)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-4",
+    "tier": "star",
+    "player": "Franz Wagner",
+    "card": "Base (#88)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-5",
+    "tier": "rookie",
+    "player": "Jase Richardson",
+    "card": "Base RC (#225)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-6",
+    "tier": "legend",
+    "player": "Shaquille O'Neal",
+    "card": "Base Legend (#260)",
+    "format": "retail"
+   },
+   {
+    "id": "orl-7",
+    "tier": "star",
+    "player": "Paolo Banchero",
+    "card": "Comic Court (CC-7) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "orl-8",
+    "tier": "rookie",
+    "player": "Jase Richardson",
+    "card": "Generation Now (GN-25)",
+    "format": "retail"
+   }
+  ],
+  "PHI": [
+   {
+    "id": "phi-1",
+    "tier": "rookie",
+    "player": "VJ Edgecombe",
+    "card": "Base RC (#203)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-2",
+    "tier": "rookie",
+    "player": "VJ Edgecombe",
+    "card": "Clutch City Prospects (CC-3)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-3",
+    "tier": "rookie",
+    "player": "VJ Edgecombe",
+    "card": "Class of '25 (C25-3)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-4",
+    "tier": "rookie",
+    "player": "VJ Edgecombe",
+    "card": "All Kings (AK-18)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-5",
+    "tier": "star",
+    "player": "Joel Embiid",
+    "card": "Base (#22)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-6",
+    "tier": "star",
+    "player": "Tyrese Maxey",
+    "card": "Base (#21)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-7",
+    "tier": "legend",
+    "player": "Allen Iverson",
+    "card": "Base Legend (#253)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-8",
+    "tier": "rookie",
+    "player": "Johni Broome",
+    "card": "Base RC (#235)",
+    "format": "retail"
+   },
+   {
+    "id": "phi-9",
+    "tier": "rookie",
+    "player": "VJ Edgecombe",
+    "card": "Comic Court (CC-18) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "PHX": [
+   {
+    "id": "phx-1",
+    "tier": "rookie",
+    "player": "Khaman Maluach",
+    "card": "Base RC (#210)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-2",
+    "tier": "rookie",
+    "player": "Khaman Maluach",
+    "card": "Clutch City Prospects (CC-10)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-3",
+    "tier": "rookie",
+    "player": "Khaman Maluach",
+    "card": "Class of '25 (C25-10)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-4",
+    "tier": "star",
+    "player": "Devin Booker",
+    "card": "Base (#156)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-5",
+    "tier": "star",
+    "player": "Devin Booker",
+    "card": "Hardwood Stars (HS-9)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-6",
+    "tier": "star",
+    "player": "Bradley Beal",
+    "card": "Base (#158)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-7",
+    "tier": "rookie",
+    "player": "Rasheer Fleming",
+    "card": "Base RC (#231)",
+    "format": "retail"
+   },
+   {
+    "id": "phx-8",
+    "tier": "star",
+    "player": "Devin Booker",
+    "card": "Comic Court (CC-14) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "POR": [
+   {
+    "id": "por-1",
+    "tier": "star",
+    "player": "Scoot Henderson",
+    "card": "Base (#122)",
+    "format": "retail"
+   },
+   {
+    "id": "por-2",
+    "tier": "star",
+    "player": "Scoot Henderson",
+    "card": "8 Bit Ballers (8B-14)",
+    "format": "retail"
+   },
+   {
+    "id": "por-3",
+    "tier": "star",
+    "player": "Shaedon Sharpe",
+    "card": "Base (#127)",
+    "format": "retail"
+   },
+   {
+    "id": "por-4",
+    "tier": "star",
+    "player": "Donovan Clingan",
+    "card": "Base (#126)",
+    "format": "retail"
+   },
+   {
+    "id": "por-5",
+    "tier": "rookie",
+    "player": "Yang Hansen",
+    "card": "Base RC (#216)",
+    "format": "retail"
+   },
+   {
+    "id": "por-6",
+    "tier": "rookie",
+    "player": "Yang Hansen",
+    "card": "Class of '25 (C25-16)",
+    "format": "retail"
+   },
+   {
+    "id": "por-7",
+    "tier": "star",
+    "player": "Deni Avdija",
+    "card": "Base (#125)",
+    "format": "retail"
+   },
+   {
+    "id": "por-8",
+    "tier": "rookie",
+    "player": "Yang Hansen",
+    "card": "New Applicants Autograph (NA-YH)",
+    "format": "retail"
+   }
+  ],
+  "SAC": [
+   {
+    "id": "sac-1",
+    "tier": "star",
+    "player": "Domantas Sabonis",
+    "card": "Base (#167)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-2",
+    "tier": "star",
+    "player": "Domantas Sabonis",
+    "card": "Power Players (PP-14)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-3",
+    "tier": "star",
+    "player": "DeMar DeRozan",
+    "card": "Base (#162)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-4",
+    "tier": "star",
+    "player": "Zach LaVine",
+    "card": "Base (#163)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-5",
+    "tier": "rookie",
+    "player": "Nique Clifford",
+    "card": "Base RC (#224)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-6",
+    "tier": "rookie",
+    "player": "Maxime Raynaud",
+    "card": "Base RC (#243)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-7",
+    "tier": "rookie",
+    "player": "Nique Clifford",
+    "card": "Generation Now (GN-24)",
+    "format": "retail"
+   },
+   {
+    "id": "sac-8",
+    "tier": "rookie",
+    "player": "Nique Clifford",
+    "card": "New Applicants Autograph (NA-NC)",
+    "format": "retail"
+   }
+  ],
+  "SAS": [
+   {
+    "id": "sas-1",
+    "tier": "rookie",
+    "player": "Dylan Harper",
+    "card": "Base RC (#202)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-2",
+    "tier": "rookie",
+    "player": "Dylan Harper",
+    "card": "Clutch City Prospects (CC-2)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-3",
+    "tier": "rookie",
+    "player": "Dylan Harper",
+    "card": "Class of '25 (C25-2)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-4",
+    "tier": "rookie",
+    "player": "Dylan Harper",
+    "card": "All Kings (AK-17)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-5",
+    "tier": "star",
+    "player": "Victor Wembanyama",
+    "card": "Base (#195)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-6",
+    "tier": "star",
+    "player": "Victor Wembanyama",
+    "card": "All Kings (AK-1)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-7",
+    "tier": "star",
+    "player": "Victor Wembanyama",
+    "card": "Hardwood Stars (HS-1)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-8",
+    "tier": "rookie",
+    "player": "Carter Bryant",
+    "card": "Base RC (#214)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-9",
+    "tier": "legend",
+    "player": "Manu Ginobili",
+    "card": "Base Legend (#262)",
+    "format": "retail"
+   },
+   {
+    "id": "sas-10",
+    "tier": "star",
+    "player": "Victor Wembanyama",
+    "card": "Home Court (HCA-7) · hobby/jumbo case hit",
+    "format": "hobby"
+   }
+  ],
+  "TOR": [
+   {
+    "id": "tor-1",
+    "tier": "rookie",
+    "player": "Collin Murray-Boyles",
+    "card": "Base RC (#209)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-2",
+    "tier": "rookie",
+    "player": "Collin Murray-Boyles",
+    "card": "Clutch City Prospects (CC-9)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-3",
+    "tier": "rookie",
+    "player": "Collin Murray-Boyles",
+    "card": "Class of '25 (C25-9)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-4",
+    "tier": "star",
+    "player": "Scottie Barnes",
+    "card": "Base (#31)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-5",
+    "tier": "star",
+    "player": "Scottie Barnes",
+    "card": "Power Players (PP-9)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-6",
+    "tier": "star",
+    "player": "Brandon Ingram",
+    "card": "Base (#30)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-7",
+    "tier": "rookie",
+    "player": "Alijah Martin",
+    "card": "Base RC (#240)",
+    "format": "retail"
+   },
+   {
+    "id": "tor-8",
+    "tier": "star",
+    "player": "Vince Carter",
+    "card": "Hardwood Stars (HS-10)",
+    "format": "retail"
+   }
+  ],
+  "UTA": [
+   {
+    "id": "uta-1",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "Base RC (#205)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-2",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "Clutch City Prospects (CC-5)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-3",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "Class of '25 (C25-5)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-4",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "All Kings (AK-20)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-5",
+    "tier": "rookie",
+    "player": "Walter Clayton Jr.",
+    "card": "Base RC (#218)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-6",
+    "tier": "rookie",
+    "player": "Walter Clayton Jr.",
+    "card": "Class of '25 (C25-18)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-7",
+    "tier": "star",
+    "player": "Lauri Markkanen",
+    "card": "Base (#129)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-8",
+    "tier": "legend",
+    "player": "John Stockton",
+    "card": "Base Legend (#264)",
+    "format": "retail"
+   },
+   {
+    "id": "uta-9",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "Home Court (HCA-10) · hobby/jumbo case hit",
+    "format": "hobby"
+   },
+   {
+    "id": "uta-10",
+    "tier": "rookie",
+    "player": "Ace Bailey",
+    "card": "Flagship Real One Rookie Autograph (TFRR-AB)",
+    "format": "retail"
+   }
+  ],
+  "WAS": [
+   {
+    "id": "was-1",
+    "tier": "rookie",
+    "player": "Tre Johnson III",
+    "card": "Base RC (#206)",
+    "format": "retail"
+   },
+   {
+    "id": "was-2",
+    "tier": "rookie",
+    "player": "Tre Johnson III",
+    "card": "Clutch City Prospects (CC-6)",
+    "format": "retail"
+   },
+   {
+    "id": "was-3",
+    "tier": "rookie",
+    "player": "Tre Johnson III",
+    "card": "Class of '25 (C25-6)",
+    "format": "retail"
+   },
+   {
+    "id": "was-4",
+    "tier": "rookie",
+    "player": "Tre Johnson III",
+    "card": "All Kings (AK-21)",
+    "format": "retail"
+   },
+   {
+    "id": "was-5",
+    "tier": "star",
+    "player": "Alex Sarr",
+    "card": "Base (#96)",
+    "format": "retail"
+   },
+   {
+    "id": "was-6",
+    "tier": "rookie",
+    "player": "Will Riley",
+    "card": "Base RC (#221)",
+    "format": "retail"
+   },
+   {
+    "id": "was-7",
+    "tier": "star",
+    "player": "Bilal Coulibaly",
+    "card": "Base (#95)",
+    "format": "retail"
+   },
+   {
+    "id": "was-8",
+    "tier": "rookie",
+    "player": "Tre Johnson III",
+    "card": "Hardwood Stars (HS-16)",
+    "format": "retail"
+   },
+   {
+    "id": "was-9",
+    "tier": "rookie",
+    "player": "Will Riley",
+    "card": "New Applicants Autograph (NA-WR)",
+    "format": "retail"
+   }
+  ]
+ }
+}

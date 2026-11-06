@@ -13,5 +13,10 @@
   "slug": "2026-topps-update",
   "name": "2026 Topps Update Series",
   "league": "mlb"
+ },
+ {
+  "slug": "2025-26-topps-basketball",
+  "name": "2025-26 Topps Basketball (Flagship)",
+  "league": "nba"
  }
 ]
