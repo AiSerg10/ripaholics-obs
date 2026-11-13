@@ -1,0 +1,1952 @@
+{
+  "name": "2026 Topps Holiday Baseball Mega",
+  "label": "2026 Topps Holiday Mega",
+  "league": "mlb",
+  "entries": [
+    {
+      "team": "LAD",
+      "player": "Shohei Ohtani",
+      "card": "Hidden Elf (HE-12)",
+      "format": "retail",
+      "tier": "legend"
+    },
+    {
+      "team": "NYY",
+      "player": "Aaron Judge",
+      "card": "Hidden Elf (HE-1)",
+      "format": "retail",
+      "tier": "legend"
+    },
+    {
+      "team": "KC",
+      "player": "Bobby Witt Jr.",
+      "card": "Hidden Elf (HE-6)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "BOS",
+      "player": "Roman Anthony",
+      "card": "Hidden Elf (HE-14)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "CWS",
+      "player": "Munetaka Murakami",
+      "card": "Hidden Elf (HE-17)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "NYM",
+      "player": "Juan Soto",
+      "card": "Hidden Elf (HE-13)",
+      "format": "retail",
+      "tier": "legend"
+    },
+    {
+      "team": "PIT",
+      "player": "Paul Skenes",
+      "card": "Hidden Elf (HE-4)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "MIL",
+      "player": "Jacob Misiorowski",
+      "card": "Hidden Elf (HE-19)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "ATH",
+      "player": "Nick Kurtz",
+      "card": "Hidden Elf (HE-10)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "SEA",
+      "player": "Cal Raleigh",
+      "card": "Oversized Die-Cut Ornament (OO-6)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "ATL",
+      "player": "Ronald Acuña Jr.",
+      "card": "Hidden Elf (HE-8)",
+      "format": "retail",
+      "tier": "legend"
+    },
+    {
+      "team": "DET",
+      "player": "Tarik Skubal",
+      "card": "Hidden Elf (HE-3)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "TOR",
+      "player": "Vladimir Guerrero Jr.",
+      "card": "Hidden Elf (HE-9)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "BAL",
+      "player": "Samuel Basallo",
+      "card": "Hidden Elf (HE-16)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "CIN",
+      "player": "Elly De La Cruz",
+      "card": "Holiday Relic (HR-ED)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "SD",
+      "player": "Fernando Tatis Jr.",
+      "card": "Oversized Die-Cut Ornament (OO-3)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "ARI",
+      "player": "Corbin Carroll",
+      "card": "Hidden Elf (HE-5)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "PHI",
+      "player": "Bryce Harper",
+      "card": "Base (H59)",
+      "format": "both",
+      "tier": "legend"
+    },
+    {
+      "team": "CLE",
+      "player": "José Ramírez",
+      "card": "Hidden Elf (HE-7)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "CHC",
+      "player": "Pete Crow-Armstrong",
+      "card": "Holiday Relic (HR-PC)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "LAA",
+      "player": "Mike Trout",
+      "card": "Hidden Elf (HE-11)",
+      "format": "retail",
+      "tier": "legend"
+    },
+    {
+      "team": "STL",
+      "player": "JJ Wetherholt",
+      "card": "Hidden Elf (HE-20)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "WSH",
+      "player": "James Wood",
+      "card": "Holiday Relic (HR-JW)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "HOU",
+      "player": "Yordan Alvarez",
+      "card": "Base (H157)",
+      "format": "both",
+      "tier": "star"
+    },
+    {
+      "team": "SF",
+      "player": "Jung Hoo Lee",
+      "card": "Holiday Relic Autograph (HR-JL)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "MIN",
+      "player": "Byron Buxton",
+      "card": "Holiday Relic Autograph (HR-BB)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "TB",
+      "player": "Junior Caminero",
+      "card": "Holiday Relic Autograph (HR-JCA)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "MIA",
+      "player": "Jakob Marsee",
+      "card": "Holiday Relic (HR-JMA)",
+      "format": "retail",
+      "tier": "rookie"
+    },
+    {
+      "team": "COL",
+      "player": "Ezequiel Tovar",
+      "card": "Holiday Relic (HR-ET)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "TEX",
+      "player": "Wyatt Langford",
+      "card": "Holiday Variation Backs SSP (H123)",
+      "format": "retail",
+      "tier": "star"
+    }
+  ],
+  "sheet": {
+    "TEX": [
+      {
+        "id": "tex-1",
+        "tier": "star",
+        "player": "Corey Seager",
+        "card": "Base (H81)",
+        "format": "both"
+      },
+      {
+        "id": "tex-2",
+        "tier": "star",
+        "player": "Wyatt Langford",
+        "card": "Base (H123)",
+        "format": "both"
+      },
+      {
+        "id": "tex-3",
+        "tier": "star",
+        "player": "Wyatt Langford",
+        "card": "Holiday Variation Backs SSP (H123) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "tex-4",
+        "tier": "star",
+        "player": "Jacob deGrom",
+        "card": "Base (H180)",
+        "format": "both"
+      },
+      {
+        "id": "tex-5",
+        "tier": "star",
+        "player": "MacKenzie Gore",
+        "card": "Base (H23)",
+        "format": "both"
+      },
+      {
+        "id": "tex-6",
+        "tier": "star",
+        "player": "Corey Seager",
+        "card": "Base Chrome Variation (HC81) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tex-7",
+        "tier": "star",
+        "player": "Wyatt Langford",
+        "card": "Base Chrome Variation (HC123) · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "LAD": [
+      {
+        "id": "lad-1",
+        "tier": "legend",
+        "player": "Shohei Ohtani",
+        "card": "Base (H100)",
+        "format": "both"
+      },
+      {
+        "id": "lad-2",
+        "tier": "legend",
+        "player": "Shohei Ohtani",
+        "card": "Base Chrome Variation (HC100) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "lad-3",
+        "tier": "legend",
+        "player": "Shohei Ohtani",
+        "card": "Hidden Elf (HE-12) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "lad-4",
+        "tier": "legend",
+        "player": "Shohei Ohtani",
+        "card": "Oversized Die-Cut Ornament (OO-7) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "lad-5",
+        "tier": "legend",
+        "player": "Shohei Ohtani",
+        "card": "Holiday Variation SP / SSP (H100)",
+        "format": "retail"
+      },
+      {
+        "id": "lad-6",
+        "tier": "legend",
+        "player": "Mookie Betts",
+        "card": "Base (H54) · Holiday Variation SP (H54)",
+        "format": "both"
+      },
+      {
+        "id": "lad-7",
+        "tier": "star",
+        "player": "Yoshinobu Yamamoto",
+        "card": "Base (H134) · Holiday Variation SP (H134)",
+        "format": "both"
+      },
+      {
+        "id": "lad-8",
+        "tier": "star",
+        "player": "Freddie Freeman",
+        "card": "Base (H2) · Holiday Variation SP (H2)",
+        "format": "both"
+      },
+      {
+        "id": "lad-9",
+        "tier": "star",
+        "player": "Kyle Tucker",
+        "card": "Base (H130)",
+        "format": "both"
+      },
+      {
+        "id": "lad-10",
+        "tier": "rookie",
+        "player": "Alex Freeland",
+        "card": "Base RC (H27) · Base Autograph (H27) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "NYY": [
+      {
+        "id": "nyy-1",
+        "tier": "legend",
+        "player": "Aaron Judge",
+        "card": "Base (H50)",
+        "format": "both"
+      },
+      {
+        "id": "nyy-2",
+        "tier": "legend",
+        "player": "Aaron Judge",
+        "card": "Base Chrome Variation (HC50) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-3",
+        "tier": "legend",
+        "player": "Aaron Judge",
+        "card": "Hidden Elf (HE-1) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-4",
+        "tier": "legend",
+        "player": "Aaron Judge",
+        "card": "Oversized Die-Cut Ornament (OO-8) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-5",
+        "tier": "legend",
+        "player": "Aaron Judge",
+        "card": "Holiday Variation SSP (H50) · Backs SP (H50) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-6",
+        "tier": "rookie",
+        "player": "Cam Schlittler",
+        "card": "Base RC (H77) · Base Autograph (H77) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-7",
+        "tier": "star",
+        "player": "Cody Bellinger",
+        "card": "Base (H185) · Backs SSP (H185)",
+        "format": "retail"
+      },
+      {
+        "id": "nyy-8",
+        "tier": "star",
+        "player": "Jazz Chisholm Jr.",
+        "card": "Base (H53)",
+        "format": "both"
+      },
+      {
+        "id": "nyy-9",
+        "tier": "star",
+        "player": "Giancarlo Stanton",
+        "card": "Base (H9)",
+        "format": "both"
+      }
+    ],
+    "BOS": [
+      {
+        "id": "bos-1",
+        "tier": "rookie",
+        "player": "Roman Anthony",
+        "card": "Base RC (H170)",
+        "format": "both"
+      },
+      {
+        "id": "bos-2",
+        "tier": "rookie",
+        "player": "Roman Anthony",
+        "card": "Base Chrome Variation (HC170) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bos-3",
+        "tier": "rookie",
+        "player": "Roman Anthony",
+        "card": "Hidden Elf (HE-14) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "bos-4",
+        "tier": "rookie",
+        "player": "Roman Anthony",
+        "card": "Oversized Die-Cut Ornament (OO-16) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bos-5",
+        "tier": "rookie",
+        "player": "Roman Anthony",
+        "card": "Holiday Variation SP / SSP (H170) · Holiday Relic (HR-RA) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bos-6",
+        "tier": "star",
+        "player": "Garrett Crochet",
+        "card": "Base (H10) · Base Autograph (H10) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bos-7",
+        "tier": "star",
+        "player": "Jarren Duran",
+        "card": "Base (H197) · Holiday Relic (HR-JD) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bos-8",
+        "tier": "star",
+        "player": "Kristian Campbell",
+        "card": "Base (H32) · Base Autograph (H32) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "CWS": [
+      {
+        "id": "cws-1",
+        "tier": "rookie",
+        "player": "Munetaka Murakami",
+        "card": "Base RC (H82)",
+        "format": "both"
+      },
+      {
+        "id": "cws-2",
+        "tier": "rookie",
+        "player": "Munetaka Murakami",
+        "card": "Base Chrome Variation (HC82) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cws-3",
+        "tier": "rookie",
+        "player": "Munetaka Murakami",
+        "card": "Hidden Elf (HE-17) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "cws-4",
+        "tier": "rookie",
+        "player": "Munetaka Murakami",
+        "card": "Oversized Die-Cut Ornament (OO-20) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cws-5",
+        "tier": "rookie",
+        "player": "Munetaka Murakami",
+        "card": "Base Autograph (H82) · compiled list · Holiday Relic / Relic Auto (HR-MMU) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cws-6",
+        "tier": "rookie",
+        "player": "Colson Montgomery",
+        "card": "Base RC (H30) · SP / Backs SP · Oversized Ornament (OO-13) · Relic (HR-CM) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cws-7",
+        "tier": "rookie",
+        "player": "Kyle Teel",
+        "card": "Base RC (H117) · Holiday Relic (HR-KT) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cws-8",
+        "tier": "rookie",
+        "player": "Grant Taylor",
+        "card": "Base RC (H49) · Base Autograph (H49) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "NYM": [
+      {
+        "id": "nym-1",
+        "tier": "legend",
+        "player": "Juan Soto",
+        "card": "Base (H186)",
+        "format": "both"
+      },
+      {
+        "id": "nym-2",
+        "tier": "legend",
+        "player": "Juan Soto",
+        "card": "Base Chrome Variation (HC186) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nym-3",
+        "tier": "legend",
+        "player": "Juan Soto",
+        "card": "Hidden Elf (HE-13) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "nym-4",
+        "tier": "legend",
+        "player": "Juan Soto",
+        "card": "Oversized Die-Cut Ornament (OO-4) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nym-5",
+        "tier": "legend",
+        "player": "Juan Soto",
+        "card": "Holiday Variation SP / SSP (H186)",
+        "format": "retail"
+      },
+      {
+        "id": "nym-6",
+        "tier": "rookie",
+        "player": "Nolan McLean",
+        "card": "Base RC (H121) · Hidden Elf (HE-23) · SSP / Backs SSP · Base Autograph (H121) · compiled list",
+        "format": "retail"
+      },
+      {
+        "id": "nym-7",
+        "tier": "rookie",
+        "player": "Carson Benge",
+        "card": "Base RC (H70) · Hidden Elf (HE-22) · Oversized Ornament (OO-19) · SSP",
+        "format": "retail"
+      },
+      {
+        "id": "nym-8",
+        "tier": "rookie",
+        "player": "Jonah Tong",
+        "card": "Base RC (H152) · Base Autograph (H152) · compiled list · Holiday Relic (HR-JT) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "nym-9",
+        "tier": "star",
+        "player": "Francisco Lindor",
+        "card": "Base (H91) · Holiday Variation SP (H91)",
+        "format": "both"
+      }
+    ],
+    "PIT": [
+      {
+        "id": "pit-1",
+        "tier": "star",
+        "player": "Paul Skenes",
+        "card": "Base (H7)",
+        "format": "both"
+      },
+      {
+        "id": "pit-2",
+        "tier": "star",
+        "player": "Paul Skenes",
+        "card": "Base Chrome Variation (HC7) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "pit-3",
+        "tier": "star",
+        "player": "Paul Skenes",
+        "card": "Hidden Elf (HE-4) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "pit-4",
+        "tier": "star",
+        "player": "Paul Skenes",
+        "card": "Oversized Die-Cut Ornament (OO-12) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "pit-5",
+        "tier": "star",
+        "player": "Paul Skenes",
+        "card": "Holiday Variation SSP / Backs SP / Backs SSP · Holiday Relic (HR-PS) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "pit-6",
+        "tier": "rookie",
+        "player": "Konnor Griffin",
+        "card": "Base RC (H161) · Hidden Elf (HE-2) · SSP / Backs SP · Base Autograph (H161) · compiled list",
+        "format": "retail"
+      },
+      {
+        "id": "pit-7",
+        "tier": "rookie",
+        "player": "Bubba Chandler",
+        "card": "Base RC (H67) · Hidden Elf (HE-25) · SP / SSP · Holiday Relic (HR-BC) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "pit-8",
+        "tier": "star",
+        "player": "Oneil Cruz",
+        "card": "Base (H188)",
+        "format": "both"
+      }
+    ],
+    "MIL": [
+      {
+        "id": "mil-1",
+        "tier": "rookie",
+        "player": "Jacob Misiorowski",
+        "card": "Base RC (H131)",
+        "format": "both"
+      },
+      {
+        "id": "mil-2",
+        "tier": "rookie",
+        "player": "Jacob Misiorowski",
+        "card": "Base Chrome Variation (HC131) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mil-3",
+        "tier": "rookie",
+        "player": "Jacob Misiorowski",
+        "card": "Hidden Elf (HE-19) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "mil-4",
+        "tier": "rookie",
+        "player": "Jacob Misiorowski",
+        "card": "Oversized Die-Cut Ornament (OO-14) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mil-5",
+        "tier": "rookie",
+        "player": "Jacob Misiorowski",
+        "card": "Base Autograph (H131) · compiled list · Holiday Relic / Relic Auto (HR-JM) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mil-6",
+        "tier": "star",
+        "player": "Jackson Chourio",
+        "card": "Base (H38) · Base Autograph (H38) · compiled list · Holiday Relic (HR-JCH) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mil-7",
+        "tier": "star",
+        "player": "Christian Yelich",
+        "card": "Base (H46) · Base Autograph (H46) · compiled list · Holiday Relic (HR-CY) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mil-8",
+        "tier": "star",
+        "player": "William Contreras",
+        "card": "Base (H72)",
+        "format": "both"
+      }
+    ],
+    "ATH": [
+      {
+        "id": "ath-1",
+        "tier": "star",
+        "player": "Nick Kurtz",
+        "card": "Base (H47)",
+        "format": "both"
+      },
+      {
+        "id": "ath-2",
+        "tier": "star",
+        "player": "Nick Kurtz",
+        "card": "Base Chrome Variation (HC47) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ath-3",
+        "tier": "star",
+        "player": "Nick Kurtz",
+        "card": "Hidden Elf (HE-10) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "ath-4",
+        "tier": "star",
+        "player": "Nick Kurtz",
+        "card": "Holiday Variation SSP (H47) · Base Autograph (H47) · compiled list · Holiday Relic / Relic Auto (HR-NK) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ath-5",
+        "tier": "star",
+        "player": "Jacob Wilson",
+        "card": "Base (H110) · Backs SP (H110) · Holiday Relic (HR-JWI) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ath-6",
+        "tier": "star",
+        "player": "Brent Rooker",
+        "card": "Base (H97)",
+        "format": "both"
+      },
+      {
+        "id": "ath-7",
+        "tier": "rookie",
+        "player": "Colby Thomas",
+        "card": "Base RC (H39) · Base Autograph (H39) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ath-8",
+        "tier": "star",
+        "player": "Shea Langeliers",
+        "card": "Base (H136) · Base Autograph (H136) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "SEA": [
+      {
+        "id": "sea-1",
+        "tier": "star",
+        "player": "Julio Rodríguez",
+        "card": "Base (H177)",
+        "format": "both"
+      },
+      {
+        "id": "sea-2",
+        "tier": "star",
+        "player": "Julio Rodríguez",
+        "card": "Base Chrome Variation (HC177) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sea-3",
+        "tier": "star",
+        "player": "Julio Rodríguez",
+        "card": "Holiday Variation SP / Backs SP (H177) · Holiday Relic / Relic Auto (HR-JR) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sea-4",
+        "tier": "star",
+        "player": "Cal Raleigh",
+        "card": "Base (H153) · Holiday Variation SSP (H153) · Oversized Die-Cut Ornament (OO-6) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sea-5",
+        "tier": "star",
+        "player": "Randy Arozarena",
+        "card": "Base (H40)",
+        "format": "both"
+      },
+      {
+        "id": "sea-6",
+        "tier": "rookie",
+        "player": "Cole Young",
+        "card": "Base RC (H20) · Holiday Relic (HR-CYO) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sea-7",
+        "tier": "star",
+        "player": "Brendan Donovan",
+        "card": "Base (H68) · Base Autograph (H68) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sea-8",
+        "tier": "star",
+        "player": "George Kirby",
+        "card": "Base (H167) · Base Autograph (H167) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "ATL": [
+      {
+        "id": "atl-1",
+        "tier": "legend",
+        "player": "Ronald Acuña Jr.",
+        "card": "Base (H200)",
+        "format": "both"
+      },
+      {
+        "id": "atl-2",
+        "tier": "legend",
+        "player": "Ronald Acuña Jr.",
+        "card": "Base Chrome Variation (HC200) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "atl-3",
+        "tier": "legend",
+        "player": "Ronald Acuña Jr.",
+        "card": "Hidden Elf (HE-8) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "atl-4",
+        "tier": "legend",
+        "player": "Ronald Acuña Jr.",
+        "card": "Oversized Die-Cut Ornament (OO-11) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "atl-5",
+        "tier": "legend",
+        "player": "Ronald Acuña Jr.",
+        "card": "Holiday Variation SSP (H200)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-6",
+        "tier": "star",
+        "player": "Drake Baldwin",
+        "card": "Base (H149) · Holiday Relic (HR-DB) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "atl-7",
+        "tier": "star",
+        "player": "Matt Olson",
+        "card": "Base (H140) · Holiday Variation Backs SSP (H140) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "atl-8",
+        "tier": "star",
+        "player": "Chris Sale",
+        "card": "Base (H104) · Holiday Variation Backs SP (H104)",
+        "format": "both"
+      }
+    ],
+    "DET": [
+      {
+        "id": "det-1",
+        "tier": "star",
+        "player": "Tarik Skubal",
+        "card": "Base (H107)",
+        "format": "both"
+      },
+      {
+        "id": "det-2",
+        "tier": "star",
+        "player": "Tarik Skubal",
+        "card": "Base Chrome Variation (HC107) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "det-3",
+        "tier": "star",
+        "player": "Tarik Skubal",
+        "card": "Hidden Elf (HE-3) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "det-4",
+        "tier": "star",
+        "player": "Tarik Skubal",
+        "card": "Holiday Variation SP / SSP / Backs SP (H107) · Holiday Relic / Relic Auto (HR-TS) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "det-5",
+        "tier": "rookie",
+        "player": "Kevin McGonigle",
+        "card": "Base RC (H183) · Hidden Elf (HE-21) · Oversized Ornament (OO-17) · SSP · Base Autograph (H183) · compiled list",
+        "format": "retail"
+      },
+      {
+        "id": "det-6",
+        "tier": "star",
+        "player": "Riley Greene",
+        "card": "Base (H135) · Holiday Variation Backs SSP (H135) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "det-7",
+        "tier": "star",
+        "player": "Justin Verlander",
+        "card": "Base (H179)",
+        "format": "both"
+      },
+      {
+        "id": "det-8",
+        "tier": "rookie",
+        "player": "Troy Melton",
+        "card": "Base RC (H156) · Base Autograph (H156) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "TOR": [
+      {
+        "id": "tor-1",
+        "tier": "star",
+        "player": "Vladimir Guerrero Jr.",
+        "card": "Base (H126)",
+        "format": "both"
+      },
+      {
+        "id": "tor-2",
+        "tier": "star",
+        "player": "Vladimir Guerrero Jr.",
+        "card": "Base Chrome Variation (HC126) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tor-3",
+        "tier": "star",
+        "player": "Vladimir Guerrero Jr.",
+        "card": "Hidden Elf (HE-9) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "tor-4",
+        "tier": "star",
+        "player": "Vladimir Guerrero Jr.",
+        "card": "Oversized Die-Cut Ornament (OO-9) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tor-5",
+        "tier": "star",
+        "player": "Vladimir Guerrero Jr.",
+        "card": "Holiday Variation SSP (H126)",
+        "format": "retail"
+      },
+      {
+        "id": "tor-6",
+        "tier": "rookie",
+        "player": "Trey Yesavage",
+        "card": "Base RC (H174) · Hidden Elf (HE-24) · SSP / Backs SSP · Base Autograph (H174) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tor-7",
+        "tier": "star",
+        "player": "George Springer",
+        "card": "Base (H29)",
+        "format": "both"
+      },
+      {
+        "id": "tor-8",
+        "tier": "rookie",
+        "player": "Kazuma Okamoto",
+        "card": "Base RC (H88)",
+        "format": "both"
+      }
+    ],
+    "BAL": [
+      {
+        "id": "bal-1",
+        "tier": "rookie",
+        "player": "Samuel Basallo",
+        "card": "Base RC (H33)",
+        "format": "both"
+      },
+      {
+        "id": "bal-2",
+        "tier": "rookie",
+        "player": "Samuel Basallo",
+        "card": "Base Chrome Variation (HC33) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-3",
+        "tier": "rookie",
+        "player": "Samuel Basallo",
+        "card": "Hidden Elf (HE-16) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "bal-4",
+        "tier": "rookie",
+        "player": "Samuel Basallo",
+        "card": "Oversized Die-Cut Ornament (OO-15) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-5",
+        "tier": "rookie",
+        "player": "Samuel Basallo",
+        "card": "Holiday Variation SSP / Backs SSP · Base Autograph (H33) · compiled list · Holiday Relic (HR-SB) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-6",
+        "tier": "star",
+        "player": "Gunnar Henderson",
+        "card": "Base (H43) · Holiday Variation SP (H43) · Holiday Relic (HR-GH) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-7",
+        "tier": "star",
+        "player": "Pete Alonso",
+        "card": "Base (H160) · Base Autograph (H160) · compiled list · Holiday Relic (HR-PA) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-8",
+        "tier": "rookie",
+        "player": "Dylan Beavers",
+        "card": "Base RC (H4) · Base Autograph (H4) · compiled list · Holiday Relic (HR-DBE) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "bal-9",
+        "tier": "star",
+        "player": "Jackson Holliday",
+        "card": "Base (H114)",
+        "format": "both"
+      }
+    ],
+    "CIN": [
+      {
+        "id": "cin-1",
+        "tier": "star",
+        "player": "Elly De La Cruz",
+        "card": "Base (H76)",
+        "format": "both"
+      },
+      {
+        "id": "cin-2",
+        "tier": "star",
+        "player": "Elly De La Cruz",
+        "card": "Base Chrome Variation (HC76) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cin-3",
+        "tier": "star",
+        "player": "Elly De La Cruz",
+        "card": "Holiday Variation SP (H76) · Base Autograph (H76) · compiled list · Holiday Relic (HR-ED) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cin-4",
+        "tier": "rookie",
+        "player": "Chase Burns",
+        "card": "Base RC (H65) · Holiday Relic (HR-CB) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cin-5",
+        "tier": "rookie",
+        "player": "Sal Stewart",
+        "card": "Base RC (H12)",
+        "format": "both"
+      },
+      {
+        "id": "cin-6",
+        "tier": "star",
+        "player": "Hunter Greene",
+        "card": "Base (H106)",
+        "format": "both"
+      },
+      {
+        "id": "cin-7",
+        "tier": "star",
+        "player": "Andrew Abbott",
+        "card": "Base (H36)",
+        "format": "both"
+      },
+      {
+        "id": "cin-8",
+        "tier": "star",
+        "player": "Eugenio Suárez",
+        "card": "Base (H138)",
+        "format": "both"
+      }
+    ],
+    "SD": [
+      {
+        "id": "sd-1",
+        "tier": "star",
+        "player": "Fernando Tatis Jr.",
+        "card": "Base (H129)",
+        "format": "both"
+      },
+      {
+        "id": "sd-2",
+        "tier": "star",
+        "player": "Fernando Tatis Jr.",
+        "card": "Base Chrome Variation (HC129) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sd-3",
+        "tier": "star",
+        "player": "Fernando Tatis Jr.",
+        "card": "Holiday Variation SP (H129) · Oversized Die-Cut Ornament (OO-3) · Holiday Relic (HR-FT) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sd-4",
+        "tier": "star",
+        "player": "Manny Machado",
+        "card": "Base (H90) · Holiday Variation SP / Backs SP (H90) · Holiday Relic (HR-MM) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sd-5",
+        "tier": "star",
+        "player": "Jackson Merrill",
+        "card": "Base (H176) · Holiday Variation Backs SSP (H176) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "sd-6",
+        "tier": "star",
+        "player": "Mason Miller",
+        "card": "Base (H3) · Holiday Variation Backs SSP (H3) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "sd-7",
+        "tier": "star",
+        "player": "Xander Bogaerts",
+        "card": "Base (H168)",
+        "format": "both"
+      }
+    ],
+    "ARI": [
+      {
+        "id": "ari-1",
+        "tier": "star",
+        "player": "Corbin Carroll",
+        "card": "Base (H166)",
+        "format": "both"
+      },
+      {
+        "id": "ari-2",
+        "tier": "star",
+        "player": "Corbin Carroll",
+        "card": "Base Chrome Variation (HC166) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ari-3",
+        "tier": "star",
+        "player": "Corbin Carroll",
+        "card": "Hidden Elf (HE-5) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "ari-4",
+        "tier": "star",
+        "player": "Corbin Carroll",
+        "card": "Oversized Die-Cut Ornament (OO-10) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ari-5",
+        "tier": "star",
+        "player": "Corbin Carroll",
+        "card": "Holiday Variation SP (H166) · Base Autograph (H166) · compiled list · Holiday Relic / Relic Auto (HR-CC) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ari-6",
+        "tier": "star",
+        "player": "Ketel Marte",
+        "card": "Base (H178)",
+        "format": "both"
+      },
+      {
+        "id": "ari-7",
+        "tier": "star",
+        "player": "Geraldo Perdomo",
+        "card": "Base (H164) · Holiday Relic (HR-GP) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ari-8",
+        "tier": "star",
+        "player": "Corbin Burnes",
+        "card": "Base (H175) · Base Autograph (H175) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "ari-9",
+        "tier": "star",
+        "player": "Nolan Arenado",
+        "card": "Base (H6) · Base Autograph (H6) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "PHI": [
+      {
+        "id": "phi-1",
+        "tier": "legend",
+        "player": "Bryce Harper",
+        "card": "Base (H59)",
+        "format": "both"
+      },
+      {
+        "id": "phi-2",
+        "tier": "legend",
+        "player": "Bryce Harper",
+        "card": "Base Chrome Variation (HC59) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "phi-3",
+        "tier": "star",
+        "player": "Kyle Schwarber",
+        "card": "Base (H48) · Holiday Variation SP (H48) · Base Autograph (H48) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "phi-4",
+        "tier": "star",
+        "player": "Trea Turner",
+        "card": "Base (H28) · Holiday Variation Backs SSP (H28) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "phi-5",
+        "tier": "rookie",
+        "player": "Andrew Painter",
+        "card": "Base RC (H158)",
+        "format": "both"
+      },
+      {
+        "id": "phi-6",
+        "tier": "rookie",
+        "player": "Justin Crawford",
+        "card": "Base RC (H137)",
+        "format": "both"
+      },
+      {
+        "id": "phi-7",
+        "tier": "star",
+        "player": "Cristopher Sánchez",
+        "card": "Base (H52)",
+        "format": "both"
+      }
+    ],
+    "CLE": [
+      {
+        "id": "cle-1",
+        "tier": "star",
+        "player": "José Ramírez",
+        "card": "Base (H16)",
+        "format": "both"
+      },
+      {
+        "id": "cle-2",
+        "tier": "star",
+        "player": "José Ramírez",
+        "card": "Base Chrome Variation (HC16) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cle-3",
+        "tier": "star",
+        "player": "José Ramírez",
+        "card": "Hidden Elf (HE-7) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "cle-4",
+        "tier": "star",
+        "player": "José Ramírez",
+        "card": "Oversized Die-Cut Ornament (OO-5) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cle-5",
+        "tier": "star",
+        "player": "José Ramírez",
+        "card": "Holiday Variation SP / SSP (H16)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-6",
+        "tier": "rookie",
+        "player": "Chase DeLauter",
+        "card": "Base RC (H78) · Hidden Elf (HE-18) · SP / SSP / Backs · Base Autograph (H78) · compiled list",
+        "format": "retail"
+      },
+      {
+        "id": "cle-7",
+        "tier": "rookie",
+        "player": "Travis Bazzana",
+        "card": "Base RC (H60) · Base Autograph (H60) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "cle-8",
+        "tier": "rookie",
+        "player": "CJ Kayfus",
+        "card": "Base RC (H62) · Base Autograph (H62) · compiled list · Holiday Relic (HR-CK) · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "CHC": [
+      {
+        "id": "chc-1",
+        "tier": "star",
+        "player": "Pete Crow-Armstrong",
+        "card": "Base (H151)",
+        "format": "both"
+      },
+      {
+        "id": "chc-2",
+        "tier": "star",
+        "player": "Pete Crow-Armstrong",
+        "card": "Base Chrome Variation (HC151) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "chc-3",
+        "tier": "star",
+        "player": "Pete Crow-Armstrong",
+        "card": "Holiday Variation Backs SP (H151) · Holiday Relic (HR-PC) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "chc-4",
+        "tier": "star",
+        "player": "Alex Bregman",
+        "card": "Base (H128) · Holiday Variation Backs SSP (H128) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "chc-5",
+        "tier": "star",
+        "player": "Seiya Suzuki",
+        "card": "Base (H17) · Holiday Variation SP (H17)",
+        "format": "both"
+      },
+      {
+        "id": "chc-6",
+        "tier": "star",
+        "player": "Cade Horton",
+        "card": "Base (H139) · Base Autograph (H139) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "chc-7",
+        "tier": "star",
+        "player": "Matt Shaw",
+        "card": "Base (H14)",
+        "format": "both"
+      },
+      {
+        "id": "chc-8",
+        "tier": "star",
+        "player": "Dansby Swanson",
+        "card": "Base (H155)",
+        "format": "both"
+      }
+    ],
+    "LAA": [
+      {
+        "id": "laa-1",
+        "tier": "legend",
+        "player": "Mike Trout",
+        "card": "Base (H84)",
+        "format": "both"
+      },
+      {
+        "id": "laa-2",
+        "tier": "legend",
+        "player": "Mike Trout",
+        "card": "Base Chrome Variation (HC84) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "laa-3",
+        "tier": "legend",
+        "player": "Mike Trout",
+        "card": "Hidden Elf (HE-11) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "laa-4",
+        "tier": "legend",
+        "player": "Mike Trout",
+        "card": "Holiday Variation SP / SSP / Backs SP (H84)",
+        "format": "retail"
+      },
+      {
+        "id": "laa-5",
+        "tier": "legend",
+        "player": "Mike Trout",
+        "card": "Base Autograph (H84) · reported on one compiled list · official list unpublished · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "laa-6",
+        "tier": "rookie",
+        "player": "Christian Moore",
+        "card": "Base RC (H146) · Base Autograph (H146) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "laa-7",
+        "tier": "star",
+        "player": "Zach Neto",
+        "card": "Base (H189)",
+        "format": "both"
+      },
+      {
+        "id": "laa-8",
+        "tier": "star",
+        "player": "Jo Adell",
+        "card": "Base (H94)",
+        "format": "both"
+      }
+    ],
+    "STL": [
+      {
+        "id": "stl-1",
+        "tier": "rookie",
+        "player": "JJ Wetherholt",
+        "card": "Base RC (H18)",
+        "format": "both"
+      },
+      {
+        "id": "stl-2",
+        "tier": "rookie",
+        "player": "JJ Wetherholt",
+        "card": "Base Chrome Variation (HC18) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "stl-3",
+        "tier": "rookie",
+        "player": "JJ Wetherholt",
+        "card": "Hidden Elf (HE-20) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "stl-4",
+        "tier": "rookie",
+        "player": "JJ Wetherholt",
+        "card": "Oversized Die-Cut Ornament (OO-18) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "stl-5",
+        "tier": "rookie",
+        "player": "JJ Wetherholt",
+        "card": "Holiday Variation SSP / Backs SP / Backs SSP · Base Autograph (H18) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "stl-6",
+        "tier": "star",
+        "player": "Masyn Winn",
+        "card": "Base (H64) · Base Autograph (H64) · compiled list · Holiday Relic / Relic Auto (HR-MW) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "stl-7",
+        "tier": "star",
+        "player": "Jordan Walker",
+        "card": "Base (H148) · Backs SP (H148) · Holiday Variation SP listed as H202 (numbering quirk)",
+        "format": "both"
+      },
+      {
+        "id": "stl-8",
+        "tier": "star",
+        "player": "Alec Burleson",
+        "card": "Base (H13) · Base Autograph (H13) · compiled list · Holiday Relic (HR-AB) · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "WSH": [
+      {
+        "id": "wsh-1",
+        "tier": "star",
+        "player": "James Wood",
+        "card": "Base (H80)",
+        "format": "both"
+      },
+      {
+        "id": "wsh-2",
+        "tier": "star",
+        "player": "James Wood",
+        "card": "Base Chrome Variation (HC80) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-3",
+        "tier": "star",
+        "player": "James Wood",
+        "card": "Holiday Variation Backs SSP (H80) · Base Autograph (H80) · compiled list · Holiday Relic (HR-JW) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-4",
+        "tier": "star",
+        "player": "Dylan Crews",
+        "card": "Base (H181) · Holiday Relic (HR-DC) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-5",
+        "tier": "rookie",
+        "player": "Harry Ford",
+        "card": "Base RC (H89) · Base Autograph (H89) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-6",
+        "tier": "star",
+        "player": "CJ Abrams",
+        "card": "Base (H5)",
+        "format": "both"
+      },
+      {
+        "id": "wsh-7",
+        "tier": "star",
+        "player": "Daylen Lile",
+        "card": "Base (H127)",
+        "format": "both"
+      }
+    ],
+    "HOU": [
+      {
+        "id": "hou-1",
+        "tier": "star",
+        "player": "Yordan Alvarez",
+        "card": "Base (H157)",
+        "format": "both"
+      },
+      {
+        "id": "hou-2",
+        "tier": "star",
+        "player": "Yordan Alvarez",
+        "card": "Base Chrome Variation (HC157) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "hou-3",
+        "tier": "star",
+        "player": "Jose Altuve",
+        "card": "Base (H58) · Holiday Variation Backs SP (H58)",
+        "format": "both"
+      },
+      {
+        "id": "hou-4",
+        "tier": "star",
+        "player": "Jeremy Peña",
+        "card": "Base (H141) · Holiday Relic (HR-JP) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "hou-5",
+        "tier": "rookie",
+        "player": "Brice Matthews",
+        "card": "Holiday Relic (HR-BM) · no base card in the 200 · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "hou-6",
+        "tier": "rookie",
+        "player": "Zach Cole",
+        "card": "Base RC (H83) · Base Autograph (H83) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "hou-7",
+        "tier": "star",
+        "player": "Hunter Brown",
+        "card": "Base (H35)",
+        "format": "both"
+      },
+      {
+        "id": "hou-8",
+        "tier": "star",
+        "player": "Carlos Correa",
+        "card": "Base (H24)",
+        "format": "both"
+      }
+    ],
+    "SF": [
+      {
+        "id": "sf-1",
+        "tier": "rookie",
+        "player": "Bryce Eldridge",
+        "card": "Base RC (H113)",
+        "format": "both"
+      },
+      {
+        "id": "sf-2",
+        "tier": "rookie",
+        "player": "Bryce Eldridge",
+        "card": "Base Chrome Variation (HC113) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sf-3",
+        "tier": "rookie",
+        "player": "Bryce Eldridge",
+        "card": "Holiday Relic (HR-BE) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sf-4",
+        "tier": "star",
+        "player": "Rafael Devers",
+        "card": "Base (H199) · Holiday Variation Backs SSP (H199) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "sf-5",
+        "tier": "star",
+        "player": "Jung Hoo Lee",
+        "card": "Holiday Relic / Relic Autograph (HR-JL) · no base card in the 200 · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sf-6",
+        "tier": "star",
+        "player": "Logan Webb",
+        "card": "Base (H34) · Base Autograph (H34) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sf-7",
+        "tier": "star",
+        "player": "Luis Arraez",
+        "card": "Base (H63) · Base Autograph (H63) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "sf-8",
+        "tier": "rookie",
+        "player": "Drew Gilbert",
+        "card": "Base RC (H19) · Base Autograph (H19) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "MIN": [
+      {
+        "id": "min-1",
+        "tier": "star",
+        "player": "Byron Buxton",
+        "card": "Base (H144)",
+        "format": "both"
+      },
+      {
+        "id": "min-2",
+        "tier": "star",
+        "player": "Byron Buxton",
+        "card": "Base Chrome Variation (HC144) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "min-3",
+        "tier": "star",
+        "player": "Byron Buxton",
+        "card": "Holiday Variation Backs SP (H144) · Holiday Relic / Relic Auto (HR-BB) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "min-4",
+        "tier": "star",
+        "player": "Luke Keaschall",
+        "card": "Base (H95) · Base Autograph (H95) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "min-5",
+        "tier": "star",
+        "player": "Royce Lewis",
+        "card": "Base (H196)",
+        "format": "both"
+      },
+      {
+        "id": "min-6",
+        "tier": "star",
+        "player": "Byron Buxton",
+        "card": "Base Chrome SuperFractor 1/1 (HC144) · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "TB": [
+      {
+        "id": "tb-1",
+        "tier": "star",
+        "player": "Junior Caminero",
+        "card": "Base (H150)",
+        "format": "both"
+      },
+      {
+        "id": "tb-2",
+        "tier": "star",
+        "player": "Junior Caminero",
+        "card": "Base Chrome Variation (HC150) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tb-3",
+        "tier": "star",
+        "player": "Junior Caminero",
+        "card": "Holiday Relic / Relic Autograph (HR-JCA) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tb-4",
+        "tier": "rookie",
+        "player": "Carson Williams",
+        "card": "Base RC (H105) · Base Autograph (H105) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tb-5",
+        "tier": "star",
+        "player": "Chandler Simpson",
+        "card": "Base (H187) · Base Autograph (H187) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "tb-6",
+        "tier": "star",
+        "player": "Yandy Díaz",
+        "card": "Base (H93)",
+        "format": "both"
+      },
+      {
+        "id": "tb-7",
+        "tier": "star",
+        "player": "Jonathan Aranda",
+        "card": "Base (H21) · Base Autograph (H21) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "MIA": [
+      {
+        "id": "mia-1",
+        "tier": "rookie",
+        "player": "Jakob Marsee",
+        "card": "Base RC (H71)",
+        "format": "both"
+      },
+      {
+        "id": "mia-2",
+        "tier": "rookie",
+        "player": "Jakob Marsee",
+        "card": "Base Chrome Variation (HC71) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mia-3",
+        "tier": "rookie",
+        "player": "Jakob Marsee",
+        "card": "Base Autograph (H71) · compiled list · Holiday Relic (HR-JMA) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mia-4",
+        "tier": "star",
+        "player": "Kyle Stowers",
+        "card": "Base (H171) · Holiday Relic (HR-KS) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "mia-5",
+        "tier": "star",
+        "player": "Sandy Alcantara",
+        "card": "Base (H57)",
+        "format": "both"
+      },
+      {
+        "id": "mia-6",
+        "tier": "star",
+        "player": "Agustín Ramírez",
+        "card": "Base (H87)",
+        "format": "both"
+      },
+      {
+        "id": "mia-7",
+        "tier": "rookie",
+        "player": "Heriberto Hernández",
+        "card": "Base RC (H111) · Base Autograph (H111) · compiled list · Mega exclusive",
+        "format": "retail"
+      }
+    ],
+    "COL": [
+      {
+        "id": "col-1",
+        "tier": "star",
+        "player": "Ezequiel Tovar",
+        "card": "Base (H44)",
+        "format": "both"
+      },
+      {
+        "id": "col-2",
+        "tier": "star",
+        "player": "Ezequiel Tovar",
+        "card": "Base Chrome Variation (HC44) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "col-3",
+        "tier": "star",
+        "player": "Ezequiel Tovar",
+        "card": "Base Autograph (H44) · compiled list · Holiday Relic (HR-ET) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "col-4",
+        "tier": "rookie",
+        "player": "Ryan Ritter",
+        "card": "Base RC (H41) · Base Autograph (H41) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "col-5",
+        "tier": "rookie",
+        "player": "Kyle Karros",
+        "card": "Base RC (H165) · Base Autograph (H165) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "col-6",
+        "tier": "star",
+        "player": "Chase Dollander",
+        "card": "Base (H169) · Base Autograph (H169) · compiled list · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "col-7",
+        "tier": "star",
+        "player": "Kris Bryant",
+        "card": "Base (H163)",
+        "format": "both"
+      }
+    ],
+    "KC": [
+      {
+        "id": "kc-1",
+        "tier": "star",
+        "player": "Bobby Witt Jr.",
+        "card": "Base (H1)",
+        "format": "both"
+      },
+      {
+        "id": "kc-2",
+        "tier": "star",
+        "player": "Bobby Witt Jr.",
+        "card": "Base Chrome Variation (HC1) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "kc-3",
+        "tier": "star",
+        "player": "Bobby Witt Jr.",
+        "card": "Hidden Elf (HE-6) · Mega/Tin",
+        "format": "retail"
+      },
+      {
+        "id": "kc-4",
+        "tier": "star",
+        "player": "Bobby Witt Jr.",
+        "card": "Oversized Die-Cut Ornament (OO-2) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "kc-5",
+        "tier": "star",
+        "player": "Bobby Witt Jr.",
+        "card": "Holiday Variation SSP (H1) · Holiday Relic (HR-BW) · Mega exclusive",
+        "format": "retail"
+      },
+      {
+        "id": "kc-6",
+        "tier": "rookie",
+        "player": "Jac Caglianone",
+        "card": "Base RC (H73) · Hidden Elf (HE-15) · Oversized Ornament (OO-1) · SP / SSP / Backs · Base Autograph (H73) · compiled list · Relic (HR-JC)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-7",
+        "tier": "star",
+        "player": "Salvador Perez",
+        "card": "Base (H8)",
+        "format": "both"
+      },
+      {
+        "id": "kc-8",
+        "tier": "rookie",
+        "player": "Carter Jensen",
+        "card": "Base RC (H198)",
+        "format": "both"
+      },
+      {
+        "id": "kc-9",
+        "tier": "star",
+        "player": "Vinnie Pasquantino",
+        "card": "Base (H103)",
+        "format": "both"
+      },
+      {
+        "id": "kc-10",
+        "tier": "star",
+        "player": "Cole Ragans",
+        "card": "Base (H142)",
+        "format": "both"
+      }
+    ]
+  }
+}
