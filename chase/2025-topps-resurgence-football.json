@@ -74,7 +74,7 @@
       "tier": "star"
     },
     {
-      "team": "WAS",
+      "team": "WSH",
       "player": "Jayden Daniels",
       "card": "Electro Lights (EL-9)",
       "format": "retail",
@@ -2461,72 +2461,72 @@
         "format": "both"
       }
     ],
-    "WAS": [
+    "WSH": [
       {
-        "id": "was-1",
+        "id": "wsh-1",
         "tier": "star",
         "player": "Jayden Daniels",
         "card": "Electro Lights (EL-9) · Mega/Value exclusive case-hit insert",
         "format": "retail"
       },
       {
-        "id": "was-2",
+        "id": "wsh-2",
         "tier": "rookie",
         "player": "Jacory Croskey-Merritt",
         "card": "Base RC (#198) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-3",
+        "id": "wsh-3",
         "tier": "rookie",
         "player": "Jaylin Lane",
         "card": "Base RC (#200) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-4",
+        "id": "wsh-4",
         "tier": "rookie",
         "player": "Trey Amos",
         "card": "Base RC (#199) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-5",
+        "id": "wsh-5",
         "tier": "star",
         "player": "Deebo Samuel",
         "card": "Base (#99) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-6",
+        "id": "wsh-6",
         "tier": "star",
         "player": "Jayden Daniels",
         "card": "Base (#98) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-7",
+        "id": "wsh-7",
         "tier": "star",
         "player": "Terry McLaurin",
         "card": "Base (#100) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
         "format": "both"
       },
       {
-        "id": "was-8",
+        "id": "wsh-8",
         "tier": "rookie",
         "player": "Jacory Croskey-Merritt",
         "card": "Rookie Signatures (#198)",
         "format": "both"
       },
       {
-        "id": "was-9",
+        "id": "wsh-9",
         "tier": "rookie",
         "player": "Jaylin Lane",
         "card": "Rookie Signatures (#200)",
         "format": "both"
       },
       {
-        "id": "was-10",
+        "id": "wsh-10",
         "tier": "rookie",
         "player": "Trey Amos",
         "card": "Rookie Signatures (#199)",
