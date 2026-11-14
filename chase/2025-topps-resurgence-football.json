@@ -1,0 +1,2537 @@
+{
+  "name": "2025 Topps Resurgence Football Mega",
+  "label": "2025 Resurgence Mega",
+  "league": "nfl",
+  "entries": [
+    {
+      "team": "ATL",
+      "player": "Bijan Robinson",
+      "card": "Electro Lights (EL-11)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "KC",
+      "player": "Patrick Mahomes II",
+      "card": "Electro Lights (EL-1)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "LV",
+      "player": "Ashton Jeanty",
+      "card": "Electro Lights (EL-12)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "JAX",
+      "player": "Travis Hunter",
+      "card": "Electro Lights (EL-7)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "TEN",
+      "player": "Cam Ward",
+      "card": "Electro Lights (EL-6)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "NYG",
+      "player": "Jaxson Dart",
+      "card": "Electro Lights (EL-23)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "CLE",
+      "player": "Myles Garrett",
+      "card": "Electro Lights (EL-17)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "CHI",
+      "player": "Caleb Williams",
+      "card": "Electro Lights (EL-10)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "CAR",
+      "player": "Nic Scourton",
+      "card": "Base (#112)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "LAC",
+      "player": "Justin Herbert",
+      "card": "Electro Lights (EL-15)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "WAS",
+      "player": "Jayden Daniels",
+      "card": "Electro Lights (EL-9)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "BAL",
+      "player": "Lamar Jackson",
+      "card": "Electro Lights (EL-5)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "PHI",
+      "player": "Saquon Barkley",
+      "card": "Electro Lights (EL-20)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "CIN",
+      "player": "Ja'Marr Chase",
+      "card": "Electro Lights (EL-2)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "DAL",
+      "player": "CeeDee Lamb",
+      "card": "Electro Lights (EL-16)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "GB",
+      "player": "Matthew Golden",
+      "card": "Base (#133)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "TB",
+      "player": "Emeka Egbuka",
+      "card": "Electro Lights (EL-25)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "DEN",
+      "player": "Bo Nix",
+      "card": "Electro Lights (EL-8)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "NE",
+      "player": "Bradyn Swinson",
+      "card": "Base (#162)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "IND",
+      "player": "Riley Leonard",
+      "card": "Base (#138)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "SEA",
+      "player": "Elijah Arroyo",
+      "card": "Base (#187)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "DET",
+      "player": "Jahmyr Gibbs",
+      "card": "Electro Lights (EL-13)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "MIN",
+      "player": "Justin Jefferson",
+      "card": "Electro Lights (EL-14)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "SF",
+      "player": "Alfred Collins",
+      "card": "Base (#186)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "HOU",
+      "player": "Jayden Higgins",
+      "card": "Base (#136)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "MIA",
+      "player": "Tyreek Hill",
+      "card": "Electro Lights (EL-18)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "NO",
+      "player": "Danny Stutsman",
+      "card": "Base (#166)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "PIT",
+      "player": "Derrick Harmon",
+      "card": "Base (#181)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "NYJ",
+      "player": "Armand Membou",
+      "card": "Base (#172)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "LAR",
+      "player": "Puka Nacua",
+      "card": "Electro Lights (EL-19)",
+      "format": "retail",
+      "tier": "star"
+    },
+    {
+      "team": "ARI",
+      "player": "Denzel Burke",
+      "card": "Base (#103)",
+      "format": "both",
+      "tier": "rookie"
+    },
+    {
+      "team": "BUF",
+      "player": "Josh Allen",
+      "card": "Electro Lights (EL-4)",
+      "format": "retail",
+      "tier": "star"
+    }
+  ],
+  "sheet": {
+    "ARI": [
+      {
+        "id": "ari-1",
+        "tier": "rookie",
+        "player": "Denzel Burke",
+        "card": "Base RC (#103) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-2",
+        "tier": "rookie",
+        "player": "Walter Nolen",
+        "card": "Base RC (#101) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-3",
+        "tier": "rookie",
+        "player": "Will Johnson",
+        "card": "Base RC (#102) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-4",
+        "tier": "star",
+        "player": "Calais Campbell",
+        "card": "Base (#3) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-5",
+        "tier": "star",
+        "player": "Kyler Murray",
+        "card": "Base (#1) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-6",
+        "tier": "star",
+        "player": "Marvin Harrison Jr.",
+        "card": "Base (#2) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ari-7",
+        "tier": "rookie",
+        "player": "Denzel Burke",
+        "card": "Rookie Signatures (#103)",
+        "format": "both"
+      },
+      {
+        "id": "ari-8",
+        "tier": "rookie",
+        "player": "Walter Nolen",
+        "card": "Rookie Signatures (#101)",
+        "format": "both"
+      },
+      {
+        "id": "ari-9",
+        "tier": "star",
+        "player": "Marvin Harrison Jr.",
+        "card": "Protonyx (PT-21)",
+        "format": "both"
+      },
+      {
+        "id": "ari-10",
+        "tier": "star",
+        "player": "Marvin Harrison Jr.",
+        "card": "Circuit Breakers (CB-6)",
+        "format": "both"
+      }
+    ],
+    "ATL": [
+      {
+        "id": "atl-1",
+        "tier": "star",
+        "player": "Bijan Robinson",
+        "card": "Electro Lights (EL-11) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "atl-2",
+        "tier": "rookie",
+        "player": "Jalon Walker",
+        "card": "Base RC (#104) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "atl-3",
+        "tier": "rookie",
+        "player": "Xavier Watts",
+        "card": "Base RC (#105) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "atl-4",
+        "tier": "star",
+        "player": "Bijan Robinson",
+        "card": "Base (#5) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "atl-5",
+        "tier": "star",
+        "player": "Drake London",
+        "card": "Base (#6) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "atl-6",
+        "tier": "star",
+        "player": "Michael Penix Jr.",
+        "card": "Base (#4) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "atl-7",
+        "tier": "rookie",
+        "player": "Jalon Walker",
+        "card": "Rookie Signatures (#104)",
+        "format": "both"
+      },
+      {
+        "id": "atl-8",
+        "tier": "rookie",
+        "player": "Xavier Watts",
+        "card": "Rookie Signatures (#105)",
+        "format": "both"
+      },
+      {
+        "id": "atl-9",
+        "tier": "star",
+        "player": "Drake London",
+        "card": "Base Signatures (#6)",
+        "format": "both"
+      },
+      {
+        "id": "atl-10",
+        "tier": "star",
+        "player": "Michael Penix Jr.",
+        "card": "Base Signatures (#4)",
+        "format": "both"
+      }
+    ],
+    "BAL": [
+      {
+        "id": "bal-1",
+        "tier": "star",
+        "player": "Lamar Jackson",
+        "card": "Electro Lights (EL-5) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "bal-2",
+        "tier": "rookie",
+        "player": "Malaki Starks",
+        "card": "Base RC (#107) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "bal-3",
+        "tier": "rookie",
+        "player": "Mike Green",
+        "card": "Base RC (#108) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "bal-4",
+        "tier": "star",
+        "player": "Derrick Henry",
+        "card": "Base (#8) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "bal-5",
+        "tier": "star",
+        "player": "Kyle Hamilton",
+        "card": "Base (#9) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "bal-6",
+        "tier": "star",
+        "player": "Lamar Jackson",
+        "card": "Base (#7) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "bal-7",
+        "tier": "rookie",
+        "player": "Malaki Starks",
+        "card": "Rookie Signatures (#107)",
+        "format": "both"
+      },
+      {
+        "id": "bal-8",
+        "tier": "rookie",
+        "player": "Mike Green",
+        "card": "Rookie Signatures (#108)",
+        "format": "both"
+      },
+      {
+        "id": "bal-9",
+        "tier": "star",
+        "player": "Derrick Henry",
+        "card": "Base Signatures (#8)",
+        "format": "both"
+      },
+      {
+        "id": "bal-10",
+        "tier": "star",
+        "player": "Kyle Hamilton",
+        "card": "Base Signatures (#9)",
+        "format": "both"
+      }
+    ],
+    "BUF": [
+      {
+        "id": "buf-1",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Electro Lights (EL-4) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "buf-2",
+        "tier": "rookie",
+        "player": "Maxwell Hairston",
+        "card": "Base RC (#109) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "buf-3",
+        "tier": "rookie",
+        "player": "T.J. Sanders",
+        "card": "Base RC (#110) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "buf-4",
+        "tier": "star",
+        "player": "James Cook",
+        "card": "Base (#11) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "buf-5",
+        "tier": "star",
+        "player": "Joey Bosa",
+        "card": "Base (#12) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "buf-6",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Base (#10) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "buf-7",
+        "tier": "rookie",
+        "player": "Maxwell Hairston",
+        "card": "Rookie Signatures (#109)",
+        "format": "both"
+      },
+      {
+        "id": "buf-8",
+        "tier": "rookie",
+        "player": "T.J. Sanders",
+        "card": "Rookie Signatures (#110)",
+        "format": "both"
+      },
+      {
+        "id": "buf-9",
+        "tier": "star",
+        "player": "James Cook",
+        "card": "Base Signatures (#11)",
+        "format": "both"
+      },
+      {
+        "id": "buf-10",
+        "tier": "star",
+        "player": "Joey Bosa",
+        "card": "Base Signatures (#12)",
+        "format": "both"
+      }
+    ],
+    "CAR": [
+      {
+        "id": "car-1",
+        "tier": "rookie",
+        "player": "Nic Scourton",
+        "card": "Base RC (#112) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-2",
+        "tier": "rookie",
+        "player": "Princely Umanmielen",
+        "card": "Base RC (#113) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-3",
+        "tier": "rookie",
+        "player": "Tetairoa McMillan",
+        "card": "Base RC (#111) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-4",
+        "tier": "star",
+        "player": "Bryce Young",
+        "card": "Base (#13) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-5",
+        "tier": "star",
+        "player": "Chuba Hubbard",
+        "card": "Base (#14) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-6",
+        "tier": "star",
+        "player": "Jaycee Horn",
+        "card": "Base (#15) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "car-7",
+        "tier": "star",
+        "player": "Tetairoa McMillan",
+        "card": "Neon Initiates (NI-TM) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "car-8",
+        "tier": "rookie",
+        "player": "Nic Scourton",
+        "card": "Rookie Signatures (#112)",
+        "format": "both"
+      },
+      {
+        "id": "car-9",
+        "tier": "rookie",
+        "player": "Princely Umanmielen",
+        "card": "Rookie Signatures (#113)",
+        "format": "both"
+      },
+      {
+        "id": "car-10",
+        "tier": "rookie",
+        "player": "Tetairoa McMillan",
+        "card": "Rookie Signatures (#111)",
+        "format": "both"
+      }
+    ],
+    "CHI": [
+      {
+        "id": "chi-1",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Electro Lights (EL-10) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "chi-2",
+        "tier": "rookie",
+        "player": "Colston Loveland",
+        "card": "Base RC (#116) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-3",
+        "tier": "rookie",
+        "player": "Luther Burden III",
+        "card": "Base RC (#117) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-4",
+        "tier": "rookie",
+        "player": "Shemar Turner",
+        "card": "Base RC (#115) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-5",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Base (#16) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-6",
+        "tier": "star",
+        "player": "D'Andre Swift",
+        "card": "Base (#17) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-7",
+        "tier": "star",
+        "player": "Rome Odunze",
+        "card": "Base (#18) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "chi-8",
+        "tier": "star",
+        "player": "Colston Loveland",
+        "card": "Neon Initiates (NI-CL) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "chi-9",
+        "tier": "star",
+        "player": "Luther Burden III",
+        "card": "Neon Initiates (NI-LB) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "chi-10",
+        "tier": "rookie",
+        "player": "Colston Loveland",
+        "card": "Rookie Signatures (#116)",
+        "format": "both"
+      }
+    ],
+    "CIN": [
+      {
+        "id": "cin-1",
+        "tier": "star",
+        "player": "Ja'Marr Chase",
+        "card": "Electro Lights (EL-2) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "cin-2",
+        "tier": "star",
+        "player": "Joe Burrow",
+        "card": "Electro Lights (EL-3) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "cin-3",
+        "tier": "rookie",
+        "player": "Barrett Carter",
+        "card": "Base RC (#120) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-4",
+        "tier": "rookie",
+        "player": "Shemar Stewart",
+        "card": "Base RC (#118) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-5",
+        "tier": "rookie",
+        "player": "Tahj Brooks",
+        "card": "Base RC (#119) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-6",
+        "tier": "star",
+        "player": "Ja'Marr Chase",
+        "card": "Base (#20) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-7",
+        "tier": "star",
+        "player": "Joe Burrow",
+        "card": "Base (#19) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-8",
+        "tier": "star",
+        "player": "Trey Hendrickson",
+        "card": "Base (#21) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cin-9",
+        "tier": "rookie",
+        "player": "Barrett Carter",
+        "card": "Rookie Signatures (#120)",
+        "format": "both"
+      },
+      {
+        "id": "cin-10",
+        "tier": "rookie",
+        "player": "Shemar Stewart",
+        "card": "Rookie Signatures (#118)",
+        "format": "both"
+      }
+    ],
+    "CLE": [
+      {
+        "id": "cle-1",
+        "tier": "star",
+        "player": "Myles Garrett",
+        "card": "Electro Lights (EL-17) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "cle-2",
+        "tier": "star",
+        "player": "Quinshon Judkins",
+        "card": "Electro Lights (EL-24) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "cle-3",
+        "tier": "rookie",
+        "player": "Dillon Gabriel",
+        "card": "Base RC (#123) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cle-4",
+        "tier": "rookie",
+        "player": "Harold Fannin Jr.",
+        "card": "Base RC (#201) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cle-5",
+        "tier": "rookie",
+        "player": "Isaiah Bond",
+        "card": "Base RC (#202) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cle-6",
+        "tier": "star",
+        "player": "Jerry Jeudy",
+        "card": "Base (#22) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cle-7",
+        "tier": "star",
+        "player": "Myles Garrett",
+        "card": "Base (#23) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "cle-8",
+        "tier": "star",
+        "player": "Dillon Gabriel",
+        "card": "Neon Initiates (NI-DG) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "cle-9",
+        "tier": "star",
+        "player": "Quinshon Judkins",
+        "card": "Neon Initiates (NI-QJ) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "cle-10",
+        "tier": "rookie",
+        "player": "Dillon Gabriel",
+        "card": "Rookie Signatures (#123)",
+        "format": "both"
+      }
+    ],
+    "DAL": [
+      {
+        "id": "dal-1",
+        "tier": "star",
+        "player": "CeeDee Lamb",
+        "card": "Electro Lights (EL-16) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "dal-2",
+        "tier": "rookie",
+        "player": "Jaydon Blue",
+        "card": "Base RC (#125) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "dal-3",
+        "tier": "rookie",
+        "player": "Shavon Revel Jr.",
+        "card": "Base RC (#126) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "dal-4",
+        "tier": "star",
+        "player": "CeeDee Lamb",
+        "card": "Base (#25) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "dal-5",
+        "tier": "star",
+        "player": "Dak Prescott",
+        "card": "Base (#24) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "dal-6",
+        "tier": "star",
+        "player": "George Pickens",
+        "card": "Base (#27) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "dal-7",
+        "tier": "rookie",
+        "player": "Jaydon Blue",
+        "card": "Rookie Signatures (#125)",
+        "format": "both"
+      },
+      {
+        "id": "dal-8",
+        "tier": "rookie",
+        "player": "Shavon Revel Jr.",
+        "card": "Rookie Signatures (#126)",
+        "format": "both"
+      },
+      {
+        "id": "dal-9",
+        "tier": "star",
+        "player": "CeeDee Lamb",
+        "card": "Base Signatures (#25)",
+        "format": "both"
+      },
+      {
+        "id": "dal-10",
+        "tier": "star",
+        "player": "Dak Prescott",
+        "card": "Base Signatures (#24)",
+        "format": "both"
+      }
+    ],
+    "DEN": [
+      {
+        "id": "den-1",
+        "tier": "star",
+        "player": "Bo Nix",
+        "card": "Electro Lights (EL-8) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "den-2",
+        "tier": "rookie",
+        "player": "Jahdae Barron",
+        "card": "Base RC (#127) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-3",
+        "tier": "rookie",
+        "player": "Pat Bryant",
+        "card": "Base RC (#129) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-4",
+        "tier": "rookie",
+        "player": "RJ Harvey",
+        "card": "Base RC (#128) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-5",
+        "tier": "star",
+        "player": "Bo Nix",
+        "card": "Base (#28) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-6",
+        "tier": "star",
+        "player": "Courtland Sutton",
+        "card": "Base (#29) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-7",
+        "tier": "star",
+        "player": "Pat Surtain II",
+        "card": "Base (#30) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "den-8",
+        "tier": "star",
+        "player": "RJ Harvey",
+        "card": "Neon Initiates (NI-RH) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "den-9",
+        "tier": "rookie",
+        "player": "Jahdae Barron",
+        "card": "Rookie Signatures (#127)",
+        "format": "both"
+      },
+      {
+        "id": "den-10",
+        "tier": "rookie",
+        "player": "Pat Bryant",
+        "card": "Rookie Signatures (#129)",
+        "format": "both"
+      }
+    ],
+    "DET": [
+      {
+        "id": "det-1",
+        "tier": "star",
+        "player": "Jahmyr Gibbs",
+        "card": "Electro Lights (EL-13) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "det-2",
+        "tier": "rookie",
+        "player": "Isaac TeSlaa",
+        "card": "Base RC (#132) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-3",
+        "tier": "rookie",
+        "player": "Tate Ratledge",
+        "card": "Base RC (#131) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-4",
+        "tier": "rookie",
+        "player": "Tyleik Williams",
+        "card": "Base RC (#130) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-5",
+        "tier": "star",
+        "player": "Aidan Hutchinson",
+        "card": "Base (#34) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-6",
+        "tier": "star",
+        "player": "Amon-Ra St. Brown",
+        "card": "Base (#32) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-7",
+        "tier": "star",
+        "player": "Jahmyr Gibbs",
+        "card": "Base (#33) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "det-8",
+        "tier": "rookie",
+        "player": "Isaac TeSlaa",
+        "card": "Rookie Signatures (#132)",
+        "format": "both"
+      },
+      {
+        "id": "det-9",
+        "tier": "rookie",
+        "player": "Tate Ratledge",
+        "card": "Rookie Signatures (#131)",
+        "format": "both"
+      },
+      {
+        "id": "det-10",
+        "tier": "rookie",
+        "player": "Tyleik Williams",
+        "card": "Rookie Signatures (#130)",
+        "format": "both"
+      }
+    ],
+    "GB": [
+      {
+        "id": "gb-1",
+        "tier": "rookie",
+        "player": "Matthew Golden",
+        "card": "Base RC (#133) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "gb-2",
+        "tier": "rookie",
+        "player": "Savion Williams",
+        "card": "Base RC (#134) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "gb-3",
+        "tier": "star",
+        "player": "Jordan Love",
+        "card": "Base (#35) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "gb-4",
+        "tier": "star",
+        "player": "Micah Parsons",
+        "card": "Base (#26) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "gb-5",
+        "tier": "star",
+        "player": "Tucker Kraft",
+        "card": "Base (#36) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "gb-6",
+        "tier": "star",
+        "player": "Matthew Golden",
+        "card": "Neon Initiates (NI-MG) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "gb-7",
+        "tier": "rookie",
+        "player": "Matthew Golden",
+        "card": "Rookie Signatures (#133)",
+        "format": "both"
+      },
+      {
+        "id": "gb-8",
+        "tier": "rookie",
+        "player": "Savion Williams",
+        "card": "Rookie Signatures (#134)",
+        "format": "both"
+      },
+      {
+        "id": "gb-9",
+        "tier": "star",
+        "player": "Xavier McKinney",
+        "card": "Base Signatures (#37)",
+        "format": "both"
+      },
+      {
+        "id": "gb-10",
+        "tier": "star",
+        "player": "Jordan Love",
+        "card": "Conductors (C-10)",
+        "format": "both"
+      }
+    ],
+    "HOU": [
+      {
+        "id": "hou-1",
+        "tier": "rookie",
+        "player": "Jayden Higgins",
+        "card": "Base RC (#136) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-2",
+        "tier": "rookie",
+        "player": "Jaylen Reed",
+        "card": "Base RC (#137) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-3",
+        "tier": "rookie",
+        "player": "Jaylin Noel",
+        "card": "Base RC (#135) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-4",
+        "tier": "star",
+        "player": "CJ Stroud",
+        "card": "Base (#38) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-5",
+        "tier": "star",
+        "player": "Nico Collins",
+        "card": "Base (#39) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-6",
+        "tier": "star",
+        "player": "Will Anderson Jr.",
+        "card": "Base (#40) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "hou-7",
+        "tier": "star",
+        "player": "Jayden Higgins",
+        "card": "Neon Initiates (NI-JH) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "hou-8",
+        "tier": "star",
+        "player": "Jaylin Noel",
+        "card": "Neon Initiates (NI-JN) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "hou-9",
+        "tier": "rookie",
+        "player": "Jayden Higgins",
+        "card": "Rookie Signatures (#136)",
+        "format": "both"
+      },
+      {
+        "id": "hou-10",
+        "tier": "rookie",
+        "player": "Jaylen Reed",
+        "card": "Rookie Signatures (#137)",
+        "format": "both"
+      }
+    ],
+    "IND": [
+      {
+        "id": "ind-1",
+        "tier": "rookie",
+        "player": "Riley Leonard",
+        "card": "Base RC (#138) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ind-2",
+        "tier": "rookie",
+        "player": "Tyler Warren",
+        "card": "Base RC (#140) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ind-3",
+        "tier": "star",
+        "player": "Jonathan Taylor",
+        "card": "Base (#41) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ind-4",
+        "tier": "star",
+        "player": "Michael Pittman Jr.",
+        "card": "Base (#42) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ind-5",
+        "tier": "star",
+        "player": "Sauce Gardner",
+        "card": "Base (#43) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ind-6",
+        "tier": "star",
+        "player": "Riley Leonard",
+        "card": "Neon Initiates (NI-RL) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "ind-7",
+        "tier": "star",
+        "player": "Tyler Warren",
+        "card": "Neon Initiates (NI-TW) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "ind-8",
+        "tier": "rookie",
+        "player": "Riley Leonard",
+        "card": "Rookie Signatures (#138)",
+        "format": "both"
+      },
+      {
+        "id": "ind-9",
+        "tier": "rookie",
+        "player": "Tyler Warren",
+        "card": "Rookie Signatures (#140)",
+        "format": "both"
+      },
+      {
+        "id": "ind-10",
+        "tier": "star",
+        "player": "Jonathan Taylor",
+        "card": "Base Signatures (#41)",
+        "format": "both"
+      }
+    ],
+    "JAX": [
+      {
+        "id": "jax-1",
+        "tier": "star",
+        "player": "Travis Hunter",
+        "card": "Electro Lights (EL-7) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "jax-2",
+        "tier": "star",
+        "player": "Trevor Lawrence",
+        "card": "Electro Lights (EL-21) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "jax-3",
+        "tier": "rookie",
+        "player": "Bhayshul Tuten",
+        "card": "Base RC (#142) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-4",
+        "tier": "rookie",
+        "player": "Jack Kiser",
+        "card": "Base RC (#143) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-5",
+        "tier": "rookie",
+        "player": "Travis Hunter",
+        "card": "Base RC (#141) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-6",
+        "tier": "star",
+        "player": "Brian Thomas Jr.",
+        "card": "Base (#45) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-7",
+        "tier": "star",
+        "player": "Josh Hines-Allen",
+        "card": "Base (#46) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-8",
+        "tier": "star",
+        "player": "Trevor Lawrence",
+        "card": "Base (#44) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "jax-9",
+        "tier": "star",
+        "player": "Bhayshul Tuten",
+        "card": "Neon Initiates (NI-BT) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "jax-10",
+        "tier": "rookie",
+        "player": "Bhayshul Tuten",
+        "card": "Rookie Signatures (#142)",
+        "format": "both"
+      }
+    ],
+    "KC": [
+      {
+        "id": "kc-1",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Electro Lights (EL-1) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "kc-2",
+        "tier": "rookie",
+        "player": "Jalen Royals",
+        "card": "Base RC (#144) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-3",
+        "tier": "rookie",
+        "player": "Josh Simmons",
+        "card": "Base RC (#145) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-4",
+        "tier": "rookie",
+        "player": "Omarr Norman-Lott",
+        "card": "Base RC (#146) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-5",
+        "tier": "star",
+        "player": "Chris Jones",
+        "card": "Base (#50) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-6",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Base (#47) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-7",
+        "tier": "star",
+        "player": "Travis Kelce",
+        "card": "Base (#49) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "kc-8",
+        "tier": "rookie",
+        "player": "Jalen Royals",
+        "card": "Rookie Signatures (#144)",
+        "format": "both"
+      },
+      {
+        "id": "kc-9",
+        "tier": "rookie",
+        "player": "Omarr Norman-Lott",
+        "card": "Rookie Signatures (#146)",
+        "format": "both"
+      },
+      {
+        "id": "kc-10",
+        "tier": "star",
+        "player": "Xavier Worthy",
+        "card": "Base Signatures (#48)",
+        "format": "both"
+      }
+    ],
+    "LV": [
+      {
+        "id": "lv-1",
+        "tier": "star",
+        "player": "Ashton Jeanty",
+        "card": "Electro Lights (EL-12) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "lv-2",
+        "tier": "rookie",
+        "player": "Ashton Jeanty",
+        "card": "Base RC (#149) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-3",
+        "tier": "rookie",
+        "player": "Jack Bech",
+        "card": "Base RC (#148) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-4",
+        "tier": "rookie",
+        "player": "Tommy Mellott",
+        "card": "Base RC (#147) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-5",
+        "tier": "star",
+        "player": "Brock Bowers",
+        "card": "Base (#52) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-6",
+        "tier": "star",
+        "player": "Geno Smith",
+        "card": "Base (#51) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-7",
+        "tier": "star",
+        "player": "Maxx Crosby",
+        "card": "Base (#53) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lv-8",
+        "tier": "star",
+        "player": "Ashton Jeanty",
+        "card": "Neon Initiates (NI-AJ) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "lv-9",
+        "tier": "star",
+        "player": "Jack Bech",
+        "card": "Neon Initiates (NI-JB) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "lv-10",
+        "tier": "rookie",
+        "player": "Ashton Jeanty",
+        "card": "Rookie Signatures (#149)",
+        "format": "both"
+      }
+    ],
+    "LAC": [
+      {
+        "id": "lac-1",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Electro Lights (EL-15) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "lac-2",
+        "tier": "star",
+        "player": "Omarion Hampton",
+        "card": "Electro Lights (EL-22) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "lac-3",
+        "tier": "rookie",
+        "player": "Omarion Hampton",
+        "card": "Base RC (#150) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lac-4",
+        "tier": "rookie",
+        "player": "Tre Harris III",
+        "card": "Base RC (#151) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lac-5",
+        "tier": "star",
+        "player": "Derwin James",
+        "card": "Base (#56) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lac-6",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Base (#54) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lac-7",
+        "tier": "star",
+        "player": "Ladd McConkey",
+        "card": "Base (#55) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lac-8",
+        "tier": "star",
+        "player": "Omarion Hampton",
+        "card": "Neon Initiates (NI-OH) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "lac-9",
+        "tier": "star",
+        "player": "Tre Harris III",
+        "card": "Neon Initiates (NI-THA) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "lac-10",
+        "tier": "rookie",
+        "player": "Omarion Hampton",
+        "card": "Rookie Signatures (#150)",
+        "format": "both"
+      }
+    ],
+    "LAR": [
+      {
+        "id": "lar-1",
+        "tier": "star",
+        "player": "Puka Nacua",
+        "card": "Electro Lights (EL-19) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "lar-2",
+        "tier": "rookie",
+        "player": "Chris Paul Jr.",
+        "card": "Base RC (#153) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lar-3",
+        "tier": "rookie",
+        "player": "Terrance Ferguson",
+        "card": "Base RC (#152) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lar-4",
+        "tier": "star",
+        "player": "Kyren Williams",
+        "card": "Base (#59) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lar-5",
+        "tier": "star",
+        "player": "Matthew Stafford",
+        "card": "Base (#57) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lar-6",
+        "tier": "star",
+        "player": "Puka Nacua",
+        "card": "Base (#58) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "lar-7",
+        "tier": "star",
+        "player": "Terrance Ferguson",
+        "card": "Neon Initiates (NI-TF) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "lar-8",
+        "tier": "rookie",
+        "player": "Chris Paul Jr.",
+        "card": "Rookie Signatures (#153)",
+        "format": "both"
+      },
+      {
+        "id": "lar-9",
+        "tier": "rookie",
+        "player": "Terrance Ferguson",
+        "card": "Rookie Signatures (#152)",
+        "format": "both"
+      },
+      {
+        "id": "lar-10",
+        "tier": "star",
+        "player": "Kyren Williams",
+        "card": "Base Signatures (#59)",
+        "format": "both"
+      }
+    ],
+    "MIA": [
+      {
+        "id": "mia-1",
+        "tier": "star",
+        "player": "Tyreek Hill",
+        "card": "Electro Lights (EL-18) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "mia-2",
+        "tier": "rookie",
+        "player": "Kenneth Grant",
+        "card": "Base RC (#156) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-3",
+        "tier": "rookie",
+        "player": "Ollie Gordon II",
+        "card": "Base RC (#154) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-4",
+        "tier": "rookie",
+        "player": "Quinn Ewers",
+        "card": "Base RC (#155) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-5",
+        "tier": "star",
+        "player": "De'Von Achane",
+        "card": "Base (#63) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-6",
+        "tier": "star",
+        "player": "Jaylen Waddle",
+        "card": "Base (#62) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-7",
+        "tier": "star",
+        "player": "Tua Tagovailoa",
+        "card": "Base (#60) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "mia-8",
+        "tier": "rookie",
+        "player": "Kenneth Grant",
+        "card": "Rookie Signatures (#156)",
+        "format": "both"
+      },
+      {
+        "id": "mia-9",
+        "tier": "rookie",
+        "player": "Ollie Gordon II",
+        "card": "Rookie Signatures (#154)",
+        "format": "both"
+      },
+      {
+        "id": "mia-10",
+        "tier": "star",
+        "player": "De'Von Achane",
+        "card": "Base Signatures (#63)",
+        "format": "both"
+      }
+    ],
+    "MIN": [
+      {
+        "id": "min-1",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Electro Lights (EL-14) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "min-2",
+        "tier": "rookie",
+        "player": "Donovan Jackson",
+        "card": "Base RC (#158) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "min-3",
+        "tier": "rookie",
+        "player": "Tai Felton",
+        "card": "Base RC (#157) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "min-4",
+        "tier": "star",
+        "player": "J.J. McCarthy",
+        "card": "Base (#64) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "min-5",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Base (#65) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "min-6",
+        "tier": "rookie",
+        "player": "Donovan Jackson",
+        "card": "Rookie Signatures (#158)",
+        "format": "both"
+      },
+      {
+        "id": "min-7",
+        "tier": "rookie",
+        "player": "Tai Felton",
+        "card": "Rookie Signatures (#157)",
+        "format": "both"
+      },
+      {
+        "id": "min-8",
+        "tier": "star",
+        "player": "J.J. McCarthy",
+        "card": "Base Signatures (#64)",
+        "format": "both"
+      },
+      {
+        "id": "min-9",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Base Signatures (#65)",
+        "format": "both"
+      },
+      {
+        "id": "min-10",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Protonyx (PT-24)",
+        "format": "both"
+      }
+    ],
+    "NE": [
+      {
+        "id": "ne-1",
+        "tier": "rookie",
+        "player": "Bradyn Swinson",
+        "card": "Base RC (#162) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-2",
+        "tier": "rookie",
+        "player": "Kyle Williams",
+        "card": "Base RC (#161) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-3",
+        "tier": "rookie",
+        "player": "TreVeyon Henderson",
+        "card": "Base RC (#159) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-4",
+        "tier": "star",
+        "player": "Christian Gonzalez",
+        "card": "Base (#68) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-5",
+        "tier": "star",
+        "player": "Drake Maye",
+        "card": "Base (#66) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-6",
+        "tier": "star",
+        "player": "Stefon Diggs",
+        "card": "Base (#67) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ne-7",
+        "tier": "star",
+        "player": "Kyle Williams",
+        "card": "Neon Initiates (NI-KW) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "ne-8",
+        "tier": "star",
+        "player": "TreVeyon Henderson",
+        "card": "Neon Initiates (NI-TVH) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "ne-9",
+        "tier": "rookie",
+        "player": "Bradyn Swinson",
+        "card": "Rookie Signatures (#162)",
+        "format": "both"
+      },
+      {
+        "id": "ne-10",
+        "tier": "rookie",
+        "player": "Kyle Williams",
+        "card": "Rookie Signatures (#161)",
+        "format": "both"
+      }
+    ],
+    "NO": [
+      {
+        "id": "no-1",
+        "tier": "rookie",
+        "player": "Danny Stutsman",
+        "card": "Base RC (#166) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-2",
+        "tier": "rookie",
+        "player": "Devin Neal",
+        "card": "Base RC (#164) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-3",
+        "tier": "rookie",
+        "player": "Kelvin Banks Jr.",
+        "card": "Base RC (#165) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-4",
+        "tier": "star",
+        "player": "Alvin Kamara",
+        "card": "Base (#70) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-5",
+        "tier": "star",
+        "player": "Chris Olave",
+        "card": "Base (#69) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-6",
+        "tier": "star",
+        "player": "Kool-Aid McKinstry",
+        "card": "Base (#71) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "no-7",
+        "tier": "star",
+        "player": "Tyler Shough",
+        "card": "Neon Initiates (NI-TS) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "no-8",
+        "tier": "rookie",
+        "player": "Danny Stutsman",
+        "card": "Rookie Signatures (#166)",
+        "format": "both"
+      },
+      {
+        "id": "no-9",
+        "tier": "rookie",
+        "player": "Devin Neal",
+        "card": "Rookie Signatures (#164)",
+        "format": "both"
+      },
+      {
+        "id": "no-10",
+        "tier": "rookie",
+        "player": "Kelvin Banks Jr.",
+        "card": "Rookie Signatures (#165)",
+        "format": "both"
+      }
+    ],
+    "NYG": [
+      {
+        "id": "nyg-1",
+        "tier": "star",
+        "player": "Jaxson Dart",
+        "card": "Electro Lights (EL-23) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-2",
+        "tier": "rookie",
+        "player": "Abdul Carter",
+        "card": "Base RC (#169) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-3",
+        "tier": "rookie",
+        "player": "Cam Skattebo",
+        "card": "Base RC (#168) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-4",
+        "tier": "rookie",
+        "player": "Darius Alexander",
+        "card": "Base RC (#170) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-5",
+        "tier": "star",
+        "player": "Darius Slayton",
+        "card": "Base (#72) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-6",
+        "tier": "star",
+        "player": "Dexter Lawrence",
+        "card": "Base (#74) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-7",
+        "tier": "star",
+        "player": "Malik Nabers",
+        "card": "Base (#73) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyg-8",
+        "tier": "star",
+        "player": "Cam Skattebo",
+        "card": "Neon Initiates (NI-CS) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "nyg-9",
+        "tier": "star",
+        "player": "Jaxson Dart",
+        "card": "Neon Initiates (NI-JD) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "nyg-10",
+        "tier": "rookie",
+        "player": "Abdul Carter",
+        "card": "Rookie Signatures (#169)",
+        "format": "both"
+      }
+    ],
+    "NYJ": [
+      {
+        "id": "nyj-1",
+        "tier": "rookie",
+        "player": "Armand Membou",
+        "card": "Base RC (#172) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-2",
+        "tier": "rookie",
+        "player": "Azareye'h Thomas",
+        "card": "Base RC (#174) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-3",
+        "tier": "rookie",
+        "player": "Malachi Moore",
+        "card": "Base RC (#171) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-4",
+        "tier": "star",
+        "player": "Breece Hall",
+        "card": "Base (#76) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-5",
+        "tier": "star",
+        "player": "Garrett Wilson",
+        "card": "Base (#77) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-6",
+        "tier": "star",
+        "player": "Justin Fields",
+        "card": "Base (#75) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "nyj-7",
+        "tier": "rookie",
+        "player": "Malachi Moore",
+        "card": "Rookie Signatures (#171)",
+        "format": "both"
+      },
+      {
+        "id": "nyj-8",
+        "tier": "rookie",
+        "player": "Mason Taylor",
+        "card": "Rookie Signatures (#173)",
+        "format": "both"
+      },
+      {
+        "id": "nyj-9",
+        "tier": "star",
+        "player": "Breece Hall",
+        "card": "Base Signatures (#76)",
+        "format": "both"
+      },
+      {
+        "id": "nyj-10",
+        "tier": "star",
+        "player": "Garrett Wilson",
+        "card": "Base Signatures (#77)",
+        "format": "both"
+      }
+    ],
+    "PHI": [
+      {
+        "id": "phi-1",
+        "tier": "star",
+        "player": "Saquon Barkley",
+        "card": "Electro Lights (EL-20) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "phi-2",
+        "tier": "rookie",
+        "player": "Andrew Mukuba",
+        "card": "Base RC (#177) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-3",
+        "tier": "rookie",
+        "player": "Jihaad Campbell",
+        "card": "Base RC (#176) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-4",
+        "tier": "rookie",
+        "player": "Kyle McCord",
+        "card": "Base RC (#175) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-5",
+        "tier": "star",
+        "player": "A.J. Brown",
+        "card": "Base (#78) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-6",
+        "tier": "star",
+        "player": "Cooper DeJean",
+        "card": "Base (#82) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-7",
+        "tier": "star",
+        "player": "DeVonta Smith",
+        "card": "Base (#81) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "phi-8",
+        "tier": "rookie",
+        "player": "Andrew Mukuba",
+        "card": "Rookie Signatures (#177)",
+        "format": "both"
+      },
+      {
+        "id": "phi-9",
+        "tier": "rookie",
+        "player": "Jihaad Campbell",
+        "card": "Rookie Signatures (#176)",
+        "format": "both"
+      },
+      {
+        "id": "phi-10",
+        "tier": "rookie",
+        "player": "Kyle McCord",
+        "card": "Rookie Signatures (#175)",
+        "format": "both"
+      }
+    ],
+    "PIT": [
+      {
+        "id": "pit-1",
+        "tier": "rookie",
+        "player": "Derrick Harmon",
+        "card": "Base RC (#181) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-2",
+        "tier": "rookie",
+        "player": "Jack Sawyer",
+        "card": "Base RC (#180) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-3",
+        "tier": "rookie",
+        "player": "Kaleb Johnson",
+        "card": "Base RC (#179) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-4",
+        "tier": "star",
+        "player": "Aaron Rodgers",
+        "card": "Base (#83) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-5",
+        "tier": "star",
+        "player": "DK Metcalf",
+        "card": "Base (#84) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-6",
+        "tier": "star",
+        "player": "T.J. Watt",
+        "card": "Base (#85) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "pit-7",
+        "tier": "star",
+        "player": "Kaleb Johnson",
+        "card": "Neon Initiates (NI-KJ) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "pit-8",
+        "tier": "star",
+        "player": "Will Howard",
+        "card": "Neon Initiates (NI-WH) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "pit-9",
+        "tier": "rookie",
+        "player": "Derrick Harmon",
+        "card": "Rookie Signatures (#181)",
+        "format": "both"
+      },
+      {
+        "id": "pit-10",
+        "tier": "rookie",
+        "player": "Jack Sawyer",
+        "card": "Rookie Signatures (#180)",
+        "format": "both"
+      }
+    ],
+    "SF": [
+      {
+        "id": "sf-1",
+        "tier": "rookie",
+        "player": "Alfred Collins",
+        "card": "Base RC (#186) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-2",
+        "tier": "rookie",
+        "player": "Jordan James",
+        "card": "Base RC (#185) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-3",
+        "tier": "rookie",
+        "player": "Mykel Williams",
+        "card": "Base RC (#184) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-4",
+        "tier": "star",
+        "player": "Brock Purdy",
+        "card": "Base (#86) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-5",
+        "tier": "star",
+        "player": "Christian McCaffrey",
+        "card": "Base (#87) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-6",
+        "tier": "star",
+        "player": "George Kittle",
+        "card": "Base (#88) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sf-7",
+        "tier": "rookie",
+        "player": "Alfred Collins",
+        "card": "Rookie Signatures (#186)",
+        "format": "both"
+      },
+      {
+        "id": "sf-8",
+        "tier": "rookie",
+        "player": "Jordan James",
+        "card": "Rookie Signatures (#185)",
+        "format": "both"
+      },
+      {
+        "id": "sf-9",
+        "tier": "rookie",
+        "player": "Mykel Williams",
+        "card": "Rookie Signatures (#184)",
+        "format": "both"
+      },
+      {
+        "id": "sf-10",
+        "tier": "star",
+        "player": "Brock Purdy",
+        "card": "Base Signatures (#86)",
+        "format": "both"
+      }
+    ],
+    "SEA": [
+      {
+        "id": "sea-1",
+        "tier": "rookie",
+        "player": "Elijah Arroyo",
+        "card": "Base RC (#187) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-2",
+        "tier": "rookie",
+        "player": "Jalen Milroe",
+        "card": "Base RC (#189) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-3",
+        "tier": "rookie",
+        "player": "Nick Emmanwori",
+        "card": "Base RC (#188) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-4",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Base (#91) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-5",
+        "tier": "star",
+        "player": "Rashid Shaheed",
+        "card": "Base (#92) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-6",
+        "tier": "star",
+        "player": "Sam Darnold",
+        "card": "Base (#90) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "sea-7",
+        "tier": "rookie",
+        "player": "Elijah Arroyo",
+        "card": "Rookie Signatures (#187)",
+        "format": "both"
+      },
+      {
+        "id": "sea-8",
+        "tier": "rookie",
+        "player": "Tory Horton",
+        "card": "Rookie Signatures (#190)",
+        "format": "both"
+      },
+      {
+        "id": "sea-9",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Base Signatures (#91)",
+        "format": "both"
+      },
+      {
+        "id": "sea-10",
+        "tier": "star",
+        "player": "Rashid Shaheed",
+        "card": "Base Signatures (#92)",
+        "format": "both"
+      }
+    ],
+    "TB": [
+      {
+        "id": "tb-1",
+        "tier": "star",
+        "player": "Emeka Egbuka",
+        "card": "Electro Lights (EL-25) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "tb-2",
+        "tier": "rookie",
+        "player": "Benjamin Morrison",
+        "card": "Base RC (#192) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-3",
+        "tier": "rookie",
+        "player": "Emeka Egbuka",
+        "card": "Base RC (#191) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-4",
+        "tier": "rookie",
+        "player": "Tez Johnson",
+        "card": "Base RC (#193) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-5",
+        "tier": "star",
+        "player": "Baker Mayfield",
+        "card": "Base (#93) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-6",
+        "tier": "star",
+        "player": "Bucky Irving",
+        "card": "Base (#94) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-7",
+        "tier": "star",
+        "player": "Mike Evans",
+        "card": "Base (#95) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "tb-8",
+        "tier": "star",
+        "player": "Emeka Egbuka",
+        "card": "Neon Initiates (NI-EE) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "tb-9",
+        "tier": "rookie",
+        "player": "Benjamin Morrison",
+        "card": "Rookie Signatures (#192)",
+        "format": "both"
+      },
+      {
+        "id": "tb-10",
+        "tier": "rookie",
+        "player": "Emeka Egbuka",
+        "card": "Rookie Signatures (#191)",
+        "format": "both"
+      }
+    ],
+    "TEN": [
+      {
+        "id": "ten-1",
+        "tier": "star",
+        "player": "Cam Ward",
+        "card": "Electro Lights (EL-6) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "ten-2",
+        "tier": "rookie",
+        "player": "Cam Ward",
+        "card": "Base RC (#194) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ten-3",
+        "tier": "rookie",
+        "player": "Chimere Dike",
+        "card": "Base RC (#197) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ten-4",
+        "tier": "rookie",
+        "player": "Elic Ayomanor",
+        "card": "Base RC (#195) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ten-5",
+        "tier": "star",
+        "player": "Calvin Ridley",
+        "card": "Base (#97) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ten-6",
+        "tier": "star",
+        "player": "Tony Pollard",
+        "card": "Base (#96) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "ten-7",
+        "tier": "star",
+        "player": "Cam Ward",
+        "card": "Neon Initiates (NI-CW) · green-ink auto",
+        "format": "both"
+      },
+      {
+        "id": "ten-8",
+        "tier": "rookie",
+        "player": "Cam Ward",
+        "card": "Rookie Signatures (#194)",
+        "format": "both"
+      },
+      {
+        "id": "ten-9",
+        "tier": "rookie",
+        "player": "Chimere Dike",
+        "card": "Rookie Signatures (#197)",
+        "format": "both"
+      },
+      {
+        "id": "ten-10",
+        "tier": "rookie",
+        "player": "Elic Ayomanor",
+        "card": "Rookie Signatures (#195)",
+        "format": "both"
+      }
+    ],
+    "WAS": [
+      {
+        "id": "was-1",
+        "tier": "star",
+        "player": "Jayden Daniels",
+        "card": "Electro Lights (EL-9) · Mega/Value exclusive case-hit insert",
+        "format": "retail"
+      },
+      {
+        "id": "was-2",
+        "tier": "rookie",
+        "player": "Jacory Croskey-Merritt",
+        "card": "Base RC (#198) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-3",
+        "tier": "rookie",
+        "player": "Jaylin Lane",
+        "card": "Base RC (#200) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-4",
+        "tier": "rookie",
+        "player": "Trey Amos",
+        "card": "Base RC (#199) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-5",
+        "tier": "star",
+        "player": "Deebo Samuel",
+        "card": "Base (#99) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-6",
+        "tier": "star",
+        "player": "Jayden Daniels",
+        "card": "Base (#98) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-7",
+        "tier": "star",
+        "player": "Terry McLaurin",
+        "card": "Base (#100) · Refractor · Blue and Orange Spark (Mega exclusive) · Prism (Mega/Value) · Surge /425–SuperFractor 1/1",
+        "format": "both"
+      },
+      {
+        "id": "was-8",
+        "tier": "rookie",
+        "player": "Jacory Croskey-Merritt",
+        "card": "Rookie Signatures (#198)",
+        "format": "both"
+      },
+      {
+        "id": "was-9",
+        "tier": "rookie",
+        "player": "Jaylin Lane",
+        "card": "Rookie Signatures (#200)",
+        "format": "both"
+      },
+      {
+        "id": "was-10",
+        "tier": "rookie",
+        "player": "Trey Amos",
+        "card": "Rookie Signatures (#199)",
+        "format": "both"
+      }
+    ]
+  }
+}
