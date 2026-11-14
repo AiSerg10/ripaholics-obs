@@ -32,7 +32,9 @@
 ## Extra tiles (college spots)
 - A set can add extra tiles with `"extra":"college"` (NFL only): adds a COLLEGE group with SEC, BIG10, BIG12, ACC, OTHER.
   They appear while that set is selected; normal 32-team NFL is unchanged otherwise.
-- URL override: `&extra=college` forces them on, `&extra=none` forces them off (saved per league).
+- On the NFL control bar, use the **College** cycle: Auto (follows the selected chase set), ON, or OFF.
+- Direct URL for the 2026 Bowman Football Hobby board: `team-board.html?league=nfl&chase=2026-bowman-football`
+- URL override: `&extra=college` forces them on, `&extra=none` forces them off, `&extra=auto` follows the chase set (saved per league). Leave this on Auto so other NFL breaks stay at 32 teams.
 - An entry without `img` shows a styled text card (player + card name) instead of a picture.
 - `"label"` (optional) = short set name printed on text cards, e.g. "2026 Topps Update" (falls back to `name`).
 
