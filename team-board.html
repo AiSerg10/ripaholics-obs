@@ -338,4 +338,98 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSheet()});
 addEventListener('resize',fitSheet);
 if(QP.get('cview')==='1')setCv(true);
 
-</script></body></html>
+</script>
+<script>
+/* ===== AUCTION "UP NEXT" BANNER =====
+   Strip under the board: UP NEXT <team> · STARTING AT $1 (+ current bid), then SOLD FOR $X.
+   Controls: "Auction" button in the bottom bar. Saved per league in localStorage rb_auc_<league>,
+   so every board source (and a control copy in a dock) updates together. ?auction=off hides it on one source. */
+(function(){
+const AOFF=(QP.get('auction')||'').toLowerCase()==='off';
+const ak=()=>'rb_auc_'+lg, DEF={show:false,team:'',text:'',start:1,bid:null,bidder:'',status:'up',soldPrice:null,soldTo:''};
+const AL=()=>{try{return Object.assign({},DEF,JSON.parse(localStorage[ak()]||'{}'))}catch(e){return Object.assign({},DEF)}};
+const AS=a=>{localStorage[ak()]=JSON.stringify(a);aRender();aPaint()};
+const money=v=>v===null||v===undefined||v===''||isNaN(v)?'':'$'+(Math.round(v*100)/100).toLocaleString('en-US',{maximumFractionDigits:2});
+const amt=v=>{if(v===null||v===undefined||String(v).trim()==='')return null;const n=parseFloat(String(v).replace(/[$,\s]/g,''));return isFinite(n)&&n>=0&&n<1e7?Math.round(n*100)/100:NaN};
+const tname=a=>((typeof NM!=='undefined'&&(NM[lg]||{})[a])||(typeof XN!=='undefined'&&XN[a])||a);
+const onBoard=a=>L[lg].some(x=>x[0]===a);
+// board order as you see it: division by division when the board shows divisions, else the board list
+const order=()=>{const all=L[lg].map(x=>x[0]);if(typeof D==='undefined'||!D[lg]||!document.querySelector('#board.div'))return all;const o=[];D[lg].forEach(d=>d[1].forEach(x=>{if(all.includes(x)&&!o.includes(x))o.push(x)}));all.forEach(x=>{if(!o.includes(x))o.push(x)});return o};
+document.head.insertAdjacentHTML('beforeend',`<style>
+#auc{position:relative;z-index:1;display:none;margin-top:10px;align-items:center;gap:12px;padding:8px 14px 8px 10px;border-radius:12px;background:linear-gradient(100deg,#0b0b0f 0%,#140612 55%,#04101c 100%);border:3px solid #000;box-shadow:0 0 0 2px #fff,0 4px 0 #000;overflow:visible}
+#auc.on{display:flex}
+#auc .al{flex:none;width:62px;height:62px;border-radius:50%;border:3px solid #000;box-shadow:2px 2px 0 #000;background:radial-gradient(circle at 40% 35%,#fff 0,#fff 45%,#dcdce2 100%);display:flex;align-items:center;justify-content:center;overflow:hidden;box-sizing:border-box;padding:5px}
+#auc .al img{width:100%;height:100%;object-fit:contain}
+#auc .al b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;color:#fff;-webkit-text-stroke:1.5px #000;paint-order:stroke fill}
+#auc .am{flex:1;min-width:0}
+#auc .ap{display:inline-block;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:12px;letter-spacing:3px;color:#fff;background:#f0189c;border:2px solid #000;border-radius:20px;padding:2px 10px;box-shadow:0 2px 0 #000}
+#auc .an{font-family:Anton,Impact,sans-serif;font-size:44px;line-height:1.05;letter-spacing:1.5px;color:#fff;-webkit-text-stroke:2.5px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #000;white-space:nowrap;text-transform:uppercase}
+#auc .ab2{font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:13px;color:#fff;margin-top:1px}
+#auc .ab2 em{font-style:normal;color:#0a96e8}
+#auc .ar{flex:none;text-align:center;border-left:3px solid rgba(255,255,255,.25);padding-left:14px}
+#auc .ar small{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:900;font-size:11px;letter-spacing:2px;color:#0a96e8}
+#auc .ar b{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:50px;line-height:1;color:#fff;-webkit-text-stroke:2.5px #000;paint-order:stroke fill;text-shadow:3px 3px 0 #0a96e8}
+#auc.asold{background:linear-gradient(100deg,#0b0b0f 0%,#1a0414 60%,#2a0320 100%);box-shadow:0 0 0 2px #f0189c,0 4px 0 #000}
+#auc.asold .ar small{color:#f0189c}
+#auc.asold .ar b{text-shadow:3px 3px 0 #f0189c}
+#auc .stp{display:none;position:absolute;left:-10px;top:-16px;transform:rotate(-8deg);font-family:Anton,Impact,sans-serif;font-size:22px;letter-spacing:3px;color:#fff;background:#f0189c;border:3px solid #000;border-radius:8px;padding:0 10px;box-shadow:2px 3px 0 #000}
+
+#auc.pop{animation:aucpop .45s cubic-bezier(.2,.9,.3,1.3)}
+@keyframes aucpop{0%{transform:scale(.92);filter:brightness(1.8)}100%{transform:none;filter:none}}
+#aucp{display:none;flex-wrap:wrap;gap:6px;align-items:center;width:100%;padding:6px;border:2px dashed #f0189c;border-radius:8px;background:rgba(0,0,0,.55)}
+#aucp.on{display:flex}
+#aucp label{font-family:Montserrat,Arial;font-weight:800;font-size:10px;color:#fff}
+#aucp select{font-family:Montserrat,Arial;font-weight:800;font-size:11px;padding:3px;border:2px solid #000;border-radius:6px;max-width:160px}
+#bar #aucp input{width:62px}#bar #aucp input#aucx{width:120px}#bar #aucp input#aucw{width:90px}
+#aucp #aucs{font-family:Montserrat,Arial;font-weight:800;font-size:10px;color:#fff;flex-basis:100%}
+#bar button#aucb.on,#aucp button.on{background:#f0189c;color:#fff}
+</style>`);
+// banner element: under the board (before the reveal layer), inside the board panel
+const st=document.getElementById('stage');st.insertAdjacentHTML('afterend','<div id="auc"><div class="al"></div><div class="am"><span class="ap"></span><div class="an"></div><div class="ab2"></div></div><div class="ar"><small></small><b></b></div><div class="stp">SOLD</div></div>');
+const el=document.getElementById('auc');let lastK='';
+function fitName(){const n=el.querySelector('.an');n.style.fontSize='';let fs=44;const sp=n.firstChild;if(!sp||!sp.getBoundingClientRect)return;const lim=n.clientWidth||300;while(fs>20&&sp.offsetWidth>lim){fs-=2;n.style.fontSize=fs+'px'}}
+function aRender(){const a=AL(),t=a.team&&onBoard(a.team)?a.team:'',nm=t?tname(t):a.text;
+ if(AOFF||!a.show||!nm){if(el.classList.contains('on')){el.classList.remove('on');fitB()}lastK='';return}
+ const sold=a.status==='sold';el.classList.toggle("asold",sold);
+ const lo=el.querySelector('.al');if(t){lo.style.display='';const c=(L[lg].find(x=>x[0]===t)||[0,'#333'])[1];lo.innerHTML=`<img src="${LOGO(lg,t)}" alt="" onerror="this.parentNode.style.background='${c}';this.parentNode.innerHTML='<b>${esc(t)}</b>'">`;lo.style.background=''}else lo.style.display='none';
+ el.querySelector('.ap').textContent=sold?'SOLD':'UP NEXT';
+ el.querySelector('.an').innerHTML='<span>'+esc(nm)+'</span>';
+ const bd=el.querySelector('.ab2');bd.innerHTML=sold?(a.soldTo?'to <em>@'+esc(a.soldTo.replace(/^@+/,''))+'</em>':''):(a.bid!==null&&a.bid!==undefined?'CURRENT BID <em>'+esc(money(a.bid))+'</em>'+(a.bidder?' · @'+esc(a.bidder.replace(/^@+/,'')):''):'');bd.style.display=bd.innerHTML?'':'none';
+ el.querySelector('.ar small').textContent=sold?'SOLD FOR':'STARTING AT';el.querySelector('.ar b').textContent=sold?(money(a.soldPrice)||'—'):money(a.start);
+ const was=el.classList.contains('on');el.classList.add('on');fitName();if(!was)fitB();
+ const k=[nm,a.status,a.start,a.bid,a.soldPrice].join('|');if(lastK&&k!==lastK){el.classList.remove('pop');void el.offsetWidth;el.classList.add('pop')}lastK=k}
+// ---- controls (in the bottom bar)
+const bar=document.getElementById('bar');
+bar.insertAdjacentHTML('beforeend','<button id="aucb" title="Auction Up Next banner controls">Auction</button><div id="aucp"><label>Team</label><select id="auct"></select><input id="aucx" placeholder="or type a name"><label>Start $</label><input id="aucst" value="1"><label>Bid $</label><input id="aucbd" placeholder="—"><input id="aucw" placeholder="@bidder"><button id="aucsh">Show banner</button><button id="aucnx">Next team &#9656;</button><button id="aucsd">Sold</button><button id="aucup">Back to Up Next</button><span id="aucs"></span></div>');
+const $=i=>document.getElementById(i);
+$('aucb').onclick=()=>{$('aucp').classList.toggle('on');$('aucb').classList.toggle('on',$('aucp').classList.contains('on'));aPaint();fitB()};
+function say(m){$('aucs').textContent=m}
+function setTeam(t,x){const a=AL();if(t!==a.team||x!==a.text)Object.assign(a,{bid:null,bidder:'',status:'up',soldPrice:null,soldTo:''});a.team=t;a.text=t?'':x;AS(a)}
+$('auct').onchange=e=>{setTeam(e.target.value,'');$('aucx').value=''};
+$('aucx').onchange=e=>{const x=e.target.value.trim().slice(0,40);if(x)setTeam('',x)};
+$('aucst').onchange=e=>{const v=amt(e.target.value),a=AL();if(v===null||isNaN(v)){say('Starting price: type a number like 1');e.target.value=a.start;return}a.start=v;AS(a)};
+$('aucbd').onchange=e=>{const v=amt(e.target.value),a=AL();if(isNaN(v)){say('Bid: type a number like 5');return}a.bid=v;AS(a)};
+$('aucw').onchange=e=>{const a=AL();a.bidder=e.target.value.trim().replace(/^@+/,'').slice(0,40);AS(a)};
+$('aucsh').onclick=()=>{const a=AL();if(!a.show&&!a.team&&!a.text){say('Pick a team (or type a name) first.');return}a.show=!a.show;AS(a)};
+function nextTeam(){const a=AL(),list=order(),i=list.indexOf(a.team);const nx=[...list.slice(i+1),...list.slice(0,i+1)].find(x=>!S[x]&&x!==a.team);
+ if(!nx){say(a.team&&!S[a.team]?'No other open team.':'Every team is sold.');return null}Object.assign(a,{team:nx,text:'',bid:null,bidder:'',status:'up',soldPrice:null,soldTo:''});AS(a);say('');return nx}
+$('aucnx').onclick=nextTeam;
+$('aucsd').onclick=()=>{const a=AL(),t=a.team&&onBoard(a.team)?a.team:'';if(!t&&!a.text){say('Pick a team first.');return}
+ const p=a.bid!==null&&a.bid!==undefined?a.bid:a.start,buyer=($('aucw').value||a.bidder||'').trim().replace(/^@+/,'').slice(0,40);
+ if(t){load();S[t]={n:buyer,p:p};save();draw()} // same as selling a tile: board slash + buyer reveal
+ Object.assign(a,{status:'sold',soldPrice:p,soldTo:buyer});AS(a);say(t?tname(t)+' sold for '+money(p)+(buyer?' to @'+buyer:''):'')};
+$('aucup').onclick=()=>{const a=AL();Object.assign(a,{status:'up',soldPrice:null,soldTo:''});AS(a)};
+function aPaint(){const a=AL(),sel=$('auct');if(!sel)return;const cur=a.team;
+ sel.innerHTML='<option value="">— pick team —</option>'+order().map(x=>`<option value="${x}"${x===cur?' selected':''}>${esc(tname(x))} (${x})${S[x]?' · SOLD':''}</option>`).join('');
+ if(document.activeElement!==$('aucx'))$('aucx').value=a.team?'':a.text;if(document.activeElement!==$('aucst'))$('aucst').value=a.start;
+ if(document.activeElement!==$('aucbd'))$('aucbd').value=a.bid===null||a.bid===undefined?'':a.bid;if(document.activeElement!==$('aucw'))$('aucw').value=a.bidder?'@'+a.bidder:'';
+ $('aucsh').textContent=a.show?'Hide banner':'Show banner';$('aucsh').classList.toggle('on',a.show);
+ const p=a.bid!==null&&a.bid!==undefined?a.bid:a.start;$('aucsd').textContent=a.status==='sold'?'Sold ✓':'Sold for '+money(p);$('aucup').style.display=a.status==='sold'?'':'none'}
+// keep in sync: other sources / docks, league switch, board redraws
+addEventListener('storage',e=>{if(e.key===ak()){aRender();aPaint()}else if(e.key===key())aPaint()});
+const _dA=draw;draw=function(){_dA.apply(this,arguments);aRender();aPaint()};
+window.AUC={get:AL,set:AS,next:nextTeam};
+aRender();aPaint();
+})();
+</script>
+</body></html>
