@@ -1,0 +1,2759 @@
+{
+  "name": "2026 Topps Chrome Football Value Box",
+  "label": "2026 Topps Chrome Value",
+  "league": "nfl",
+  "entries": [
+    {
+      "team": "ATL",
+      "player": "Zachariah Branch",
+      "card": "Chrome Rookie #304 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "ATL",
+      "player": "Bijan Robinson",
+      "card": "Chrome Base #12 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LV",
+      "player": "Fernando Mendoza",
+      "card": "Chrome Rookie #351 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LV",
+      "player": "Brock Bowers",
+      "card": "Chrome Base #159 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LV",
+      "player": "Roman Hemby",
+      "card": "Retail Rookie Auto (RRA-RH)",
+      "format": "retail"
+    },
+    {
+      "team": "NE",
+      "player": "Behren Morton",
+      "card": "Chrome Rookie #366 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NE",
+      "player": "Drake Maye",
+      "card": "Chrome Base #200 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "ARI",
+      "player": "Jeremiyah Love",
+      "card": "Chrome Rookie #302 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "ARI",
+      "player": "Trey McBride",
+      "card": "Chrome Base #6 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "ARI",
+      "player": "Chase Bisontis",
+      "card": "Retail Rookie Auto (RRA-CB)",
+      "format": "retail"
+    },
+    {
+      "team": "TEN",
+      "player": "Carnell Tate",
+      "card": "Chrome Rookie #396 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "TEN",
+      "player": "Cam Ward",
+      "card": "Chrome Base #283 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "TEN",
+      "player": "Anthony Hill Jr.",
+      "card": "Retail Rookie Auto (RRA-AH)",
+      "format": "retail"
+    },
+    {
+      "team": "NYG",
+      "player": "Arvell Reese",
+      "card": "Chrome Rookie #374 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NYG",
+      "player": "Jaxson Dart",
+      "card": "Chrome Base #218 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LAR",
+      "player": "Ty Simpson",
+      "card": "Chrome Rookie #357 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LAR",
+      "player": "Matthew Stafford",
+      "card": "Chrome Base #174 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LAR",
+      "player": "Tim Keenan III",
+      "card": "Retail Rookie Auto (RRA-TK3)",
+      "format": "retail"
+    },
+    {
+      "team": "CHI",
+      "player": "Zavion Thomas",
+      "card": "Chrome Rookie #316 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CHI",
+      "player": "Caleb Williams",
+      "card": "Chrome Base #47 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CHI",
+      "player": "Miller Moss",
+      "card": "Retail Rookie Auto (RRA-MM)",
+      "format": "retail"
+    },
+    {
+      "team": "SEA",
+      "player": "Jadarian Price",
+      "card": "Chrome Rookie #389 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "SEA",
+      "player": "Jaxon Smith-Njigba",
+      "card": "Chrome Base #266 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "SEA",
+      "player": "Emmanuel Henderson Jr.",
+      "card": "Retail Rookie Auto (RRA-EH)",
+      "format": "retail"
+    },
+    {
+      "team": "CLE",
+      "player": "KC Concepcion",
+      "card": "Chrome Rookie #323 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CLE",
+      "player": "Quinshon Judkins",
+      "card": "Chrome Base #66 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CLE",
+      "player": "Aaron Anderson",
+      "card": "Retail Rookie Auto (RRA-AA)",
+      "format": "retail"
+    },
+    {
+      "team": "DEN",
+      "player": "Jonah Coleman",
+      "card": "Chrome Rookie #329 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DEN",
+      "player": "Bo Nix",
+      "card": "Chrome Base #85 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DEN",
+      "player": "Taurean York",
+      "card": "Retail Rookie Auto (RRA-TY)",
+      "format": "retail"
+    },
+    {
+      "team": "DAL",
+      "player": "Caleb Downs",
+      "card": "Chrome Rookie #328 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DAL",
+      "player": "Dak Prescott",
+      "card": "Chrome Base #75 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DAL",
+      "player": "Anthony Smith",
+      "card": "Retail Rookie Auto (RRA-AS)",
+      "format": "retail"
+    },
+    {
+      "team": "NO",
+      "player": "Jordyn Tyson",
+      "card": "Chrome Rookie #369 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NO",
+      "player": "Tyler Shough",
+      "card": "Chrome Base #209 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NO",
+      "player": "Oscar Delp",
+      "card": "Retail Rookie Auto (RRA-OD)",
+      "format": "retail"
+    },
+    {
+      "team": "NYJ",
+      "player": "David Bailey",
+      "card": "Chrome Rookie #379 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NYJ",
+      "player": "Garrett Wilson",
+      "card": "Chrome Base #231 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "NYJ",
+      "player": "D'Angelo Ponds",
+      "card": "Retail Rookie Auto (RRA-DPO)",
+      "format": "retail"
+    },
+    {
+      "team": "PHI",
+      "player": "Makai Lemon",
+      "card": "Chrome Rookie #381 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "PHI",
+      "player": "Jalen Hurts",
+      "card": "Chrome Base #236 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "PHI",
+      "player": "Deontae Lawson",
+      "card": "Retail Rookie Auto (RRA-DL)",
+      "format": "retail"
+    },
+    {
+      "team": "KC",
+      "player": "Garrett Nussmeier",
+      "card": "Chrome Rookie #347 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "KC",
+      "player": "Patrick Mahomes II",
+      "card": "Chrome Base #144 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "KC",
+      "player": "Cyrus Allen",
+      "card": "Retail Rookie Auto (RRA-CA)",
+      "format": "retail"
+    },
+    {
+      "team": "WSH",
+      "player": "Sonny Styles",
+      "card": "Chrome Rookie #400 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "WSH",
+      "player": "Jayden Daniels",
+      "card": "Chrome Base #292 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "WSH",
+      "player": "Athan Kaliakmanis",
+      "card": "Retail Rookie Auto (RRA-AK)",
+      "format": "retail"
+    },
+    {
+      "team": "SF",
+      "player": "Kaelon Black",
+      "card": "Chrome Rookie #386 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "SF",
+      "player": "Brock Purdy",
+      "card": "Chrome Base #254 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "SF",
+      "player": "Ephesians Prysock",
+      "card": "Retail Rookie Auto (RRA-EP)",
+      "format": "retail"
+    },
+    {
+      "team": "DET",
+      "player": "Kendrick Law",
+      "card": "Chrome Rookie #332 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DET",
+      "player": "Jared Goff",
+      "card": "Chrome Base #95 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "DET",
+      "player": "Blake Miller",
+      "card": "Retail Rookie Auto (RRA-BM)",
+      "format": "retail"
+    },
+    {
+      "team": "CIN",
+      "player": "Colbie Young",
+      "card": "Chrome Rookie #319 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CIN",
+      "player": "Joe Burrow",
+      "card": "Chrome Base #57 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CIN",
+      "player": "Jack Endries",
+      "card": "Retail Rookie Auto (RRA-JE)",
+      "format": "retail"
+    },
+    {
+      "team": "BAL",
+      "player": "Ja'Kobi Lane",
+      "card": "Chrome Rookie #307 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "BAL",
+      "player": "Lamar Jackson",
+      "card": "Chrome Base #19 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "BAL",
+      "player": "Adam Randall",
+      "card": "Retail Rookie Auto (RRA-AR)",
+      "format": "retail"
+    },
+    {
+      "team": "PIT",
+      "player": "Drew Allar",
+      "card": "Chrome Rookie #383 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "PIT",
+      "player": "Aaron Rodgers",
+      "card": "Chrome Base #245 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "PIT",
+      "player": "Lake McRee",
+      "card": "Retail Rookie Auto (RRA-LMC)",
+      "format": "retail"
+    },
+    {
+      "team": "LAC",
+      "player": "Brenen Thompson",
+      "card": "Chrome Rookie #354 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LAC",
+      "player": "Justin Herbert",
+      "card": "Chrome Base #164 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "LAC",
+      "player": "Isaiah World",
+      "card": "Retail Rookie Auto (RRA-IW)",
+      "format": "retail"
+    },
+    {
+      "team": "JAX",
+      "player": "Josh Cameron",
+      "card": "Chrome Rookie #344 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "JAX",
+      "player": "Trevor Lawrence",
+      "card": "Chrome Base #135 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "JAX",
+      "player": "J'Mari Taylor",
+      "card": "Retail Rookie Auto (RRA-JT)",
+      "format": "retail"
+    },
+    {
+      "team": "MIA",
+      "player": "Caleb Douglas",
+      "card": "Chrome Rookie #360 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "MIA",
+      "player": "De'Von Achane",
+      "card": "Chrome Base #185 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "MIA",
+      "player": "Kevin Coleman Jr.",
+      "card": "Retail Rookie Auto (RRA-KC)",
+      "format": "retail"
+    },
+    {
+      "team": "TB",
+      "player": "Ted Hurst",
+      "card": "Chrome Rookie #392 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "TB",
+      "player": "Emeka Egbuka",
+      "card": "Chrome Base #276 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "TB",
+      "player": "Jalon Daniels",
+      "card": "Retail Rookie Auto (RRA-JD)",
+      "format": "retail"
+    },
+    {
+      "team": "GB",
+      "player": "Chris McClellan",
+      "card": "Chrome Rookie #335 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "GB",
+      "player": "Micah Parsons",
+      "card": "Chrome Base #113 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "GB",
+      "player": "Domani Jackson",
+      "card": "Retail Rookie Auto (RRA-DJ)",
+      "format": "retail"
+    },
+    {
+      "team": "CAR",
+      "player": "Chris Brazzell II",
+      "card": "Chrome Rookie #313 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CAR",
+      "player": "Bryce Young",
+      "card": "Chrome Base #38 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "CAR",
+      "player": "Monroe Freeling",
+      "card": "Retail Rookie Auto (RRA-MF)",
+      "format": "retail"
+    },
+    {
+      "team": "MIN",
+      "player": "Demond Claiborne",
+      "card": "Chrome Rookie #363 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "MIN",
+      "player": "Justin Jefferson",
+      "card": "Chrome Base #194 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "MIN",
+      "player": "Caleb Tiernan",
+      "card": "Retail Rookie Auto (RRA-CT)",
+      "format": "retail"
+    },
+    {
+      "team": "HOU",
+      "player": "Marlin Klein",
+      "card": "Chrome Rookie #338 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "HOU",
+      "player": "CJ Stroud",
+      "card": "Chrome Base #115 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "HOU",
+      "player": "Lewis Bond",
+      "card": "Retail Rookie Auto (RRA-LB)",
+      "format": "retail"
+    },
+    {
+      "team": "IND",
+      "player": "Deion Burks",
+      "card": "Chrome Rookie #341 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "IND",
+      "player": "Jonathan Taylor",
+      "card": "Chrome Base #127 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "IND",
+      "player": "Caden Curry",
+      "card": "Retail Rookie Auto (RRA-CC)",
+      "format": "retail"
+    },
+    {
+      "team": "BUF",
+      "player": "Skyler Bell",
+      "card": "Chrome Rookie #310 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "BUF",
+      "player": "Josh Allen",
+      "card": "Chrome Base #29 · Red, White & Blue Refractor (Value exclusive)",
+      "format": "retail"
+    },
+    {
+      "team": "BUF",
+      "player": "Jalon Kilgore",
+      "card": "Retail Rookie Auto (RRA-JK)",
+      "format": "retail"
+    }
+  ],
+  "sheet": {
+    "ATL": [
+      {
+        "id": "atl-1",
+        "tier": "rookie",
+        "player": "Zachariah Branch",
+        "card": "Chrome Rookie #304 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-2",
+        "tier": "rookie",
+        "player": "Avieon Terrell",
+        "card": "Chrome Rookie #305 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-3",
+        "tier": "rookie",
+        "player": "Harold Perkins Jr.",
+        "card": "Chrome Rookie #306 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-4",
+        "tier": "star",
+        "player": "Bijan Robinson",
+        "card": "Chrome Base #12 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-5",
+        "tier": "star",
+        "player": "Kyle Pitts Sr.",
+        "card": "Chrome Base #16 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "atl-6",
+        "tier": "star",
+        "player": "Drake London",
+        "card": "Chrome Base #14 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "LV": [
+      {
+        "id": "lv-1",
+        "tier": "rookie",
+        "player": "Fernando Mendoza",
+        "card": "Chrome Rookie #351 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-2",
+        "tier": "rookie",
+        "player": "Fernando Mendoza",
+        "card": "Glass Canvas SSP (GC-13)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-3",
+        "tier": "rookie",
+        "player": "Fernando Mendoza",
+        "card": "Vibes SSP (V-15)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-4",
+        "tier": "rookie",
+        "player": "Mike Washington Jr.",
+        "card": "Chrome Rookie #352 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-5",
+        "tier": "rookie",
+        "player": "Jermod McCoy",
+        "card": "Chrome Rookie #353 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-6",
+        "tier": "rookie",
+        "player": "Roman Hemby",
+        "card": "Retail Rookie Auto (RRA-RH)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-7",
+        "tier": "star",
+        "player": "Brock Bowers",
+        "card": "Chrome Base #159 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-8",
+        "tier": "star",
+        "player": "Ashton Jeanty",
+        "card": "Chrome Base #155 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-9",
+        "tier": "star",
+        "player": "Maxx Crosby",
+        "card": "Chrome Base #160 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lv-10",
+        "tier": "star",
+        "player": "Maxx Crosby",
+        "card": "Lightning Leaders SSP (LL-11)",
+        "format": "retail"
+      }
+    ],
+    "NE": [
+      {
+        "id": "ne-1",
+        "tier": "rookie",
+        "player": "Behren Morton",
+        "card": "Chrome Rookie #366 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-2",
+        "tier": "rookie",
+        "player": "Eli Raridon",
+        "card": "Chrome Rookie #367 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-3",
+        "tier": "rookie",
+        "player": "Caleb Lomu",
+        "card": "Chrome Rookie #368 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-4",
+        "tier": "star",
+        "player": "Drake Maye",
+        "card": "Chrome Base #200 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-5",
+        "tier": "star",
+        "player": "Drake Maye",
+        "card": "Lightning Leaders SSP (LL-14)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-6",
+        "tier": "star",
+        "player": "Drake Maye",
+        "card": "Vibes SSP (V-20)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-7",
+        "tier": "star",
+        "player": "TreVeyon Henderson",
+        "card": "Chrome Base #202 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-8",
+        "tier": "star",
+        "player": "Robert Spillane",
+        "card": "Chrome Base #207 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ne-9",
+        "tier": "legend",
+        "player": "Tom Brady",
+        "card": "Glass Canvas SSP (GC-18)",
+        "format": "retail"
+      }
+    ],
+    "ARI": [
+      {
+        "id": "ari-1",
+        "tier": "rookie",
+        "player": "Jeremiyah Love",
+        "card": "Chrome Rookie #302 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-2",
+        "tier": "rookie",
+        "player": "Jeremiyah Love",
+        "card": "Vibes SSP (V-2)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-3",
+        "tier": "rookie",
+        "player": "Carson Beck",
+        "card": "Chrome Rookie #301 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-4",
+        "tier": "rookie",
+        "player": "Carson Beck",
+        "card": "Glass Canvas SSP (GC-1)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-5",
+        "tier": "rookie",
+        "player": "Carson Beck",
+        "card": "Vibes SSP (V-1)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-6",
+        "tier": "rookie",
+        "player": "Reggie Virgil",
+        "card": "Chrome Rookie #303 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-7",
+        "tier": "rookie",
+        "player": "Chase Bisontis",
+        "card": "Retail Rookie Auto (RRA-CB)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-8",
+        "tier": "star",
+        "player": "Trey McBride",
+        "card": "Chrome Base #6 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-9",
+        "tier": "star",
+        "player": "Michael Wilson",
+        "card": "Chrome Base #5 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ari-10",
+        "tier": "star",
+        "player": "Marvin Harrison Jr.",
+        "card": "Chrome Base #4 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "TEN": [
+      {
+        "id": "ten-1",
+        "tier": "rookie",
+        "player": "Carnell Tate",
+        "card": "Chrome Rookie #396 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-2",
+        "tier": "rookie",
+        "player": "Carnell Tate",
+        "card": "Glass Canvas SSP (GC-25)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-3",
+        "tier": "rookie",
+        "player": "Carnell Tate",
+        "card": "Vibes SSP (V-29)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-4",
+        "tier": "rookie",
+        "player": "Nick Singleton",
+        "card": "Chrome Rookie #395 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-5",
+        "tier": "rookie",
+        "player": "Keldric Faulk",
+        "card": "Chrome Rookie #397 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-6",
+        "tier": "rookie",
+        "player": "Anthony Hill Jr.",
+        "card": "Retail Rookie Auto (RRA-AH)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-7",
+        "tier": "star",
+        "player": "Cam Ward",
+        "card": "Chrome Base #283 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-8",
+        "tier": "star",
+        "player": "Elic Ayomanor",
+        "card": "Chrome Base #287 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ten-9",
+        "tier": "star",
+        "player": "Calvin Ridley",
+        "card": "Chrome Base #286 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "NYG": [
+      {
+        "id": "nyg-1",
+        "tier": "rookie",
+        "player": "Arvell Reese",
+        "card": "Chrome Rookie #374 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-2",
+        "tier": "rookie",
+        "player": "Malachi Fields",
+        "card": "Chrome Rookie #372 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-3",
+        "tier": "rookie",
+        "player": "Francis Mauigoa",
+        "card": "Chrome Rookie #373 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-4",
+        "tier": "rookie",
+        "player": "Colton Hood",
+        "card": "Chrome Rookie #375 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-5",
+        "tier": "star",
+        "player": "Jaxson Dart",
+        "card": "Chrome Base #218 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-6",
+        "tier": "star",
+        "player": "Jaxson Dart",
+        "card": "Glass Canvas SSP (GC-20)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-7",
+        "tier": "star",
+        "player": "Jaxson Dart",
+        "card": "Lightning Leaders SSP (LL-15)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-8",
+        "tier": "star",
+        "player": "Cam Skattebo",
+        "card": "Chrome Base #219 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-9",
+        "tier": "star",
+        "player": "Cam Skattebo",
+        "card": "Vibes SSP (V-23)",
+        "format": "retail"
+      },
+      {
+        "id": "nyg-10",
+        "tier": "star",
+        "player": "Malik Nabers",
+        "card": "Chrome Base #221 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "LAR": [
+      {
+        "id": "lar-1",
+        "tier": "rookie",
+        "player": "Ty Simpson",
+        "card": "Chrome Rookie #357 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-2",
+        "tier": "rookie",
+        "player": "Ty Simpson",
+        "card": "Vibes SSP (V-17)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-3",
+        "tier": "rookie",
+        "player": "CJ Daniels",
+        "card": "Chrome Rookie #358 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-4",
+        "tier": "rookie",
+        "player": "Max Klare",
+        "card": "Chrome Rookie #359 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-5",
+        "tier": "rookie",
+        "player": "Tim Keenan III",
+        "card": "Retail Rookie Auto (RRA-TK3)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-6",
+        "tier": "star",
+        "player": "Matthew Stafford",
+        "card": "Chrome Base #174 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-7",
+        "tier": "star",
+        "player": "Matthew Stafford",
+        "card": "Glass Canvas SSP (GC-15)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-8",
+        "tier": "star",
+        "player": "Myles Garrett",
+        "card": "Chrome Base #71 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-9",
+        "tier": "star",
+        "player": "Myles Garrett",
+        "card": "Vibes SSP (V-8)",
+        "format": "retail"
+      },
+      {
+        "id": "lar-10",
+        "tier": "star",
+        "player": "Puka Nacua",
+        "card": "Chrome Base #178 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "CHI": [
+      {
+        "id": "chi-1",
+        "tier": "rookie",
+        "player": "Zavion Thomas",
+        "card": "Chrome Rookie #316 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-2",
+        "tier": "rookie",
+        "player": "Sam Roush",
+        "card": "Chrome Rookie #317 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-3",
+        "tier": "rookie",
+        "player": "Dillon Thieneman",
+        "card": "Chrome Rookie #318 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-4",
+        "tier": "rookie",
+        "player": "Miller Moss",
+        "card": "Retail Rookie Auto (RRA-MM)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-5",
+        "tier": "rookie",
+        "player": "Malik Muhammad",
+        "card": "Retail Rookie Auto (RRA-MMU)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-6",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Chrome Base #47 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-7",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Glass Canvas SSP (GC-5)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-8",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Lightning Leaders SSP (LL-3)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-9",
+        "tier": "star",
+        "player": "Caleb Williams",
+        "card": "Vibes SSP (V-6)",
+        "format": "retail"
+      },
+      {
+        "id": "chi-10",
+        "tier": "star",
+        "player": "Luther Burden III",
+        "card": "Chrome Base #51 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "SEA": [
+      {
+        "id": "sea-1",
+        "tier": "rookie",
+        "player": "Jadarian Price",
+        "card": "Chrome Rookie #389 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-2",
+        "tier": "rookie",
+        "player": "Julian Neal",
+        "card": "Chrome Rookie #390 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-3",
+        "tier": "rookie",
+        "player": "Bud Clark",
+        "card": "Chrome Rookie #391 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-4",
+        "tier": "rookie",
+        "player": "Emmanuel Henderson Jr.",
+        "card": "Retail Rookie Auto (RRA-EH)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-5",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Chrome Base #266 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-6",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Glass Canvas SSP (GC-23)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-7",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Lightning Leaders SSP (LL-19)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-8",
+        "tier": "star",
+        "player": "Jaxon Smith-Njigba",
+        "card": "Vibes SSP (V-27)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-9",
+        "tier": "star",
+        "player": "Sam Darnold",
+        "card": "Chrome Base #264 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sea-10",
+        "tier": "star",
+        "player": "Nick Emmanwori",
+        "card": "Chrome Base #272 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "CLE": [
+      {
+        "id": "cle-1",
+        "tier": "rookie",
+        "player": "KC Concepcion",
+        "card": "Chrome Rookie #323 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-2",
+        "tier": "rookie",
+        "player": "Taylen Green",
+        "card": "Chrome Rookie #322 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-3",
+        "tier": "rookie",
+        "player": "Denzel Boston",
+        "card": "Chrome Rookie #324 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-4",
+        "tier": "rookie",
+        "player": "Emmanuel McNeil-Warren",
+        "card": "Chrome Rookie #325 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-5",
+        "tier": "rookie",
+        "player": "Aaron Anderson",
+        "card": "Retail Rookie Auto (RRA-AA)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-6",
+        "tier": "rookie",
+        "player": "Joe Royer",
+        "card": "Retail Rookie Auto (RRA-JR)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-7",
+        "tier": "rookie",
+        "player": "Spencer Fano",
+        "card": "Retail Rookie Auto (RRA-SF)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-8",
+        "tier": "star",
+        "player": "Quinshon Judkins",
+        "card": "Chrome Base #66 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-9",
+        "tier": "star",
+        "player": "Carson Schwesinger",
+        "card": "Chrome Base #72 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cle-10",
+        "tier": "star",
+        "player": "Shedeur Sanders",
+        "card": "Chrome Base #65 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "DEN": [
+      {
+        "id": "den-1",
+        "tier": "rookie",
+        "player": "Jonah Coleman",
+        "card": "Chrome Rookie #329 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-2",
+        "tier": "rookie",
+        "player": "Justin Joly",
+        "card": "Chrome Rookie #330 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-3",
+        "tier": "rookie",
+        "player": "Dallen Bentley",
+        "card": "Chrome Rookie #331 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-4",
+        "tier": "rookie",
+        "player": "Taurean York",
+        "card": "Retail Rookie Auto (RRA-TY)",
+        "format": "retail"
+      },
+      {
+        "id": "den-5",
+        "tier": "star",
+        "player": "Bo Nix",
+        "card": "Chrome Base #85 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-6",
+        "tier": "star",
+        "player": "Bo Nix",
+        "card": "Lightning Leaders SSP (LL-6)",
+        "format": "retail"
+      },
+      {
+        "id": "den-7",
+        "tier": "star",
+        "player": "Bo Nix",
+        "card": "Vibes SSP (V-10)",
+        "format": "retail"
+      },
+      {
+        "id": "den-8",
+        "tier": "star",
+        "player": "Pat Surtain II",
+        "card": "Chrome Base #94 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-9",
+        "tier": "star",
+        "player": "RJ Harvey",
+        "card": "Chrome Base #87 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "den-10",
+        "tier": "legend",
+        "player": "Peyton Manning",
+        "card": "Glass Canvas SSP (GC-9)",
+        "format": "retail"
+      }
+    ],
+    "DAL": [
+      {
+        "id": "dal-1",
+        "tier": "rookie",
+        "player": "Caleb Downs",
+        "card": "Chrome Rookie #328 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-2",
+        "tier": "rookie",
+        "player": "Malachi Lawrence",
+        "card": "Chrome Rookie #326 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-3",
+        "tier": "rookie",
+        "player": "Jaishawn Barham",
+        "card": "Chrome Rookie #327 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-4",
+        "tier": "rookie",
+        "player": "Anthony Smith",
+        "card": "Retail Rookie Auto (RRA-AS)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-5",
+        "tier": "rookie",
+        "player": "LT Overton",
+        "card": "Retail Rookie Auto (RRA-LO)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-6",
+        "tier": "rookie",
+        "player": "Michael Trigg",
+        "card": "Retail Rookie Auto (RRA-MT)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-7",
+        "tier": "star",
+        "player": "Dak Prescott",
+        "card": "Chrome Base #75 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-8",
+        "tier": "star",
+        "player": "Dak Prescott",
+        "card": "Glass Canvas SSP (GC-8)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-9",
+        "tier": "star",
+        "player": "Dak Prescott",
+        "card": "Lightning Leaders SSP (LL-4)",
+        "format": "retail"
+      },
+      {
+        "id": "dal-10",
+        "tier": "star",
+        "player": "CeeDee Lamb",
+        "card": "Chrome Base #78 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "NO": [
+      {
+        "id": "no-1",
+        "tier": "rookie",
+        "player": "Jordyn Tyson",
+        "card": "Chrome Rookie #369 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "no-2",
+        "tier": "rookie",
+        "player": "Jordyn Tyson",
+        "card": "Glass Canvas SSP (GC-19)",
+        "format": "retail"
+      },
+      {
+        "id": "no-3",
+        "tier": "rookie",
+        "player": "Jordyn Tyson",
+        "card": "Vibes SSP (V-22)",
+        "format": "retail"
+      },
+      {
+        "id": "no-4",
+        "tier": "rookie",
+        "player": "Bryce Lance",
+        "card": "Chrome Rookie #370 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "no-5",
+        "tier": "rookie",
+        "player": "Christen Miller",
+        "card": "Chrome Rookie #371 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "no-6",
+        "tier": "rookie",
+        "player": "Oscar Delp",
+        "card": "Retail Rookie Auto (RRA-OD)",
+        "format": "retail"
+      },
+      {
+        "id": "no-7",
+        "tier": "star",
+        "player": "Tyler Shough",
+        "card": "Chrome Base #209 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "no-8",
+        "tier": "star",
+        "player": "Tyler Shough",
+        "card": "Vibes SSP (V-21)",
+        "format": "retail"
+      },
+      {
+        "id": "no-9",
+        "tier": "star",
+        "player": "Chris Olave",
+        "card": "Chrome Base #213 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "no-10",
+        "tier": "star",
+        "player": "Alvin Kamara",
+        "card": "Chrome Base #212 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "NYJ": [
+      {
+        "id": "nyj-1",
+        "tier": "rookie",
+        "player": "David Bailey",
+        "card": "Chrome Rookie #379 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-2",
+        "tier": "rookie",
+        "player": "Kenyon Sadiq",
+        "card": "Chrome Rookie #378 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-3",
+        "tier": "rookie",
+        "player": "Cade Klubnik",
+        "card": "Chrome Rookie #376 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-4",
+        "tier": "rookie",
+        "player": "Omar Cooper Jr.",
+        "card": "Chrome Rookie #377 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-5",
+        "tier": "rookie",
+        "player": "D'Angelo Ponds",
+        "card": "Retail Rookie Auto (RRA-DPO)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-6",
+        "tier": "star",
+        "player": "Garrett Wilson",
+        "card": "Chrome Base #231 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-7",
+        "tier": "star",
+        "player": "Breece Hall",
+        "card": "Chrome Base #228 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "nyj-8",
+        "tier": "star",
+        "player": "T'Vondre Sweat",
+        "card": "Chrome Base #233 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "PHI": [
+      {
+        "id": "phi-1",
+        "tier": "rookie",
+        "player": "Makai Lemon",
+        "card": "Chrome Rookie #381 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-2",
+        "tier": "rookie",
+        "player": "Makai Lemon",
+        "card": "Vibes SSP (V-24)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-3",
+        "tier": "rookie",
+        "player": "Cole Payton",
+        "card": "Chrome Rookie #380 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-4",
+        "tier": "rookie",
+        "player": "Eli Stowers",
+        "card": "Chrome Rookie #382 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-5",
+        "tier": "rookie",
+        "player": "Deontae Lawson",
+        "card": "Retail Rookie Auto (RRA-DL)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-6",
+        "tier": "star",
+        "player": "Jalen Hurts",
+        "card": "Chrome Base #236 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-7",
+        "tier": "star",
+        "player": "Jalen Hurts",
+        "card": "Glass Canvas SSP (GC-21)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-8",
+        "tier": "star",
+        "player": "Jalen Hurts",
+        "card": "Lightning Leaders SSP (LL-16)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-9",
+        "tier": "star",
+        "player": "Saquon Barkley",
+        "card": "Chrome Base #237 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "phi-10",
+        "tier": "star",
+        "player": "Jihaad Campbell",
+        "card": "Chrome Base #243 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "KC": [
+      {
+        "id": "kc-1",
+        "tier": "rookie",
+        "player": "Garrett Nussmeier",
+        "card": "Chrome Rookie #347 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-2",
+        "tier": "rookie",
+        "player": "Emmett Johnson",
+        "card": "Chrome Rookie #348 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-3",
+        "tier": "rookie",
+        "player": "Peter Woods",
+        "card": "Chrome Rookie #349 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-4",
+        "tier": "rookie",
+        "player": "Mansoor Delane",
+        "card": "Chrome Rookie #350 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-5",
+        "tier": "rookie",
+        "player": "Cyrus Allen",
+        "card": "Retail Rookie Auto (RRA-CA)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-6",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Chrome Base #144 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-7",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Glass Canvas SSP (GC-7)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-8",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Lightning Leaders SSP (LL-10)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-9",
+        "tier": "star",
+        "player": "Patrick Mahomes II",
+        "card": "Vibes SSP (V-14)",
+        "format": "retail"
+      },
+      {
+        "id": "kc-10",
+        "tier": "star",
+        "player": "Travis Kelce",
+        "card": "Glass Canvas SSP (GC-12)",
+        "format": "retail"
+      }
+    ],
+    "WSH": [
+      {
+        "id": "wsh-1",
+        "tier": "rookie",
+        "player": "Sonny Styles",
+        "card": "Chrome Rookie #400 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-2",
+        "tier": "rookie",
+        "player": "Kaytron Allen",
+        "card": "Chrome Rookie #398 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-3",
+        "tier": "rookie",
+        "player": "Antonio Williams",
+        "card": "Chrome Rookie #399 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-4",
+        "tier": "rookie",
+        "player": "Athan Kaliakmanis",
+        "card": "Retail Rookie Auto (RRA-AK)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-5",
+        "tier": "rookie",
+        "player": "Robert Henry Jr.",
+        "card": "Retail Rookie Auto (RRA-RHJ)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-6",
+        "tier": "star",
+        "player": "Jayden Daniels",
+        "card": "Chrome Base #292 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-7",
+        "tier": "star",
+        "player": "Jayden Daniels",
+        "card": "Lightning Leaders SSP (LL-20)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-8",
+        "tier": "star",
+        "player": "Jayden Daniels",
+        "card": "Vibes SSP (V-30)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-9",
+        "tier": "star",
+        "player": "Terry McLaurin",
+        "card": "Chrome Base #295 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "wsh-10",
+        "tier": "star",
+        "player": "Jacory Croskey-Merritt",
+        "card": "Chrome Base #293 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "SF": [
+      {
+        "id": "sf-1",
+        "tier": "rookie",
+        "player": "Kaelon Black",
+        "card": "Chrome Rookie #386 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-2",
+        "tier": "rookie",
+        "player": "De'Zhaun Stribling",
+        "card": "Chrome Rookie #387 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-3",
+        "tier": "rookie",
+        "player": "Romello Height",
+        "card": "Chrome Rookie #388 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-4",
+        "tier": "rookie",
+        "player": "Ephesians Prysock",
+        "card": "Retail Rookie Auto (RRA-EP)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-5",
+        "tier": "star",
+        "player": "Brock Purdy",
+        "card": "Chrome Base #254 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-6",
+        "tier": "star",
+        "player": "Brock Purdy",
+        "card": "Vibes SSP (V-26)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-7",
+        "tier": "star",
+        "player": "George Kittle",
+        "card": "Chrome Base #260 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-8",
+        "tier": "star",
+        "player": "George Kittle",
+        "card": "Lightning Leaders SSP (LL-18)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-9",
+        "tier": "star",
+        "player": "Christian McCaffrey",
+        "card": "Chrome Base #255 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "sf-10",
+        "tier": "legend",
+        "player": "Jerry Rice",
+        "card": "Glass Canvas SSP (GC-22)",
+        "format": "retail"
+      }
+    ],
+    "DET": [
+      {
+        "id": "det-1",
+        "tier": "rookie",
+        "player": "Kendrick Law",
+        "card": "Chrome Rookie #332 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-2",
+        "tier": "rookie",
+        "player": "Derrick Moore",
+        "card": "Chrome Rookie #333 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-3",
+        "tier": "rookie",
+        "player": "Keith Abney II",
+        "card": "Chrome Rookie #334 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-4",
+        "tier": "rookie",
+        "player": "Blake Miller",
+        "card": "Retail Rookie Auto (RRA-BM)",
+        "format": "retail"
+      },
+      {
+        "id": "det-5",
+        "tier": "rookie",
+        "player": "Luke Altmyer",
+        "card": "Retail Rookie Auto (RRA-LA)",
+        "format": "retail"
+      },
+      {
+        "id": "det-6",
+        "tier": "star",
+        "player": "Jared Goff",
+        "card": "Chrome Base #95 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-7",
+        "tier": "star",
+        "player": "Amon-Ra St. Brown",
+        "card": "Chrome Base #100 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-8",
+        "tier": "star",
+        "player": "Jahmyr Gibbs",
+        "card": "Chrome Base #96 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "det-9",
+        "tier": "legend",
+        "player": "Barry Sanders",
+        "card": "Glass Canvas SSP (GC-10)",
+        "format": "retail"
+      }
+    ],
+    "CIN": [
+      {
+        "id": "cin-1",
+        "tier": "rookie",
+        "player": "Colbie Young",
+        "card": "Chrome Rookie #319 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-2",
+        "tier": "rookie",
+        "player": "Cashius Howell",
+        "card": "Chrome Rookie #320 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-3",
+        "tier": "rookie",
+        "player": "Tacario Davis",
+        "card": "Chrome Rookie #321 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-4",
+        "tier": "rookie",
+        "player": "Jack Endries",
+        "card": "Retail Rookie Auto (RRA-JE)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-5",
+        "tier": "star",
+        "player": "Joe Burrow",
+        "card": "Chrome Base #57 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-6",
+        "tier": "star",
+        "player": "Joe Burrow",
+        "card": "Glass Canvas SSP (GC-6)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-7",
+        "tier": "star",
+        "player": "Joe Burrow",
+        "card": "Vibes SSP (V-7)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-8",
+        "tier": "star",
+        "player": "Ja'Marr Chase",
+        "card": "Chrome Base #59 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "cin-9",
+        "tier": "star",
+        "player": "Tee Higgins",
+        "card": "Chrome Base #60 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "BAL": [
+      {
+        "id": "bal-1",
+        "tier": "rookie",
+        "player": "Ja'Kobi Lane",
+        "card": "Chrome Rookie #307 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-2",
+        "tier": "rookie",
+        "player": "Elijah Sarratt",
+        "card": "Chrome Rookie #308 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-3",
+        "tier": "rookie",
+        "player": "Zion Young",
+        "card": "Chrome Rookie #309 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-4",
+        "tier": "rookie",
+        "player": "Adam Randall",
+        "card": "Retail Rookie Auto (RRA-AR)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-5",
+        "tier": "rookie",
+        "player": "Josh Cuevas",
+        "card": "Retail Rookie Auto (RRA-JC)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-6",
+        "tier": "star",
+        "player": "Lamar Jackson",
+        "card": "Chrome Base #19 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-7",
+        "tier": "star",
+        "player": "Lamar Jackson",
+        "card": "Glass Canvas SSP (GC-2)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-8",
+        "tier": "star",
+        "player": "Lamar Jackson",
+        "card": "Vibes SSP (V-3)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-9",
+        "tier": "star",
+        "player": "Derrick Henry",
+        "card": "Chrome Base #20 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "bal-10",
+        "tier": "star",
+        "player": "Kyle Hamilton",
+        "card": "Chrome Base #28 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "PIT": [
+      {
+        "id": "pit-1",
+        "tier": "rookie",
+        "player": "Drew Allar",
+        "card": "Chrome Rookie #383 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-2",
+        "tier": "rookie",
+        "player": "Germie Bernard",
+        "card": "Chrome Rookie #384 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-3",
+        "tier": "rookie",
+        "player": "Daylen Everette",
+        "card": "Chrome Rookie #385 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-4",
+        "tier": "rookie",
+        "player": "Lake McRee",
+        "card": "Retail Rookie Auto (RRA-LMC)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-5",
+        "tier": "star",
+        "player": "Aaron Rodgers",
+        "card": "Chrome Base #245 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-6",
+        "tier": "star",
+        "player": "Aaron Rodgers",
+        "card": "Vibes SSP (V-25)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-7",
+        "tier": "star",
+        "player": "T.J. Watt",
+        "card": "Chrome Base #252 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-8",
+        "tier": "star",
+        "player": "T.J. Watt",
+        "card": "Lightning Leaders SSP (LL-17)",
+        "format": "retail"
+      },
+      {
+        "id": "pit-9",
+        "tier": "star",
+        "player": "Will Howard",
+        "card": "Chrome Base #246 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "LAC": [
+      {
+        "id": "lac-1",
+        "tier": "rookie",
+        "player": "Brenen Thompson",
+        "card": "Chrome Rookie #354 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-2",
+        "tier": "rookie",
+        "player": "Akheem Mesidor",
+        "card": "Chrome Rookie #355 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-3",
+        "tier": "rookie",
+        "player": "Genesis Smith",
+        "card": "Chrome Rookie #356 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-4",
+        "tier": "rookie",
+        "player": "Isaiah World",
+        "card": "Retail Rookie Auto (RRA-IW)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-5",
+        "tier": "rookie",
+        "player": "Jake Slaughter",
+        "card": "Retail Rookie Auto (RRA-JS)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-6",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Chrome Base #164 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-7",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Glass Canvas SSP (GC-14)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-8",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Lightning Leaders SSP (LL-12)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-9",
+        "tier": "star",
+        "player": "Justin Herbert",
+        "card": "Vibes SSP (V-16)",
+        "format": "retail"
+      },
+      {
+        "id": "lac-10",
+        "tier": "star",
+        "player": "Omarion Hampton",
+        "card": "Chrome Base #165 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "JAX": [
+      {
+        "id": "jax-1",
+        "tier": "rookie",
+        "player": "Josh Cameron",
+        "card": "Chrome Rookie #344 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-2",
+        "tier": "rookie",
+        "player": "Nate Boerkircher",
+        "card": "Chrome Rookie #345 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-3",
+        "tier": "rookie",
+        "player": "Albert Regis",
+        "card": "Chrome Rookie #346 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-4",
+        "tier": "rookie",
+        "player": "J'Mari Taylor",
+        "card": "Retail Rookie Auto (RRA-JT)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-5",
+        "tier": "rookie",
+        "player": "Tanner Koziol",
+        "card": "Retail Rookie Auto (RRA-TK)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-6",
+        "tier": "star",
+        "player": "Trevor Lawrence",
+        "card": "Chrome Base #135 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-7",
+        "tier": "star",
+        "player": "Trevor Lawrence",
+        "card": "Lightning Leaders SSP (LL-9)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-8",
+        "tier": "star",
+        "player": "Brian Thomas Jr.",
+        "card": "Chrome Base #137 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-9",
+        "tier": "star",
+        "player": "Brian Thomas Jr.",
+        "card": "Vibes SSP (V-13)",
+        "format": "retail"
+      },
+      {
+        "id": "jax-10",
+        "tier": "star",
+        "player": "Travis Hunter",
+        "card": "Chrome Base #139 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "MIA": [
+      {
+        "id": "mia-1",
+        "tier": "rookie",
+        "player": "Caleb Douglas",
+        "card": "Chrome Rookie #360 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-2",
+        "tier": "rookie",
+        "player": "Jacob Rodriguez",
+        "card": "Chrome Rookie #361 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-3",
+        "tier": "rookie",
+        "player": "Chris Bell",
+        "card": "Chrome Rookie #362 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-4",
+        "tier": "rookie",
+        "player": "Kevin Coleman Jr.",
+        "card": "Retail Rookie Auto (RRA-KC)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-5",
+        "tier": "star",
+        "player": "De'Von Achane",
+        "card": "Chrome Base #185 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-6",
+        "tier": "star",
+        "player": "De'Von Achane",
+        "card": "Vibes SSP (V-18)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-7",
+        "tier": "star",
+        "player": "Malik Willis",
+        "card": "Chrome Base #183 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-8",
+        "tier": "star",
+        "player": "Chop Robinson",
+        "card": "Chrome Base #190 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "mia-9",
+        "tier": "legend",
+        "player": "Dan Marino",
+        "card": "Glass Canvas SSP (GC-16)",
+        "format": "retail"
+      }
+    ],
+    "TB": [
+      {
+        "id": "tb-1",
+        "tier": "rookie",
+        "player": "Ted Hurst",
+        "card": "Chrome Rookie #392 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-2",
+        "tier": "rookie",
+        "player": "Rueben Bain Jr.",
+        "card": "Chrome Rookie #393 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-3",
+        "tier": "rookie",
+        "player": "Josiah Trotter",
+        "card": "Chrome Rookie #394 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-4",
+        "tier": "rookie",
+        "player": "Jalon Daniels",
+        "card": "Retail Rookie Auto (RRA-JD)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-5",
+        "tier": "star",
+        "player": "Emeka Egbuka",
+        "card": "Chrome Base #276 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-6",
+        "tier": "star",
+        "player": "Baker Mayfield",
+        "card": "Chrome Base #273 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-7",
+        "tier": "star",
+        "player": "Baker Mayfield",
+        "card": "Glass Canvas SSP (GC-24)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-8",
+        "tier": "star",
+        "player": "Tez Johnson",
+        "card": "Chrome Base #279 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "tb-9",
+        "tier": "legend",
+        "player": "Tom Brady",
+        "card": "Vibes SSP (V-28)",
+        "format": "retail"
+      }
+    ],
+    "GB": [
+      {
+        "id": "gb-1",
+        "tier": "rookie",
+        "player": "Chris McClellan",
+        "card": "Chrome Rookie #335 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-2",
+        "tier": "rookie",
+        "player": "Dani Dennis-Sutton",
+        "card": "Chrome Rookie #336 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-3",
+        "tier": "rookie",
+        "player": "Brandon Cisse",
+        "card": "Chrome Rookie #337 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-4",
+        "tier": "rookie",
+        "player": "Domani Jackson",
+        "card": "Retail Rookie Auto (RRA-DJ)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-5",
+        "tier": "star",
+        "player": "Micah Parsons",
+        "card": "Chrome Base #113 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-6",
+        "tier": "star",
+        "player": "Micah Parsons",
+        "card": "Vibes SSP (V-11)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-7",
+        "tier": "star",
+        "player": "Matthew Golden",
+        "card": "Chrome Base #108 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-8",
+        "tier": "star",
+        "player": "Jordan Love",
+        "card": "Chrome Base #105 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-9",
+        "tier": "star",
+        "player": "Jordan Love",
+        "card": "Glass Canvas SSP (GC-11)",
+        "format": "retail"
+      },
+      {
+        "id": "gb-10",
+        "tier": "star",
+        "player": "Jordan Love",
+        "card": "Lightning Leaders SSP (LL-7)",
+        "format": "retail"
+      }
+    ],
+    "CAR": [
+      {
+        "id": "car-1",
+        "tier": "rookie",
+        "player": "Chris Brazzell II",
+        "card": "Chrome Rookie #313 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "car-2",
+        "tier": "rookie",
+        "player": "Lee Hunter",
+        "card": "Chrome Rookie #314 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "car-3",
+        "tier": "rookie",
+        "player": "Will Lee III",
+        "card": "Chrome Rookie #315 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "car-4",
+        "tier": "rookie",
+        "player": "Monroe Freeling",
+        "card": "Retail Rookie Auto (RRA-MF)",
+        "format": "retail"
+      },
+      {
+        "id": "car-5",
+        "tier": "rookie",
+        "player": "Zakee Wheatley",
+        "card": "Retail Rookie Auto (RRA-ZW)",
+        "format": "retail"
+      },
+      {
+        "id": "car-6",
+        "tier": "star",
+        "player": "Bryce Young",
+        "card": "Chrome Base #38 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "car-7",
+        "tier": "star",
+        "player": "Bryce Young",
+        "card": "Glass Canvas SSP (GC-4)",
+        "format": "retail"
+      },
+      {
+        "id": "car-8",
+        "tier": "star",
+        "player": "Bryce Young",
+        "card": "Lightning Leaders SSP (LL-2)",
+        "format": "retail"
+      },
+      {
+        "id": "car-9",
+        "tier": "star",
+        "player": "Tetairoa McMillan",
+        "card": "Chrome Base #41 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "car-10",
+        "tier": "star",
+        "player": "Tetairoa McMillan",
+        "card": "Vibes SSP (V-5)",
+        "format": "retail"
+      }
+    ],
+    "MIN": [
+      {
+        "id": "min-1",
+        "tier": "rookie",
+        "player": "Demond Claiborne",
+        "card": "Chrome Rookie #363 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-2",
+        "tier": "rookie",
+        "player": "Caleb Banks",
+        "card": "Chrome Rookie #364 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-3",
+        "tier": "rookie",
+        "player": "Jake Golday",
+        "card": "Chrome Rookie #365 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-4",
+        "tier": "rookie",
+        "player": "Caleb Tiernan",
+        "card": "Retail Rookie Auto (RRA-CT)",
+        "format": "retail"
+      },
+      {
+        "id": "min-5",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Chrome Base #194 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-6",
+        "tier": "star",
+        "player": "Justin Jefferson",
+        "card": "Vibes SSP (V-19)",
+        "format": "retail"
+      },
+      {
+        "id": "min-7",
+        "tier": "star",
+        "player": "Aaron Jones Sr.",
+        "card": "Chrome Base #193 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-8",
+        "tier": "star",
+        "player": "Jordan Addison",
+        "card": "Chrome Base #195 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "min-9",
+        "tier": "legend",
+        "player": "Randy Moss",
+        "card": "Glass Canvas SSP (GC-17)",
+        "format": "retail"
+      }
+    ],
+    "HOU": [
+      {
+        "id": "hou-1",
+        "tier": "rookie",
+        "player": "Marlin Klein",
+        "card": "Chrome Rookie #338 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-2",
+        "tier": "rookie",
+        "player": "Keylan Rutledge",
+        "card": "Chrome Rookie #339 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-3",
+        "tier": "rookie",
+        "player": "Kayden McDonald",
+        "card": "Chrome Rookie #340 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-4",
+        "tier": "rookie",
+        "player": "Lewis Bond",
+        "card": "Retail Rookie Auto (RRA-LB)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-5",
+        "tier": "rookie",
+        "player": "Noah Whittington",
+        "card": "Retail Rookie Auto (RRA-NW)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-6",
+        "tier": "star",
+        "player": "CJ Stroud",
+        "card": "Chrome Base #115 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-7",
+        "tier": "star",
+        "player": "CJ Stroud",
+        "card": "Lightning Leaders SSP (LL-8)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-8",
+        "tier": "star",
+        "player": "Woody Marks",
+        "card": "Chrome Base #117 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "hou-9",
+        "tier": "star",
+        "player": "Nico Collins",
+        "card": "Chrome Base #118 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ],
+    "IND": [
+      {
+        "id": "ind-1",
+        "tier": "rookie",
+        "player": "Deion Burks",
+        "card": "Chrome Rookie #341 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-2",
+        "tier": "rookie",
+        "player": "CJ Allen",
+        "card": "Chrome Rookie #342 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-3",
+        "tier": "rookie",
+        "player": "A.J. Haulcy",
+        "card": "Chrome Rookie #343 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-4",
+        "tier": "rookie",
+        "player": "Caden Curry",
+        "card": "Retail Rookie Auto (RRA-CC)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-5",
+        "tier": "rookie",
+        "player": "Seth McGowan",
+        "card": "Retail Rookie Auto (RRA-SM)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-6",
+        "tier": "star",
+        "player": "Jonathan Taylor",
+        "card": "Chrome Base #127 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-7",
+        "tier": "star",
+        "player": "Tyler Warren",
+        "card": "Chrome Base #130 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-8",
+        "tier": "star",
+        "player": "Daniel Jones",
+        "card": "Chrome Base #125 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "ind-9",
+        "tier": "legend",
+        "player": "Peyton Manning",
+        "card": "Vibes SSP (V-12)",
+        "format": "retail"
+      }
+    ],
+    "BUF": [
+      {
+        "id": "buf-1",
+        "tier": "rookie",
+        "player": "Skyler Bell",
+        "card": "Chrome Rookie #310 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-2",
+        "tier": "rookie",
+        "player": "T.J. Parker",
+        "card": "Chrome Rookie #311 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-3",
+        "tier": "rookie",
+        "player": "Davison Igbinosun",
+        "card": "Chrome Rookie #312 · Red, White & Blue / Ray Wave / Football Leather Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-4",
+        "tier": "rookie",
+        "player": "Jalon Kilgore",
+        "card": "Retail Rookie Auto (RRA-JK)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-5",
+        "tier": "rookie",
+        "player": "Zane Durant",
+        "card": "Retail Rookie Auto (RRA-ZD)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-6",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Chrome Base #29 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-7",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Glass Canvas SSP (GC-3)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-8",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Lightning Leaders SSP (LL-1)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-9",
+        "tier": "star",
+        "player": "Josh Allen",
+        "card": "Vibes SSP (V-4)",
+        "format": "retail"
+      },
+      {
+        "id": "buf-10",
+        "tier": "star",
+        "player": "James Cook",
+        "card": "Chrome Base #30 · Red, White & Blue Refractor (Value exclusive)",
+        "format": "retail"
+      }
+    ]
+  }
+}
